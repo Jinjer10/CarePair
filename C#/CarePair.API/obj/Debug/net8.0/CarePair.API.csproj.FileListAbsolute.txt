@@ -1,0 +1,1265 @@
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.API\bin\Debug\net8.0\HungarianAlgorithm.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\HungarianAlgorithm.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\HungarianAlgorithm.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\HungarianAlgorithm.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.AssemblyInfo.cs
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.sourcelink.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\refint\CarePair.API.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\appsettings.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.staticwebassets.endpoints.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.exe
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.deps.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.runtimeconfig.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.API.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Core.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Azure.Identity.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Humanizer.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\HungarianAlgorithm.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.SqlServer.Server.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Mono.TextTemplating.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.ClientModel.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.CodeDom.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Convention.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Hosting.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.Runtime.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Composition.TypedParts.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Formats.Asn1.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.IO.Pipelines.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Memory.Data.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Security.Permissions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Text.Json.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\scopedcss\bundle\CarePair.API.styles.css
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.CarePair.API.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.build.CarePair.API.props
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.CarePair.API.props
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.CarePair.API.props
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.5791E943.Up2Date
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\CarePair.API.genruntimeconfig.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.API\obj\Debug\net8.0\ref\CarePair.API.dll

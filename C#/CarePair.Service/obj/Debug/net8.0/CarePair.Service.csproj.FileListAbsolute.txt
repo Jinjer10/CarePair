@@ -1,0 +1,111 @@
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\new\CarePair\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\V\C-Angular-project\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\אתי ברנדשטטר\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט\CarePair\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.deps.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.AssemblyInfo.cs
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.sourcelink.json
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.7AA224E5.Up2Date
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\refint\CarePair.Service.dll
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\CarePair.Service.pdb
+C:\Users\yarde\Downloads\CarePair\C#\CarePair.Service\obj\Debug\net8.0\ref\CarePair.Service.dll

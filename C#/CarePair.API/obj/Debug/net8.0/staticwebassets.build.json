@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "Zgh4femhqW2TOplyYm9SO1arqEArZ8D0TBPVgURKZQw=",
+  "Source": "CarePair.API",
+  "BasePath": "_content/CarePair.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
