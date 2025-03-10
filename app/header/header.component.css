@@ -1,0 +1,55 @@
+header {
+    background-color: #333;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left, .center, .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .left .about-button {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 10px 15px;
+    background-color: #444;
+    border-radius: 5px;
+  }
+  
+  .left .about-button:hover {
+    background-color: #575757;
+  }
+  
+  .center .logo {
+    width: 120px;  /* גודל הלוגו */
+    height: auto;
+  }
+  
+  .right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .right .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .right .user-status {
+    color: white;
+    font-size: 16px;
+  }
+  
