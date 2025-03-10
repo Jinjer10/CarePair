@@ -1,92 +1,27 @@
-// import { Component } from '@angular/core';
-// import { ReactiveFormsModule } from '@angular/forms';
-
-
-// // import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-// // import { AuthService } from '../../services/auth.service';
-// // import { User } from '../../models/user.model';
-
-// @Component({
-//   selector: 'app-signUpVolunteer',
-//   templateUrl: './signUpVolunteer.component.html',
-//   styleUrls: ['./signUpVolunteer.component.css'],
-// })
-// export class SignUpVolunteerComponent {
-// //   signupForm: FormGroup;
-// //   successMessage: string = '';
-// //   errorMessage: string = '';
-
-// //   constructor(private fb: FormBuilder, private authService: AuthService) {
-// //     this.signupForm = this.fb.group({
-// //       fullName: ['', Validators.required],
-// //       phone: ['', [Validators.required, Validators.pattern(/^\d{10}$/)]],
-// //       birthDate: ['', Validators.required],
-// //       password: ['', [Validators.required, Validators.minLength(6)]],
-// //       email: ['', [Validators.required, Validators.email]],
-// //       extraDetails: [''],
-// //       area: ['', Validators.required],
-// //       city: ['', Validators.required],
-// //       gender: ['', Validators.required],
-// //       hospital: ['', Validators.required],
-// //       ward: ['', Validators.required],
-// //       religiosity: ['', Validators.required],
-// //       requiredTimes: [[]],
-// //       language: [[]],
-// //       languagePreference: [[]],
-// //       interests: [[]],
-// //       genderPreference: [[]],
-// //       agePreference: [[]],
-// //       religiosityPreference: [[]]
-// //     });
-// //   }
-// // 
-//   onSubmit(): void {
-//     // if (this.signupForm.invalid) {
-//     //   return;
-//     // }
-
-//     // const user: User = this.signupForm.value;
-//     // this.authService.signUp(user).subscribe({
-//     //   next: (response) => {
-//     //     this.successMessage = 'נרשמת בהצלחה!';
-//     //     this.errorMessage = '';
-//     //     this.signupForm.reset();
-//     //   },
-//     //   error: (error) => {
-//     //     this.errorMessage = 'שגיאה בהרשמה. נסה שוב.';
-//     //     this.successMessage = '';
-//     //     console.error(error);
-//     //   }
-//     // });
-//     console.log("on submit signUpVolunteer")
-//   }
-// }
-// // @NgModule({
-// //   declarations: [
-// //     SignUpVolunteerComponent,
-// //     // קומפוננטים נוספים
-// //   ],
-// //   imports: [
-// //     ReactiveFormsModule,
-// //     // מודולים נוספים
-// //   ]
-// // })
-// // export class AppModule { }
-
-import { Component } from '@angular/core';
-import { FormBuilder, FormGroup, FormArray, Validators,ReactiveFormsModule } from '@angular/forms';
-
+import { Component, OnInit } from '@angular/core';
+import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
+import { EnumDataService } from '../../services/enum-data.service'; // שירות לקבלת הנתונים
 @Component({
-  standalone: true,
-  selector: 'app-signUpVolunteer',
-  templateUrl: './signUpVolunteer.component.html',
-  styleUrls: ['./signUpVolunteer.component.css'],
-  imports: [ReactiveFormsModule] // אם יש שימוש ב-formControlName
+  selector: 'app-sign-up-volunteer',
+  templateUrl: './sign-up-volunteer.component.html',
+  styleUrls: ['./sign-up-volunteer.component.css']
 })
-export class SignUpVolunteerComponent {
-  signUpForm: FormGroup;
+export class SignUpVolunteerComponent implements OnInit {
+  signUpForm!: FormGroup;
 
-  constructor(private fb: FormBuilder) {
+  genders: any[] = [];
+  languages: any[] = [];
+  interests: any[] = [];
+  ageGroups: any[] = [];
+  areas: any[] = [];
+  cities: any[] = [];
+
+  constructor(
+    private fb: FormBuilder,
+    private enumService: EnumDataService
+  ) {}
+
+  ngOnInit(): void {
     this.signUpForm = this.fb.group({
       fullName: ['', Validators.required],
       password: ['', Validators.required],
@@ -97,7 +32,7 @@ export class SignUpVolunteerComponent {
       area: ['', Validators.required],
       city: ['', Validators.required],
       gender: ['', Validators.required],
-      availableTimes: this.fb.array([]), // זה ה־FormArray של זמני זמינות
+      availableTimes: this.fb.array([]), // FormArray עבור זמני זמינות
       language: [[], Validators.required],
       languagePreference: [[], Validators.required],
       interests: [[], Validators.required],
@@ -107,7 +42,17 @@ export class SignUpVolunteerComponent {
       wardPreference: ['', Validators.required],
     });
 
-    this.addAvailableTime(); // הוספת טיים אחד לדוגמה
+    this.loadEnums();
+  }
+
+  loadEnums(): void {
+    // קריאה לשירות שמחזיר את הערכים עבור המגדרים, שפות, תחומי עניין וכו'
+    this.enumService.getGenders().subscribe(data => this.genders = data);
+    this.enumService.getLanguages().subscribe(data => this.languages = data);
+    this.enumService.getInterests().subscribe(data => this.interests = data);
+    this.enumService.getAgeGroups().subscribe(data => this.ageGroups = data);
+    this.enumService.getAreas().subscribe(data => this.areas = data);  // אם יש צורך בשדות נוספים
+    this.enumService.getCities().subscribe(data => this.cities = data); // אם יש צורך בשדות נוספים
   }
 
   get availableTimes(): FormArray {
@@ -117,14 +62,19 @@ export class SignUpVolunteerComponent {
   addAvailableTime() {
     this.availableTimes.push(
       this.fb.group({
-        day: [''],
-        startTime: [''],
-        endTime: ['']
+        day: ['', Validators.required],
+        startTime: ['', Validators.required],
+        endTime: ['', Validators.required]
       })
     );
   }
 
   onSubmit(): void {
-    console.log("on submit signUpVolunteer", this.signUpForm.value);
+    if (this.signUpForm.invalid) {
+      return;
+    }
+
+    console.log(this.signUpForm.value);
+    // כאן יש לשלוח את הנתונים לשרת
   }
 }
