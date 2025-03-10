@@ -16,6 +16,96 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetAgeGroup",
+    "RelativePath": "api/enums/AgeGroup",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetArea",
+    "RelativePath": "api/enums/Area",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetCity",
+    "RelativePath": "api/enums/City",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetGender",
+    "RelativePath": "api/enums/Gender",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetHospital",
+    "RelativePath": "api/enums/Hospital",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetInterests",
+    "RelativePath": "api/enums/Interests",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetLanguage",
+    "RelativePath": "api/enums/Language",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetReligiosity",
+    "RelativePath": "api/enums/Religiosity",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CarePair.API.Controllers.EnumsController",
+    "Method": "GetWard",
+    "RelativePath": "api/enums/Ward",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CarePair.API.Controllers.MatchController",
     "Method": "ConfirmMatch",
     "RelativePath": "api/match/confirm",

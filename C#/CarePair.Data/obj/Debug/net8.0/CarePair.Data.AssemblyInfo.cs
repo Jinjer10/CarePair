@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CarePair.Data")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2a46c9f751bd792e279a3f371893cab9c5608658")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+585a57a873420f566f10f251d2d280dc136d396d")]
 [assembly: System.Reflection.AssemblyProductAttribute("CarePair.Data")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CarePair.Data")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
