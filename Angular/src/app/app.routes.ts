@@ -38,12 +38,15 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './homePage/homePage.component';
 import { SignUpComponent } from './signUp/signUp.component';
 import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
+import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component';
 import { AboutComponent } from './about/about.component';
+
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent }, // דף הבית
   { path: 'signUp', component: SignUpComponent }, // דף ניווט לסוגי רישום
   { path: 'signUpVolunteer', component: SignUpVolunteerComponent }, // דף ההרשמה
+  { path: 'signUpPatient', component: SignUpPatientComponent }, // דף ההרשמה
   { path: 'about', component: AboutComponent }, // דף אודות
 ];
 
