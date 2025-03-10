@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CarePair.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20250309145809_AddUsersTable")]
-    partial class AddUsersTable
+    [Migration("20250309224128_InitialCreate")]
+    partial class InitialCreate
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -33,18 +33,20 @@ namespace CarePair.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.PrimitiveCollection<string>("AgePreference")
+                    b.Property<string>("AgePreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Area")
-                        .HasColumnType("int");
+                    b.Property<string>("AreaJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateOnly>("BirthDate")
                         .HasColumnType("date");
 
-                    b.Property<int>("City")
-                        .HasColumnType("int");
+                    b.Property<string>("CityJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -58,25 +60,27 @@ namespace CarePair.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("GenderPreference")
+                    b.Property<string>("GenderJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Hospitall")
-                        .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("Interests")
+                    b.Property<string>("GenderPreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("Language")
+                    b.Property<string>("HospitalJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("LanguagePreference")
+                    b.Property<string>("InterestsJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LanguageJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LanguagePreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -88,15 +92,21 @@ namespace CarePair.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Religiosity")
-                        .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("ReligiosityPreference")
+                    b.Property<string>("ReligiosityJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Ward")
-                        .HasColumnType("int");
+                    b.Property<string>("ReligiosityPreferenceJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RequiredTimesJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WardJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
@@ -117,20 +127,10 @@ namespace CarePair.Data.Migrations
                     b.Property<TimeSpan>("EndTime")
                         .HasColumnType("time");
 
-                    b.Property<int?>("PatientId")
-                        .HasColumnType("int");
-
                     b.Property<TimeSpan>("StartTime")
                         .HasColumnType("time");
 
-                    b.Property<int?>("VolunteerId")
-                        .HasColumnType("int");
-
                     b.HasKey("Id");
-
-                    b.HasIndex("PatientId");
-
-                    b.HasIndex("VolunteerId");
 
                     b.ToTable("Time");
                 });
@@ -143,18 +143,24 @@ namespace CarePair.Data.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.PrimitiveCollection<string>("AgePreference")
+                    b.Property<string>("AgePreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Area")
-                        .HasColumnType("int");
+                    b.Property<string>("AreaJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("AvailableTimesJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateOnly>("BirthDate")
                         .HasColumnType("date");
 
-                    b.Property<int>("City")
-                        .HasColumnType("int");
+                    b.Property<string>("CityJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -168,22 +174,23 @@ namespace CarePair.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Gender")
-                        .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("GenderPreference")
+                    b.Property<string>("GenderJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("Interests")
+                    b.Property<string>("GenderPreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("Language")
+                    b.Property<string>("InterestsJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("LanguagePreference")
+                    b.Property<string>("LanguageJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("LanguagePreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
@@ -195,41 +202,21 @@ namespace CarePair.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("Religiosity")
-                        .HasColumnType("int");
-
-                    b.PrimitiveCollection<string>("ReligiosityPreference")
+                    b.Property<string>("ReligiosityJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("WardPreference")
+                    b.Property<string>("ReligiosityPreferenceJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("WardPreferenceJson")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
 
                     b.ToTable("Volunteer");
-                });
-
-            modelBuilder.Entity("CarePair.Core.Models.Time", b =>
-                {
-                    b.HasOne("CarePair.Core.Models.Patient", null)
-                        .WithMany("RequiredTimes")
-                        .HasForeignKey("PatientId");
-
-                    b.HasOne("CarePair.Core.Models.Volunteer", null)
-                        .WithMany("AvailableTimes")
-                        .HasForeignKey("VolunteerId");
-                });
-
-            modelBuilder.Entity("CarePair.Core.Models.Patient", b =>
-                {
-                    b.Navigation("RequiredTimes");
-                });
-
-            modelBuilder.Entity("CarePair.Core.Models.Volunteer", b =>
-                {
-                    b.Navigation("AvailableTimes");
                 });
 #pragma warning restore 612, 618
         }

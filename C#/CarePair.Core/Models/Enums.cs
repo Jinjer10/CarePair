@@ -334,3 +334,22 @@ public enum AgeGroup
 
 //    //}
 //}
+public static class EnumHelper
+{
+    public static Dictionary<string, string> GetEnumValues<T>() where T : Enum
+    {
+        return Enum.GetValues(typeof(T))
+            .Cast<T>()
+            .ToDictionary(
+                e => e.ToString(),
+                e => GetEnumDisplayName(e) // פונקציה להחזרת שם ידידותי (עברית)
+            );
+    }
+
+    private static string GetEnumDisplayName<T>(T value)
+    {
+        // אפשר לקרוא את התיאור מתוך קומנט/Attribute במידת הצורך
+        // כרגע נחזיר פשוט ToString (או להשתמש ב־DescriptionAttribute אם קיים)
+        return value.ToString().Replace("_", " ");
+    }
+}

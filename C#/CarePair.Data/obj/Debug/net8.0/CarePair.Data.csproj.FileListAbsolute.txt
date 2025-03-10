@@ -105,3 +105,21 @@ C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Data
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.pdb
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.genruntimeconfig.cache
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Data\obj\Debug\net8.0\ref\CarePair.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.csproj.AssemblyReference.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.AssemblyInfoInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.AssemblyInfo.cs
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.csproj.CoreCompileInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.sourcelink.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\refint\CarePair.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Data.deps.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Data.runtimeconfig.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Data.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Data.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.E4315227.Up2Date
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\CarePair.Data.genruntimeconfig.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Data\obj\Debug\net8.0\ref\CarePair.Data.dll
