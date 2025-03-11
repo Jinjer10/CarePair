@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "loginModel",
-        "Type": "CarePair.API.Models.PatientPostModel",
+        "Type": "CarePair.API.Models.LoginModel",
         "IsRequired": true
       }
     ],
@@ -163,7 +163,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CarePair.Core.Models.Patient",
+        "Type": "CarePair.Core.DTOs.PatientDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -397,7 +397,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "CarePair.Core.Models.Volunteer",
+        "Type": "CarePair.Core.DTOs.VolunteerDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

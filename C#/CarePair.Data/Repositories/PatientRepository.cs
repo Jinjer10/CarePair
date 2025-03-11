@@ -1,5 +1,8 @@
+using CarePair.Core.DTOs;
 using CarePair.Core.Models;
 using CarePair.Core.Repositories;
+using CarePair.Service;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -109,5 +112,19 @@ namespace CarePair.Data.Repositories
             var p = _context.Patient.FirstOrDefault(i => i.Id == id);
             return p;
         }
+        //public PatientDto GetPatientById(int id)
+        //{
+        //    var patient = _context.Patient
+        //        .Include(p => p.Area)        // במידת הצורך, אם את צריכה את השם של האזור
+        //        .Include(p => p.Hospitall)   // כנ"ל
+        //        .Include(p => p.RequiredTimes) // אם זה אוסף
+        //        .FirstOrDefault(p => p.Id == id);
+
+        //    if (patient == null)
+        //        return null;
+
+        //    return patient;
+        //}
+
     }
 }

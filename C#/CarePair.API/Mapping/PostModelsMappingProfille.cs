@@ -9,7 +9,7 @@ namespace CarePair.API.Mapping
     {
          public PostModelsMappingProfille()
         {
-            CreateMap<PatientPostModel, Patient>();
+            CreateMap<LoginModel, Patient>();
         }
     }
 }

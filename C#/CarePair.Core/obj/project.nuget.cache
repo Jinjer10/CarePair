@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AXCZQOFH/1w=",
+  "dgSpecHash": "+7yKIXIdpg8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mimi\\Documents\\לימודים\\שנה ב\\פרוייקט2\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+  "projectFilePath": "C:\\Users\\Mimi\\Documents\\לימודים\\שנה ב\\פרוייקט\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mimi\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\Mimi\\.nuget\\packages\\hungarianalgorithm\\2.3.3\\hungarianalgorithm.2.3.3.nupkg.sha512",

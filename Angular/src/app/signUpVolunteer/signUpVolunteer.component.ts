@@ -1,8 +1,14 @@
+// 
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
-import { EnumDataService } from '../../services/enum-data.service'; // שירות לקבלת הנתונים
+import { CommonModule } from '@angular/common'; // נדרש עבור *ngFor
+import { ReactiveFormsModule } from '@angular/forms'; // נדרש עבור Reactive Forms
+import { EnumDataService } from '../../services/enum-data.service';
+
 @Component({
   selector: 'app-sign-up-volunteer',
+  standalone: true, // קומפוננטה עצמאית
+  imports: [CommonModule, ReactiveFormsModule], // ייבוא המודולים הנדרשים
   templateUrl: './sign-up-volunteer.component.html',
   styleUrls: ['./sign-up-volunteer.component.css']
 })
@@ -32,34 +38,33 @@ export class SignUpVolunteerComponent implements OnInit {
       area: ['', Validators.required],
       city: ['', Validators.required],
       gender: ['', Validators.required],
-      availableTimes: this.fb.array([]), // FormArray עבור זמני זמינות
-      language: [[], Validators.required],
-      languagePreference: [[], Validators.required],
-      interests: [[], Validators.required],
-      genderPreference: [[], Validators.required],
+      availableTimes: this.fb.array([]),
+      language: [[], Validators.required], // שפות שהמתנדב דובר
+      languagePreference: [[], Validators.required], // העדפת שפות של המטופל
+      interests: [[], Validators.required], // תחומי עניין של המתנדב
+      genderPreference: [[], Validators.required], // העדפת מגדר של המטופל
       agePreference: ['', Validators.required],
       religiosityPreference: ['', Validators.required],
-      wardPreference: ['', Validators.required],
+      wardPreference: ['', Validators.required]
     });
 
     this.loadEnums();
   }
 
   loadEnums(): void {
-    // קריאה לשירות שמחזיר את הערכים עבור המגדרים, שפות, תחומי עניין וכו'
     this.enumService.getGenders().subscribe(data => this.genders = data);
     this.enumService.getLanguages().subscribe(data => this.languages = data);
     this.enumService.getInterests().subscribe(data => this.interests = data);
     this.enumService.getAgeGroups().subscribe(data => this.ageGroups = data);
-    this.enumService.getAreas().subscribe(data => this.areas = data);  // אם יש צורך בשדות נוספים
-    this.enumService.getCities().subscribe(data => this.cities = data); // אם יש צורך בשדות נוספים
+    this.enumService.getAreas().subscribe(data => this.areas = data);
+    this.enumService.getCities().subscribe(data => this.cities = data);
   }
 
   get availableTimes(): FormArray {
     return this.signUpForm.get('availableTimes') as FormArray;
   }
 
-  addAvailableTime() {
+  addAvailableTime(): void {
     this.availableTimes.push(
       this.fb.group({
         day: ['', Validators.required],
@@ -69,12 +74,17 @@ export class SignUpVolunteerComponent implements OnInit {
     );
   }
 
+  removeAvailableTime(index: number): void {
+    this.availableTimes.removeAt(index);
+  }
+
   onSubmit(): void {
     if (this.signUpForm.invalid) {
+      this.signUpForm.markAllAsTouched(); // סמן את כל השדות כ"נגועים" להצגת שגיאות ב-UI
       return;
     }
-
-    console.log(this.signUpForm.value);
-    // כאן יש לשלוח את הנתונים לשרת
+    console.log('טופס תקין:', this.signUpForm.value);
+    // כאן תוכל לשלוח את הנתונים לשרת, לדוגמה:
+    // this.someService.submitForm(this.signUpForm.value).subscribe();
   }
 }

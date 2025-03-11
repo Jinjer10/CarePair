@@ -1,339 +1,636 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
 public enum Interests
 {
-    Art,
-    Music,
-    Sports,
-    Reading,
-    Cooking,
-    Gardening,
-    Traveling,
-    Hiking,
-    Movies,
-    Theater,
-    Dancing,
-    Photography,
-    Writing,
-    Gaming,
-    Pets,
-    Other
+    [Display(Name = "אמנות")] Art,
+    [Display(Name = "מוזיקה")] Music,
+    [Display(Name = "ספורט")] Sports,
+    [Display(Name = "קריאה")] Reading,
+    [Display(Name = "בישול")] Cooking,
+    [Display(Name = "גינון")] Gardening,
+    [Display(Name = "טיולים לחו״ל")] Traveling,
+    [Display(Name = "טיולים רגליים")] Hiking,
+    [Display(Name = "סרטים")] Movies,
+    [Display(Name = "תיאטרון")] Theater,
+    [Display(Name = "ריקוד")] Dancing,
+    [Display(Name = "צילום")] Photography,
+    [Display(Name = "כתיבה")] Writing,
+    [Display(Name = "גיימינג")] Gaming,
+    [Display(Name = "חיות מחמד")] Pets,
+    [Display(Name = "אחר")] Other
 }
+
 
 public enum Religiosity
 {
-    Secular,
-    Religious,
-    Orthodox,
-    Other
+    [Display(Name = "חילוני/ת")] Secular,
+    [Display(Name = "דתי/ה")] Religious,
+    [Display(Name = "חרדי/ת")] Orthodox,
+    [Display(Name = "אחר")] Other
 }
 public enum Gender
 {
-    Male,
-    Female
+    [Display(Name = "זכר")] Male,
+    [Display(Name = "נקבה")] Female
 }
 public enum Language
 {
-    Hebrew,
-    English,
-    Arabic,
-    Yiddish,
-    Russian,
-    Spanish,
-    French,
-    German,
-    Italian,
-    Chinese,
-    Japanese,
-    Korean,
-    Other
+    [Display(Name = "עברית")] Hebrew,
+    [Display(Name = "אנגלית")] English,
+    [Display(Name = "ערבית")] Arabic,
+    [Display(Name = "יידיש")] Yiddish,
+    [Display(Name = "רוסית")] Russian,
+    [Display(Name = "ספרדית")] Spanish,
+    [Display(Name = "צרפתית")] French,
+    [Display(Name = "גרמנית")] German,
+    [Display(Name = "איטלקית")] Italian,
+    [Display(Name = "סינית")] Chinese,
+    [Display(Name = "יפנית")] Japanese,
+    [Display(Name = "קוריאנית")] Korean,
+    [Display(Name = "אחר")] Other
 }
 public enum Area
 {
-    // אזור הצפון
-    Haifa,          // חיפה, נשר, טירת כרמל, הקריות (קריית אתא, קריית ים, קריית מוצקין, קריית ביאליק)
-    Akko,           // עכו, נהריה, שלומי, מעלות-תרשיחא
-    Karmiel,        // כרמיאל, משגב, סכנין, מג'ד אל-כרום
-    Tiberias,       // טבריה, ראש פינה, עמק הירדן
-    Safed,          // צפת, חצור הגלילית, מירון
-    Golan,          // קצרין, רמת הגולן
-    Nazareth,       // נצרת, נוף הגליל, מגדל העמק, ריינה
-    Afula,          // עפולה, בית שאן, יוקנעם, גבעת המורה
+    [Display(Name = "חיפה והקריות")]
+    Haifa,
 
-    // אזור השומרון
-    Ariel,          // אריאל, קדומים, ברקן, קרני שומרון, אלקנה
+    [Display(Name = "עכו והסביבה")]
+    Akko,
 
-    // אזור השרון
-    Hadera,         // חדרה, פרדס חנה-כרכור, אור עקיבא, זיכרון יעקב
-    Netanya,        // נתניה, כפר יונה, אבן יהודה, קדימה-צורן
-    Herzliya,       // הרצליה, רמת השרון
-    KfarSaba,       // כפר סבא, הוד השרון, רעננה
+    [Display(Name = "כרמיאל והגליל המערבי")]
+    Karmiel,
 
-    // אזור המרכז והשפלה
-    TelAviv,        // תל אביב, רמת גן, גבעתיים, בני ברק
-    PetahTikva,     // פתח תקווה, ראש העין, אלעד
-    RishonLezion,   // ראשון לציון, נס ציונה, רחובות, יבנה
-    Holon,          // חולון, בת ים
-    LodRamla,       // לוד, רמלה
-    Modiin,         // מודיעין, מודיעין עילית, מכבים-רעות
+    [Display(Name = "טבריה ועמק הירדן")]
+    Tiberias,
 
-    // אזור ירושלים והסביבה
-    Jerusalem,      // ירושלים, מבשרת ציון, בית שמש, מעלה אדומים, גוש עציון
+    [Display(Name = "צפת והגליל העליון")]
+    Safed,
 
-    // אזור הדרום
-    Ashdod,         // אשדוד, גן יבנה
-    Ashkelon,       // אשקלון, קריית גת, שדרות, נתיבות
-    BeerSheva,      // באר שבע, אופקים, דימונה, ערד, מיתר, להבים
-    Eilat,          // אילת והערבה (כולל יטבתה, נווה זוהר)
+    [Display(Name = "רמת הגולן")]
+    Golan,
 
-    Other           // אזורים אחרים שאין להם קבוצה ספציפית
+    [Display(Name = "נצרת והעמקים")]
+    Nazareth,
+
+    [Display(Name = "עפולה ובית שאן")]
+    Afula,
+
+    [Display(Name = "השומרון")]
+    Ariel,
+
+    [Display(Name = "חדרה והסביבה")]
+    Hadera,
+
+    [Display(Name = "נתניה והשרון")]
+    Netanya,
+
+    [Display(Name = "הרצליה ורמת השרון")]
+    Herzliya,
+
+    [Display(Name = "כפר סבא והוד השרון")]
+    KfarSaba,
+
+    [Display(Name = "תל אביב וגוש דן")]
+    TelAviv,
+
+    [Display(Name = "פתח תקווה והסביבה")]
+    PetahTikva,
+
+    [Display(Name = "ראשון לציון והשפלה")]
+    RishonLezion,
+
+    [Display(Name = "חולון ובת ים")]
+    Holon,
+
+    [Display(Name = "לוד ורמלה")]
+    LodRamla,
+
+    [Display(Name = "מודיעין והסביבה")]
+    Modiin,
+
+    [Display(Name = "ירושלים והסביבה")]
+    Jerusalem,
+
+    [Display(Name = "אשדוד והסביבה")]
+    Ashdod,
+
+    [Display(Name = "אשקלון והדרום המערבי")]Ashkelon,
+
+    [Display(Name = "באר שבע והנגב")]
+    BeerSheva,
+
+    [Display(Name = "אילת והערבה")]
+    Eilat,
+
+    [Display(Name = "אחר")]
+    Other
 }
 
 public enum City
 {
-    // צפון
-    Haifa,          // חיפה
-    Akko,           // עכו
-    Karmiel,        // כרמיאל
-    Tiberias,       // טבריה
-    Safed,          // צפת
-    Nahariya,       // נהריה
-    Shlomi,         // שלומי
-    Maalot,         // מעלות-תרשיחא
-    Golan,          // קצרין, רמת הגולן
-    Nazareth,       // נצרת
-    NofHagalil,     // נוף הגליל
-    Afula,          // עפולה
-    BeitShean,      // בית שאן
-    Yokneam,        // יקנעם
-    MigdalHaemek,   // מגדל העמק
-    RoshPina,       // ראש פינה
-    MeromGolan,     // מרום גולן
+    [Display(Name = "חיפה")]Haifa,
 
-    // שומרון
-    Ariel,          // אריאל
-    Kedumim,        // קדומים
-    KarneiShomron,  // קרני שומרון
-    Barkan,         // ברקן
-    Elkana,         // אלקנה
-    MaaleEfraim,    // מעלה אפרים
+    [Display(Name = "עכו")]
+    Akko,
 
-    // השרון
-    Hadera,         // חדרה
-    PardesHanna,    // פרדס חנה-כרכור
-    OrAkiva,        // אור עקיבא
-    ZichronYaakov,  // זיכרון יעקב
-    Netanya,        // נתניה
-    KfarYona,       // כפר יונה
-    EvenYehuda,     // אבן יהודה
-    KadimaZoran,    // קדימה-צורן
-    Herzliya,       // הרצליה
-    KfarSaba,       // כפר סבא
-    HodHasharon,    // הוד השרון
-    RaAnana,        // רעננה
+    [Display(Name = "כרמיאל")]
+    Karmiel,
 
-    // מרכז והשפלה
-    TelAviv,        // תל אביב
-    RamatGan,       // רמת גן
-    Givatayim,      // גבעתיים
-    BneiBrak,       // בני ברק
-    PetahTikva,     // פתח תקווה
-    RoshHaAyin,     // ראש העין
-    Elad,           // אלעד
-    RishonLezion,   // ראשון לציון
-    NessZiona,      // נס ציונה
-    Rehovot,        // רחובות
-    Yavne,          // יבנה
-    Holon,          // חולון
-    BatYam,         // בת ים
-    Lod,            // לוד
-    Ramla,          // רמלה
-    Modiin,         // מודיעין
-    ModiinIlit,     // מודיעין עילית
-    MevoModiin,     // מכבים-רעות
+    [Display(Name = "טבריה")]
+    Tiberias,
 
-    // ירושלים והסביבה
-    Jerusalem,      // ירושלים
-    MevaseretZion,  // מבשרת ציון
-    BeitShemesh,    // בית שמש
-    MaaleAdumim,    // מעלה אדומים
-    GushEtzion,     // גוש עציון
-    Efrat,          // אפרת
+    [Display(Name = "צפת")]
+    Safed,
 
-    // דרום
-    Ashdod,         // אשדוד
-    GanYavne,       // גן יבנה
-    Ashkelon,       // אשקלון
-    KiryatGat,      // קריית גת
-    Sderot,         // שדרות
-    Netivot,        // נתיבות
-    BeerSheva,      // באר שבע
-    Ofakim,         // אופקים
-    Dimona,         // דימונה
-    Arad,           // ערד
-    Meitar,         // מיתר
-    Lehavim,        // להבים
-    Eilat,          // אילת
-    Yotvata,        // יטבתה
-    NeveZohar,      // נווה זוהר
-    Arava,          // הערבה
+    [Display(Name = "נהריה")]
+    Nahariya,
 
-    Other           // אחר
+    [Display(Name = "שלומי")]
+    Shlomi,
+
+    [Display(Name = "מעלות-תרשיחא")]
+    Maalot,
+
+    [Display(Name = "רמת הגולן")]
+    Golan,
+
+    [Display(Name = "נצרת")]
+    Nazareth,
+
+    [Display(Name = "נוף הגליל")]
+    NofHagalil,
+
+    [Display(Name = "עפולה")]
+    Afula,
+
+    [Display(Name = "בית שאן")]
+    BeitShean,
+
+    [Display(Name = "יקנעם")]
+    Yokneam,
+
+    [Display(Name = "מגדל העמק")]
+    MigdalHaemek,
+
+    [Display(Name = "ראש פינה")]
+    RoshPina,
+
+    [Display(Name = "מרום גולן")]
+    MeromGolan,
+
+    [Display(Name = "אריאל")]
+    Ariel,
+
+    [Display(Name = "קדומים")]
+    Kedumim,
+
+    [Display(Name = "קרני שומרון")]
+    KarneiShomron,
+
+    [Display(Name = "ברקן")]
+    Barkan,
+
+    [Display(Name = "אלקנה")]
+    Elkana,
+
+    [Display(Name = "מעלה אפרים")]
+    MaaleEfraim,
+
+    [Display(Name = "חדרה")]
+    Hadera,
+
+    [Display(Name = "פרדס חנה-כרכור")]
+    PardesHanna,
+
+    [Display(Name = "אור עקיבא")]
+    OrAkiva,
+
+    [Display(Name = "זיכרון יעקב")]
+    ZichronYaakov,
+
+    [Display(Name = "נתניה")]
+    Netanya,
+
+    [Display(Name = "כפר יונה")]
+    KfarYona,
+
+    [Display(Name = "אבן יהודה")]
+    EvenYehuda,
+
+    [Display(Name = "קדימה-צורן")]
+    KadimaZoran,
+
+    [Display(Name = "הרצליה")]
+    Herzliya,
+
+    [Display(Name = "כפר סבא")]
+    KfarSaba,
+
+    [Display(Name = "הוד השרון")]
+    HodHasharon,
+
+    [Display(Name = "רעננה")]
+    RaAnana,
+
+    [Display(Name = "תל אביב")]
+    TelAviv,
+
+    [Display(Name = "רמת גן")]
+    RamatGan,
+
+    [Display(Name = "גבעתיים")]
+    Givatayim,
+
+    [Display(Name = "בני ברק")]
+    BneiBrak,
+
+    [Display(Name = "פתח תקווה")]
+    PetahTikva,
+
+    [Display(Name = "ראש העין")]
+    RoshHaAyin,
+
+    [Display(Name = "אלעד")]
+    Elad,
+
+    [Display(Name = "ראשון לציון")]
+    RishonLezion,
+
+    [Display(Name = "נס ציונה")]
+    NessZiona,
+
+    [Display(Name = "רחובות")]
+    Rehovot,
+
+    [Display(Name = "יבנה")]
+    Yavne,
+
+    [Display(Name = "חולון")]
+    Holon,
+
+    [Display(Name = "בת ים")]
+    BatYam,
+
+    [Display(Name = "לוד")]
+    Lod,
+
+    [Display(Name = "רמלה")]
+    Ramla,
+
+    [Display(Name = "מודיעין")]
+    Modiin,
+
+    [Display(Name = "מודיעין עילית")]
+    ModiinIlit,
+
+    [Display(Name = "מכבים-רעות")]
+    MevoModiin,
+
+    [Display(Name = "ירושלים")]
+    Jerusalem,
+
+    [Display(Name = "מבשרת ציון")]
+    MevaseretZion,
+
+    [Display(Name = "בית שמש")]
+    BeitShemesh,
+
+    [Display(Name = "מעלה אדומים")]
+    MaaleAdumim,
+
+    [Display(Name = "גוש עציון")]
+    GushEtzion,
+
+    [Display(Name = "אפרת")]
+    Efrat,
+
+    [Display(Name = "אשדוד")]
+    Ashdod,
+
+    [Display(Name = "גן יבנה")]
+    GanYavne,
+
+    [Display(Name = "אשקלון")]
+    Ashkelon,
+
+    [Display(Name = "קריית גת")]
+    KiryatGat,
+
+    [Display(Name = "שדרות")]
+    Sderot,
+
+    [Display(Name = "נתיבות")]
+    Netivot,
+
+    [Display(Name = "באר שבע")]
+    BeerSheva,
+
+    [Display(Name = "אופקים")]
+    Ofakim,
+
+    [Display(Name = "דימונה")]
+    Dimona,
+
+    [Display(Name = "ערד")]
+    Arad,
+
+    [Display(Name = "מיתר")]
+    Meitar,
+
+    [Display(Name = "להבים")]
+    Lehavim,
+
+    [Display(Name = "אילת")]
+    Eilat,
+
+    [Display(Name = "יטבתה")]
+    Yotvata,
+
+    [Display(Name = "נווה זוהר")]
+    NeveZohar,
+
+    [Display(Name = "הערבה")]
+    Arava,
+
+    [Display(Name = "אחר")]
+    Other
 }
+
 
 
 
 public enum Hospital
 {
-    Rambam_Hospital_Haifa, // רמב"ם, חיפה
-    Carmel_Medical_Center_Haifa, // מרכז רפואי כרמל, חיפה
-    Horev_Medical_Center_Haifa, // מרכז רפואי חורב, חיפה
-    Haemek_Medical_Center_Afula, // מרכז רפואי העמק, עפולה
-    Bnei_Zion_Hospital_Haifa, // בני ציון, חיפה
-    Poriya_Hospital_Tiberias, // בית חולים פוריה, טבריה
-    Galilee_Raphael_Center_Nahariya, // מרכז רפואי גליל רפאל (לשעבר בית חולים נהריה)
-    Elisha_Hospital_Haifa, // בית חולים אלישע, חיפה
-    Hillel_Yaffe_Hospital_Hadera, // בית חולים הלל יפה, חדרה
-    Assuta_Haifa_Hospital_Haifa, // אסותא חיפה
-    Italian_Hospital_Haifa, // בית החולים האיטלקי, חיפה
-    Scottish_IMMS_Hospital_Nazareth, // בית החולים הסקוטי (IMMS), נצרת
-    Holy_Family_Hospital_Nazareth, // בית החולים המשפחה הקדושה, נצרת
-    Rivka_Ziv_Medical_Center_Safed, // מרכז רפואי רבקה זיו, צפת
-    Fliman_Geriatric_Center_Haifa, // מרכז גריאטרי פלימן, חיפה
-    Shoham_Integrated_Geriatric_Center_Pardes_Hanna_Karkur, // מרכז גריאטרי שוהם, פרדס חנה-כרכור
-    Shaar_Menashe_Mental_Health_Center_Emek_Hefer, // שער מנשה, עמק חפר
-    Mizra_Mental_Health_Center_Acre, // בית חולים מזרע, עכו
-    Mental_Health_Center_Tirat_Carmel, // המרכז לבריאות הנפש, טירת כרמל
-    Home_Neve_Shalva_Hospital_Pardes_Hana_Karkur, // נווה שלווה, פרדס חנה-כרכור
-    Herzliya_Medical_Center_Herzliya, // הרצליה מדיקל סנטר, הרצליה
-    Landiado_Hospital_Netanya, // בית חולים לניאדו, נתניה
-    Meir_Hospital_Kfar_Saba, // בית חולים מאיר, כפר סבא
-    Beit_Levinstein_Raanana, // בית לוינשטיין, רעננה
-    Netanya_Geriatric_Center_Netanya, // מרכז גריאטרי נתניה
-    Beit_Gadi_Medical_Center_Netanya, // בית גדי, נתניה
-    Shalvata_Mental_Health_Center_Hod_Hasharon, // שלוותה, הוד השרון
-    Lev_Hasharon_Mental_Health_Center_Netanya, // לב השרון, נתניה
-    Shaare_Zedek_Hospital_Jerusalem, // שערי צדק, ירושלים
-    Misgav_Ladach_Hospital_Jerusalem, // משגב לדך, ירושלים
-    Bikur_Holim_Hospital_Jerusalem, // ביקור חולים, ירושלים
-    Hadassah_Hospital_Jerusalem, // הדסה, ירושלים
-    Home_Elin_Rehabilitation_Hospitals_Jerusalem, // מרכז שיקומי איל"ן, ירושלים
-    St_Johns_Eye_Hospital_Jerusalem, // בית החולים לעיניים סנט ג'ון, ירושלים
-    Augusta_Victoria_Hospital_Jerusalem, // אוגוסטה ויקטוריה, ירושלים
-    St_Josephs_Hospital_Jerusalem, // בית החולים סנט ג'וזף, ירושלים
-    Herzog_Hospital_Jerusalem, // בית חולים הרצוג, ירושלים
-    Jerusalem_Mental_Health_Center_Jerusalem, // מרכז בריאות הנפש, ירושלים
-    Mayanei_Hayeshua_Medical_Center_Bnei_Brak, // מעייני הישועה, בני ברק
-    Yehudah_Abarbanel_Mental_Health_Center_Bat_Yam, // יהודה אברבנאל, בת ים
-    Wolfson_Hospital_Holon, // בית חולים וולפסון, חולון
-    Blinson_Rabin_Hospital_Petah_Tikva, // בית חולים בילינסון-רבין, פתח תקווה
-    Schneider_Childrens_Center_Israel_Petah_Tikva, // מרכז שניידר לרפואת ילדים, פתח תקווה
-    Beit_Rivka_Hospital_Petah_Tikva, // בית רבקה, פתח תקווה
-    Geha_Mental_Health_Center_Petah_Tikva, // גהה, פתח תקווה
-    Sheba_Medical_Center_Tel_Hashomer_Ramat_Gan, // מרכז רפואי שיבא - תל השומר, רמת גן
-    Sourasky_Medical_Center_Ichilov_Tel_Aviv, // מרכז רפואי סוראסקי (איכילוב), תל אביב
-    Assuta_Hashalom_Hospital_Tel_Aviv, // אסותא השלום, תל אביב
-    Home_Dana_Hospitals_Tel_Aviv, // דנה, תל אביב
-    Reut_Hospital_Tel_Aviv, // בית חולים שיקומי רעות, תל אביב
-    Shmuel_Harofeh_Geriatric_Center_Beer_Yaakov, // מרכז גריאטרי שמואל הרופא, באר יעקב
-    Beer_Yaakov_Mental_Health_Center_Beer_Yaakov, // המרכז לבריאות הנפש באר יעקב
-    Asaf_Harofeh_Medical_Center_Rishon_Lezion, // אסף הרופא, ראשון לציון
-    Assuta_Hospital_Rishon_Lezion, // אסותא ראשון לציון
-    Geriatric_Center_Rishon_Lezion, // מרכז גריאטרי ראשון לציון
-    Kaplan_Medical_Center_Rehovot, // מרכז רפואי קפלן, רחובות
-    Herzfeld_Geriatric_Medical_Center_Gedera, // מרכז גריאטרי הרצפלד, גדרה
-    Yoseftal_Hospital_Eilat, // בית חולים יוספטל, אילת
-    Barzilai_Hospital_Ashkelon, // ברזילי, אשקלון
-    Soroka_University_Medical_Center_Beer_Sheva, // מרכז רפואי אוניברסיטאי סורוקה, באר שבע
-    Assuta_Hospital_Beer_Sheva, // אסותא באר שבע
-    Beer_Sheva_Mental_Health_Center_Beer_Sheva, // המרכז לבריאות הנפש באר שבע
-    Other // אחר
+    [Display(Name = "רמב\"ם, חיפה")] Rambam_Hospital_Haifa,
+    [Display(Name = "מרכז רפואי כרמל, חיפה")] Carmel_Medical_Center_Haifa,
+    [Display(Name = "מרכז רפואי חורב, חיפה")] Horev_Medical_Center_Haifa,
+    [Display(Name = "מרכז רפואי העמק, עפולה")] Haemek_Medical_Center_Afula,
+    [Display(Name = "בני ציון, חיפה")] Bnei_Zion_Hospital_Haifa,
+    [Display(Name = "בית חולים פוריה, טבריה")] Poriya_Hospital_Tiberias,
+    [Display(Name = "מרכז רפואי גליל רפאל (לשעבר בית חולים נהריה)")] Galilee_Raphael_Center_Nahariya,
+    [Display(Name = "בית חולים אלישע, חיפה")] Elisha_Hospital_Haifa,
+    [Display(Name = "בית חולים הלל יפה, חדרה")] Hillel_Yaffe_Hospital_Hadera,
+    [Display(Name = "אסותא חיפה")] Assuta_Haifa_Hospital_Haifa,
+    [Display(Name = "בית החולים האיטלקי, חיפה")] Italian_Hospital_Haifa,
+    [Display(Name = "בית החולים הסקוטי (IMMS), נצרת")] Scottish_IMMS_Hospital_Nazareth,
+    [Display(Name = "בית החולים המשפחה הקדושה, נצרת")] Holy_Family_Hospital_Nazareth,
+    [Display(Name = "מרכז רפואי רבקה זיו, צפת")] Rivka_Ziv_Medical_Center_Safed,
+    [Display(Name = "מרכז גריאטרי פלימן, חיפה")] Fliman_Geriatric_Center_Haifa,
+    [Display(Name = "מרכז גריאטרי שוהם, פרדס חנה-כרכור")] Shoham_Integrated_Geriatric_Center_Pardes_Hanna_Karkur,
+    [Display(Name = "שער מנשה, עמק חפר")] Shaar_Menashe_Mental_Health_Center_Emek_Hefer,
+    [Display(Name = "בית חולים מזרע, עכו")] Mizra_Mental_Health_Center_Acre,
+    [Display(Name = "המרכז לבריאות הנפש, טירת כרמל")] Mental_Health_Center_Tirat_Carmel,
+    [Display(Name = "נווה שלווה, פרדס חנה-כרכור")] Home_Neve_Shalva_Hospital_Pardes_Hana_Karkur,
+    [Display(Name = "הרצליה מדיקל סנטר, הרצליה")] Herzliya_Medical_Center_Herzliya,
+    [Display(Name = "בית חולים לניאדו, נתניה")] Landiado_Hospital_Netanya,
+    [Display(Name = "בית חולים מאיר, כפר סבא")] Meir_Hospital_Kfar_Saba,
+    [Display(Name = "בית לוינשטיין, רעננה")] Beit_Levinstein_Raanana,
+    [Display(Name = "מרכז גריאטרי נתניה")] Netanya_Geriatric_Center_Netanya,
+    [Display(Name = "בית גדי, נתניה")] Beit_Gadi_Medical_Center_Netanya,
+    [Display(Name = "שלוותה, הוד השרון")] Shalvata_Mental_Health_Center_Hod_Hasharon,
+    [Display(Name = "לב השרון, נתניה")] Lev_Hasharon_Mental_Health_Center_Netanya,
+    [Display(Name = "שערי צדק, ירושלים")] Shaare_Zedek_Hospital_Jerusalem,
+    [Display(Name = "משגב לדך, ירושלים")] Misgav_Ladach_Hospital_Jerusalem,
+    [Display(Name = "ביקור חולים, ירושלים")] Bikur_Holim_Hospital_Jerusalem,
+    [Display(Name = "הדסה, ירושלים")] Hadassah_Hospital_Jerusalem,
+    [Display(Name = "מרכז שיקומי איל\"ן, ירושלים")] Home_Elin_Rehabilitation_Hospitals_Jerusalem,
+    [Display(Name = "בית החולים לעיניים סנט ג'ון, ירושלים")] St_Johns_Eye_Hospital_Jerusalem,
+    [Display(Name = "אוגוסטה ויקטוריה, ירושלים")] Augusta_Victoria_Hospital_Jerusalem,
+    [Display(Name = "בית החולים סנט ג'וזף, ירושלים")] St_Josephs_Hospital_Jerusalem,
+    [Display(Name = "בית חולים הרצוג, ירושלים")] Herzog_Hospital_Jerusalem,
+    [Display(Name = "מרכז בריאות הנפש, ירושלים")] Jerusalem_Mental_Health_Center_Jerusalem,
+    [Display(Name = "מעייני הישועה, בני ברק")] Mayanei_Hayeshua_Medical_Center_Bnei_Brak,
+    [Display(Name = "יהודה אברבנאל, בת ים")] Yehudah_Abarbanel_Mental_Health_Center_Bat_Yam,
+    [Display(Name = "בית חולים וולפסון, חולון")] Wolfson_Hospital_Holon,
+    [Display(Name = "בית חולים בילינסון-רבין, פתח תקווה")] Blinson_Rabin_Hospital_Petah_Tikva,
+    [Display(Name = "מרכז שניידר לרפואת ילדים, פתח תקווה")] Schneider_Childrens_Center_Israel_Petah_Tikva,
+    [Display(Name = "בית רבקה, פתח תקווה")] Beit_Rivka_Hospital_Petah_Tikva,
+    [Display(Name = "גהה, פתח תקווה")] Geha_Mental_Health_Center_Petah_Tikva,
+    [Display(Name = "מרכז רפואי שיבא - תל השומר, רמת גן")] Sheba_Medical_Center_Tel_Hashomer_Ramat_Gan,
+    [Display(Name = "מרכז רפואי סוראסקי (איכילוב), תל אביב")] Sourasky_Medical_Center_Ichilov_Tel_Aviv,
+    [Display(Name = "אסותא השלום, תל אביב")] Assuta_Hashalom_Hospital_Tel_Aviv,
+    [Display(Name = "דנה, תל אביב")] Home_Dana_Hospitals_Tel_Aviv,
+    [Display(Name = "בית חולים שיקומי רעות, תל אביב")] Reut_Hospital_Tel_Aviv,
+    [Display(Name = "מרכז גריאטרי שמואל הרופא, באר יעקב")] Shmuel_Harofeh_Geriatric_Center_Beer_Yaakov,
+    [Display(Name = "המרכז לבריאות הנפש באר יעקב")] Beer_Yaakov_Mental_Health_Center_Beer_Yaakov,
+    [Display(Name = "אסף הרופא, ראשון לציון")] Asaf_Harofeh_Medical_Center_Rishon_Lezion,
+    [Display(Name = "אסותא ראשון לציון")] Assuta_Hospital_Rishon_Lezion,
+    [Display(Name = "מרכז גריאטרי ראשון לציון")] Geriatric_Center_Rishon_Lezion,
+    [Display(Name = "מרכז רפואי קפלן, רחובות")] Kaplan_Medical_Center_Rehovot,
+    [Display(Name = "מרכז גריאטרי הרצפלד, גדרה")] Herzfeld_Geriatric_Medical_Center_Gedera,
+    [Display(Name = "בית חולים יוספטל, אילת")] Yoseftal_Hospital_Eilat,
+    [Display(Name = "ברזילי, אשקלון")] Barzilai_Hospital_Ashkelon,
+    [Display(Name = "מרכז רפואי אוניברסיטאי סורוקה, באר שבע")] Soroka_University_Medical_Center_Beer_Sheva,
+    [Display(Name = "אסותא באר שבע")] Assuta_Hospital_Beer_Sheva,
+    [Display(Name = "המרכז לבריאות הנפש באר שבע")] Beer_Sheva_Mental_Health_Center_Beer_Sheva,
+    [Display(Name = "אחר")] Other
 }
+
 
 public enum Ward
 {
-    Emergency, // חדר מיון
-    InternalMedicine, // מחלקה פנימית
-    GeneralSurgery, // כירורגיה כללית
-    Orthopedics, // אורתופדיה
-    Pediatrics, // ילדים
-    Maternity, // יולדות
-    Neonatology, // פגיה
-    Oncology, // אונקולוגיה
-    Hematology, // המטולוגיה
-    IntensiveCare, // טיפול נמרץ כללי
-    RespiratoryICU, // טיפול נמרץ נשימתי
-    CardiacICU, // טיפול נמרץ לבבי
-    PediatricICU, // טיפול נמרץ ילדים
-    Cardiology, // קרדיולוגיה
-    Neurology, // נוירולוגיה
-    Psychiatry, // פסיכיאטריה
-    Geriatrics, // גריאטריה
-    Dialysis, // דיאליזה
-    ENT, // אף אוזן גרון
-    Ophthalmology, // עיניים
-    Dermatology, // עור ומין
-    Gastroenterology, // גסטרואנטרולוגיה
-    Pulmonology, // ריאות
-    Endocrinology, // אנדוקרינולוגיה
-    Immunology, // אימונולוגיה ואלרגיה
-    InfectiousDiseases, // מחלות זיהומיות
-    PainManagement, // רפואת כאב
-    Rehabilitation, // שיקום רפואי
-    Fertility, // פוריות והפריה חוץ גופית
-    Neurosurgery, // נוירוכירורגיה
-    VascularSurgery, // כירורגיית כלי דם
-    CardiothoracicSurgery, // כירורגיית לב-חזה
-    PediatricSurgery, // כירורגיית ילדים
-    PlasticSurgery, // כירורגיית פלסטית
-    OralAndMaxillofacialSurgery, // כירורגיית פה ולסת
-    OrthopedicOncology, // אורתופדיה אונקולוגית
-    Rheumatology, // ראומטולוגיה
-    Urology, // אורולוגיה
-    Gynecology, // גינקולוגיה
-    ClinicalPharmacology, // פרמקולוגיה קלינית
-    PainClinic, // מרפאת כאב
-    ClinicalPsychology, // פסיכולוגיה קלינית
-    Nutrition, // דיאטנים ותזונה קלינית
-    OccupationalTherapy, // ריפוי בעיסוק
-    Physiotherapy, // פיזיותרפיה
-    SpeechTherapy, // קלינאות תקשורת
-    SleepLab, // מעבדת שינה
-    ComplementaryMedicine, // רפואה משלימה
-    HospitalDentistry, // רפואת שיניים בבית חולים
-    GeriatricCommunityCare, // רפואה גריאטרית קהילתית
-    CommunityMentalHealth, // בריאות הנפש בקהילה
-    NursingCare, // מערך הסיעוד הכללי
-    EmotionalSupport, // ליווי רגשי
-    SocialServices, // שירותים חברתיים
-    OncologySupportCenter, // מרכז תמיכה אונקולוגי
-    PatientGuidance, // שירותי הכוונה וליווי מטופלים
-    ChildrensActivity, // הפגת בדידות במחלקות ילדים
-    ElderlyActivity, // הפגת בדידות במחלקות גריאטריות
+    [Display(Name = "חדר מיון")]
+    Emergency,
+
+    [Display(Name = "מחלקה פנימית")]
+    InternalMedicine,
+
+    [Display(Name = "כירורגיה כללית")]
+    GeneralSurgery,
+
+    [Display(Name = "אורתופדיה")]
+    Orthopedics,
+
+    [Display(Name = "ילדים")]
+    Pediatrics,
+
+    [Display(Name = "יולדות")]
+    Maternity,
+
+    [Display(Name = "פגיה")]
+    Neonatology,
+
+    [Display(Name = "אונקולוגיה")]
+    Oncology,
+
+    [Display(Name = "המטולוגיה")]
+    Hematology,
+
+    [Display(Name = "טיפול נמרץ כללי")]
+    IntensiveCare,
+
+    [Display(Name = "טיפול נמרץ נשימתי")]
+    RespiratoryICU,
+
+    [Display(Name = "טיפול נמרץ לבבי")]
+    CardiacICU,
+
+    [Display(Name = "טיפול נמרץ ילדים")]
+    PediatricICU,
+
+    [Display(Name = "קרדיולוגיה")]
+    Cardiology,
+
+    [Display(Name = "נוירולוגיה")]
+    Neurology,
+
+    [Display(Name = "פסיכיאטריה")]
+    Psychiatry,
+
+    [Display(Name = "גריאטריה")]
+    Geriatrics,
+
+    [Display(Name = "דיאליזה")]
+    Dialysis,
+
+    [Display(Name = "אף אוזן גרון")]
+    ENT,
+
+    [Display(Name = "עיניים")]
+    Ophthalmology,
+
+    [Display(Name = "עור ומין")]
+    Dermatology,
+
+    [Display(Name = "גסטרואנטרולוגיה")]
+    Gastroenterology,
+
+    [Display(Name = "ריאות")]
+    Pulmonology,
+
+    [Display(Name = "אנדוקרינולוגיה")]
+    Endocrinology,
+
+    [Display(Name = "אימונולוגיה ואלרגיה")]
+    Immunology,
+
+    [Display(Name = "מחלות זיהומיות")]
+    InfectiousDiseases,
+
+    [Display(Name = "רפואת כאב")]
+    PainManagement,
+
+    [Display(Name = "שיקום רפואי")]
+    Rehabilitation,
+
+    [Display(Name = "פוריות והפריה חוץ גופית")]
+    Fertility,
+
+    [Display(Name = "נוירוכירורגיה")]
+    Neurosurgery,
+
+    [Display(Name = "כירורגיית כלי דם")]
+    VascularSurgery,
+
+    [Display(Name = "כירורגיית לב-חזה")]
+    CardiothoracicSurgery,
+
+    [Display(Name = "כירורגיית ילדים")]
+    PediatricSurgery,
+
+    [Display(Name = "כירורגיה פלסטית")]
+    PlasticSurgery,
+
+    [Display(Name = "כירורגיית פה ולסת")]
+    OralAndMaxillofacialSurgery,
+
+    [Display(Name = "אורתופדיה אונקולוגית")]
+    OrthopedicOncology,
+
+    [Display(Name = "ראומטולוגיה")]
+    Rheumatology,
+
+    [Display(Name = "אורולוגיה")]
+    Urology,
+
+    [Display(Name = "גינקולוגיה")]
+    Gynecology,
+
+    [Display(Name = "פרמקולוגיה קלינית")]
+    ClinicalPharmacology,
+
+    [Display(Name = "מרפאת כאב")]
+    PainClinic,
+
+    [Display(Name = "פסיכולוגיה קלינית")]
+    ClinicalPsychology,
+
+    [Display(Name = "דיאטנים ותזונה קלינית")]
+    Nutrition,
+
+    [Display(Name = "ריפוי בעיסוק")]
+    OccupationalTherapy,
+
+    [Display(Name = "פיזיותרפיה")]
+    Physiotherapy,
+
+    [Display(Name = "קלינאות תקשורת")]
+    SpeechTherapy,
+
+    [Display(Name = "מעבדת שינה")]
+    SleepLab,
+
+    [Display(Name = "רפואה משלימה")]
+    ComplementaryMedicine,
+
+    [Display(Name = "רפואת שיניים בבית חולים")]
+    HospitalDentistry,
+
+    [Display(Name = "רפואה גריאטרית קהילתית")]
+    GeriatricCommunityCare,
+
+    [Display(Name = "בריאות הנפש בקהילה")]
+    CommunityMentalHealth,
+
+    [Display(Name = "מערך הסיעוד הכללי")]
+    NursingCare,
+
+    [Display(Name = "ליווי רגשי")]
+    EmotionalSupport,
+
+    [Display(Name = "שירותים חברתיים")]
+    SocialServices,
+
+    [Display(Name = "מרכז תמיכה אונקולוגי")]
+    OncologySupportCenter,
+
+    [Display(Name = "שירותי הכוונה וליווי מטופלים")]
+    PatientGuidance,
+
+    [Display(Name = "הפגת בדידות במחלקות ילדים")]
+    ChildrensActivity,
+
+    [Display(Name = "הפגת בדידות במחלקות גריאטריות")]
+    ElderlyActivity,
+
+    [Display(Name = "אחר")]
     Other
 }
 
 public enum AgeGroup
 {
-    Children,// 0-12
-    Teenagers,// 13-18
-    YoungAdults,// 19-30
-    Adults,// 31-60
-    Elderly// 61+
+    [Display(Name = "ילדים")]
+    Children,        // 0-12
+
+    [Display(Name = "נערים")]
+    Teenagers,       // 13-18
+
+    [Display(Name = "צעירים")]
+    YoungAdults,     // 19-30
+
+    [Display(Name = "מבוגרים")]
+    Adults,          // 31-60
+
+    [Display(Name = "קשישים")]
+    Elderly          // 61+
 }
 
-//namespace CarePair.Core.Models
-//{
-
-//    //public  class Enums
-//    //{
-
-//    //}
-//}
 public static class EnumHelper
 {
     public static Dictionary<string, string> GetEnumValues<T>() where T : Enum
@@ -342,14 +639,22 @@ public static class EnumHelper
             .Cast<T>()
             .ToDictionary(
                 e => e.ToString(),
-                e => GetEnumDisplayName(e) // פונקציה להחזרת שם ידידותי (עברית)
+                e => GetDisplayName(e as Enum) // שימוש נכון בפונקציה עם DisplayAttribute
             );
     }
 
-    private static string GetEnumDisplayName<T>(T value)
+    //private static string GetEnumDisplayName<T>(T value)
+    //{
+    //    // אפשר לקרוא את התיאור מתוך קומנט/Attribute במידת הצורך
+    //    // כרגע נחזיר פשוט ToString (או להשתמש ב־DescriptionAttribute אם קיים)
+    //    return value.ToString().Replace("_", " ");
+    //}
+    public static string GetDisplayName(Enum enumValue)
     {
-        // אפשר לקרוא את התיאור מתוך קומנט/Attribute במידת הצורך
-        // כרגע נחזיר פשוט ToString (או להשתמש ב־DescriptionAttribute אם קיים)
-        return value.ToString().Replace("_", " ");
+        return enumValue.GetType()
+            .GetMember(enumValue.ToString())
+            .First()
+            .GetCustomAttribute<DisplayAttribute>()?.Name
+            ?? enumValue.ToString();
     }
 }

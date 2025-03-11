@@ -1,5 +1,7 @@
-﻿using CarePair.Core.Models;
+﻿using CarePair.Core.DTOs;
+using CarePair.Core.Models;
 using CarePair.Core.Service;
+using CarePair.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 namespace CarePair.API.Controllers
@@ -21,12 +23,23 @@ namespace CarePair.API.Controllers
             return _patientService.GetPatientList();
         }
 
-        // GET api/<PatientController>/5
+        //// GET api/<PatientController>/5
+        //[HttpGet("{id}")]
+        //public Patient GetById(int id)
+        //{
+        //    return _patientService.GetPatientById(id);
+        //}
         [HttpGet("{id}")]
-        public Patient GetById(int id)
+        public ActionResult<PatientDto> GetById(int id)
         {
-            return _patientService.GetPatientById(id);
+            var patient = _patientService.GetPatientById(id);
+            if (patient == null)
+                return NotFound();
+
+            var dto = PatientMapper.ToDto(patient);
+            return Ok(dto);
         }
+
 
         // POST api/<PatientController>
         [HttpPost]

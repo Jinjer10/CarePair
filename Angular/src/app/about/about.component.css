@@ -1,0 +1,46 @@
+.signUpButton{
+    font-size: 30px;
+    direction: rtl;
+    margin-right: 25%;
+}
+h1{
+   direction: rtl;
+   margin-right: 25%; 
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    overflow: hidden;
+}
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    background: white;
+    padding: 10px 0;
+}
+.carousel {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+.carousel img {
+    height: 100px; /* גובה קבוע לכל התמונות */
+    width: auto; /* שמירה על יחס הגובה-רוחב המקורי */
+    margin: 0 15px;
+    transition: transform 0.3s;
+}
+.carousel img:hover {
+    transform: scale(1.1);
+}
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}

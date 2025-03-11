@@ -1,3 +1,4 @@
+﻿using CarePair.Core.DTOs;
 using CarePair.Core.Models;
 using CarePair.Core.Repositories;
 using CarePair.Core.Service;
@@ -38,9 +39,18 @@ namespace CarePair.Service
             _patientRepository.UpdatePatient(patient, id);
         }
 
+        //public PatientDto GetPatientById(int id)
+        //{
+        //    return _patientRepository.GetPatientById(id);
+        //}
+
         public Patient GetPatientById(int id)
         {
-            return _patientRepository.GetPatientById(id);
+            var patient = _patientRepository.GetPatientById(id);
+            if (patient == null)
+                return null;
+
+            return patient;
         }
     }
 }

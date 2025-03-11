@@ -1,5 +1,7 @@
+using CarePair.Core.DTOs;
 using CarePair.Core.Models;
 using CarePair.Core.Service;
+using CarePair.Service;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarePair.API.Controllers
@@ -21,11 +23,21 @@ namespace CarePair.API.Controllers
             return _volunteerService.GetVolunteerList();
         }
 
-        // GET api/<VolunteerController>/5
+        //// GET api/<VolunteerController>/5
+        //[HttpGet("{id}")]
+        //public Volunteer GetById(int id)
+        //{
+        //    return _volunteerService.GetVolunteerById(id);
+        //}
         [HttpGet("{id}")]
-        public Volunteer GetById(int id)
+        public ActionResult<VolunteerDto> GetById(int id)
         {
-            return _volunteerService.GetVolunteerById(id);
+            var volunteer = _volunteerService.GetVolunteerById(id);
+            if (volunteer == null)
+                return NotFound();
+
+            var dto = VolunteerMapper.ToDto(volunteer);
+            return Ok(dto);
         }
 
         // POST api/<VolunteerController>

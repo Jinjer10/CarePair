@@ -10,7 +10,7 @@ export class EnumDataService {
   constructor(private http: HttpClient) {}
 
   getGenders(): Observable<any[]> {
-    console.log("/Gender`)",this.http.get<any[]>(`${this.apiUrl}/Gender`));
+    // console.log("/Gender`)",this.http.get<any[]>(`${this.apiUrl}/Gender`));
     return this.http.get<any[]>(`${this.apiUrl}/Gender`);
   }
 
