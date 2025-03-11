@@ -3,8 +3,8 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common'; // נדרש עבור *ngFor
 import { ReactiveFormsModule } from '@angular/forms'; // נדרש עבור Reactive Forms
-import { EnumDataService } from '../../services/enum-data.service';
-
+import { EnumDataService,EnumItem } from '../../services/enum-data.service';
+import { VolunteerService, Volunteer, Time } from '../../services/volunteer.service';
 @Component({
   selector: 'app-sign-up-volunteer',
   standalone: true, // קומפוננטה עצמאית
@@ -15,18 +15,19 @@ import { EnumDataService } from '../../services/enum-data.service';
 export class SignUpVolunteerComponent implements OnInit {
   signUpForm!: FormGroup;
 
-  genders: any[] = [];
-  languages: any[] = [];
-  interests: any[] = [];
-  ageGroups: any[] = [];
-  areas: any[] = [];
-  cities: any[] = [];
+  genders: EnumItem[] = [];
+  languages: EnumItem[] = [];
+  interests: EnumItem[] = [];
+  ageGroups: EnumItem[] = [];
+  areas: EnumItem[] = [];
+  cities: EnumItem[] = [];
+  religiosities: EnumItem[] = []; // הוספה
 
   constructor(
     private fb: FormBuilder,
-    private enumService: EnumDataService
+    private enumService: EnumDataService,
+    private volunteerService: VolunteerService
   ) {}
-
   ngOnInit(): void {
     this.signUpForm = this.fb.group({
       fullName: ['', Validators.required],
@@ -39,13 +40,12 @@ export class SignUpVolunteerComponent implements OnInit {
       city: ['', Validators.required],
       gender: ['', Validators.required],
       availableTimes: this.fb.array([]),
-      language: [[], Validators.required], // שפות שהמתנדב דובר
-      languagePreference: [[], Validators.required], // העדפת שפות של המטופל
-      interests: [[], Validators.required], // תחומי עניין של המתנדב
-      genderPreference: [[], Validators.required], // העדפת מגדר של המטופל
+      language: [[], Validators.required],
+      interests: [[], Validators.required],
       agePreference: ['', Validators.required],
-      religiosityPreference: ['', Validators.required],
-      wardPreference: ['', Validators.required]
+      languagePreference: [[], Validators.required],
+      genderPreference: [[], Validators.required],
+      religiosityPreference: ['', Validators.required]
     });
 
     this.loadEnums();
@@ -58,6 +58,7 @@ export class SignUpVolunteerComponent implements OnInit {
     this.enumService.getAgeGroups().subscribe(data => this.ageGroups = data);
     this.enumService.getAreas().subscribe(data => this.areas = data);
     this.enumService.getCities().subscribe(data => this.cities = data);
+    this.enumService.getReligiosities().subscribe(data => this.religiosities = data); // הוספה
   }
 
   get availableTimes(): FormArray {
@@ -80,11 +81,44 @@ export class SignUpVolunteerComponent implements OnInit {
 
   onSubmit(): void {
     if (this.signUpForm.invalid) {
-      this.signUpForm.markAllAsTouched(); // סמן את כל השדות כ"נגועים" להצגת שגיאות ב-UI
+      this.signUpForm.markAllAsTouched();
+      console.log('טופס לא תקין:', this.signUpForm.errors);
       return;
     }
-    console.log('טופס תקין:', this.signUpForm.value);
-    // כאן תוכל לשלוח את הנתונים לשרת, לדוגמה:
-    // this.someService.submitForm(this.signUpForm.value).subscribe();
+
+    const formValue = this.signUpForm.value;
+    const volunteer: Volunteer = {
+      id: 0, // השרת יקצה ID
+      fullName: formValue.fullName,
+      phone: formValue.phone,
+      birthDate: formValue.birthDate, // "YYYY-MM-DD"
+      password: formValue.password,
+      email: formValue.email,
+      extraDetailse: formValue.extraDetails || '',
+      areaJson: JSON.stringify({ key: formValue.area }),
+      cityJson: JSON.stringify({ key: formValue.city }),
+      genderJson: JSON.stringify({ key: formValue.gender }),
+      availableTimesJson: JSON.stringify(formValue.availableTimes as Time[]),
+      religiosityJson: JSON.stringify({ key: formValue.religiosityPreference }),
+      languageJson: JSON.stringify(formValue.language.map((lang: string) => ({ key: lang }))),
+      languagePreferenceJson: JSON.stringify(formValue.languagePreference.map((lang: string) => ({ key: lang }))),
+      interestsJson: JSON.stringify(formValue.interests.map((interest: string) => ({ key: interest }))),
+      genderPreferenceJson: JSON.stringify(formValue.genderPreference.map((gender: string) => ({ key: gender }))),
+      agePreferenceJson: JSON.stringify([{ key: formValue.agePreference }]),
+      religiosityPreferenceJson: JSON.stringify([{ key: formValue.religiosityPreference }]),
+      wardPreferenceJson: JSON.stringify([]) // לא קיים בטופס כרגע
+    };
+    console.log('volunteer', volunteer);
+
+
+    this.volunteerService.addVolunteer(volunteer).subscribe({
+      next: () => {
+        console.log('מתנדב נוסף בהצלחה!');
+        this.signUpForm.reset();
+      },
+      error: (err) => {
+        console.error('שגיאה בשליחת הטופס:', err);
+      }
+    });
   }
 }
