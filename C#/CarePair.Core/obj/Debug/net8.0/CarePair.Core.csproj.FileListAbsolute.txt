@@ -73,6 +73,7 @@ C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Core
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Core\obj\Debug\net8.0\refint\CarePair.Core.dll
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.pdb
 C:\Users\yarde\Downloads\‏‏CarePair - משיכות\CarePair\C#\CarePair.Core\obj\Debug\net8.0\ref\CarePair.Core.dll
+<<<<<<< HEAD
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.deps.json
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.dll
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.pdb
@@ -86,3 +87,31 @@ C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Cor
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\obj\Debug\net8.0\refint\CarePair.Core.dll
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.pdb
 C:\Users\yarde\Downloads\CarePair\C#\CarePair.Core\obj\Debug\net8.0\ref\CarePair.Core.dll
+=======
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.deps.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.csproj.AssemblyReference.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.AssemblyInfoInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.AssemblyInfo.cs
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.csproj.CoreCompileInputs.cache
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.sourcelink.json
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\refint\CarePair.Core.dll
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.pdb
+C:\Users\Mimi\Documents\לימודים\שנה ב\פרוייקט2\CarePair\C#\CarePair.Core\obj\Debug\net8.0\ref\CarePair.Core.dll
+>>>>>>> 4f3edf67e0f7b1ba5e67fb7143cc6ac4affe3a24
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.csproj.AssemblyReference.cache
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.AssemblyInfoInputs.cache
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.AssemblyInfo.cs
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.csproj.CoreCompileInputs.cache
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.sourcelink.json
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\refint\CarePair.Core.dll
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.deps.json
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.dll
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\bin\Debug\net8.0\CarePair.Core.pdb
+C:\Users\yarde\Downloads\‏‏תיקיה חדשה\CarePair\C#\CarePair.Core\obj\Debug\net8.0\ref\CarePair.Core.dll

@@ -1,4 +1,5 @@
 
+
 using CarePair.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
@@ -14,5 +15,6 @@ namespace CarePair.Data
         public DbSet<ActiveMatch> ActiveMatch { get; set; }
         public DataContext(DbContextOptions<DataContext> options) : base(options)
         { }
+
     }
 }

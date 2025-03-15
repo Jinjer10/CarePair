@@ -1,354 +1,48 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\",
+  "WorkspaceRootPath": "C:\\Users\\yarde\\Downloads\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\CarePair\\C#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\controllers\\volunteercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\volunteer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\enums.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\controllers\\enumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\controllers\\enumscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\controllers\\patientcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\repositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\repositories\\imatchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\confirmmatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\confirmmatchrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\carepair.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\carepair.core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C470B1D0-2ED1-4D2B-89E7-3D5339F2A489}|CarePair.Service\\CarePair.Service.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.service\\matchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C470B1D0-2ED1-4D2B-89E7-3D5339F2A489}|CarePair.Service\\CarePair.Service.csproj|solutionrelative:carepair.service\\matchingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.data\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|solutionrelative:carepair.data\\repositories\\matchrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\pendingmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\pendingmatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.data\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|solutionrelative:carepair.data\\repositories\\patientrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.core\\models\\activematch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\activematch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\controllers\\matchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\models\\patientpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\models\\patientpostmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Migrations\\20250309235929_Maching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CarePair.Data\\Migrations\\20250309235929_Maching.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C470B1D0-2ED1-4D2B-89E7-3D5339F2A489}|CarePair.Service\\CarePair.Service.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.service\\carepair.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{C470B1D0-2ED1-4D2B-89E7-3D5339F2A489}|CarePair.Service\\CarePair.Service.csproj|solutionrelative:carepair.service\\carepair.service.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2B2E3465-93CB-43DB-A580-9CB221FCF634}|CarePair.API\\CarePair.API.csproj|solutionrelative:carepair.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|c:\\users\\yarde\\downloads\\carepair\\c#\\carepair.data\\migrations\\20250310003333_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9E210B6B-4AE6-4E92-B426-46E1AFE14C14}|CarePair.Data\\CarePair.Data.csproj|solutionrelative:carepair.data\\migrations\\20250310003333_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|c:\\users\\yarde\\downloads\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\carepair\\c#\\carepair.core\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A11F3AF4-6D2D-4AED-9473-192FC86D6EB3}|CarePair.Core\\CarePair.Core.csproj|solutionrelative:carepair.core\\models\\assignment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
-      "Orientation": 0,
+      "Orientation": 1,
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Enums.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Enums.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\Enums.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Enums.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\Enums.cs",
-              "ViewState": "AgIAAEkBAAAAAAAAAAAwwFUBAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:15:13.626Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Volunteer.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Volunteer.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\Volunteer.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Volunteer.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\Volunteer.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAADwvxUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:32:05.347Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "EnumsController.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\EnumsController.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Controllers\\EnumsController.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\EnumsController.cs",
-              "RelativeToolTip": "CarePair.API\\Controllers\\EnumsController.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAA9wEIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T11:03:24.884Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PatientController.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\PatientController.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Controllers\\PatientController.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\PatientController.cs",
-              "RelativeToolTip": "CarePair.API\\Controllers\\PatientController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:05:54.656Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "VolunteerController.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\VolunteerController.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Controllers\\VolunteerController.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\VolunteerController.cs",
-              "RelativeToolTip": "CarePair.API\\Controllers\\VolunteerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T13:08:40.716Z",
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AgIAACYWAAAAAAAAAAAawC0WAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-03-13T16:08:29.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IMatchRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Repositories\\IMatchRepository.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Repositories\\IMatchRepository.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Repositories\\IMatchRepository.cs",
-              "RelativeToolTip": "CarePair.Core\\Repositories\\IMatchRepository.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAswBcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Assignment.cs",
+              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\CarePair\\C#\\CarePair.Core\\Models\\Assignment.cs",
+              "RelativeDocumentMoniker": "CarePair.Core\\Models\\Assignment.cs",
+              "ToolTip": "C:\\Users\\yarde\\Downloads\\\u200F\u200F\u05EA\u05D9\u05E7\u05D9\u05D4 \u05D7\u05D3\u05E9\u05D4\\CarePair\\C#\\CarePair.Core\\Models\\Assignment.cs",
+              "RelativeToolTip": "CarePair.Core\\Models\\Assignment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T22:05:52.913Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Program.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Program.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Program.cs",
-              "RelativeToolTip": "CarePair.API\\Program.cs",
-              "ViewState": "AgIAAOEAAAAAAAAAAAAcwP4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:07:25.782Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CarePair.Core.csproj",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
-              "RelativeDocumentMoniker": "CarePair.Core\\CarePair.Core.csproj",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
-              "RelativeToolTip": "CarePair.Core\\CarePair.Core.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-10T01:38:08.682Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MatchingService.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Service\\MatchingService.cs",
-              "RelativeDocumentMoniker": "CarePair.Service\\MatchingService.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Service\\MatchingService.cs",
-              "RelativeToolTip": "CarePair.Service\\MatchingService.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAYwDsAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T23:29:27.465Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MatchRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Repositories\\MatchRepository.cs",
-              "RelativeDocumentMoniker": "CarePair.Data\\Repositories\\MatchRepository.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Repositories\\MatchRepository.cs",
-              "RelativeToolTip": "CarePair.Data\\Repositories\\MatchRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T00:56:29.001Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ConfirmMatchRequest.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\ConfirmMatchRequest.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\ConfirmMatchRequest.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\ConfirmMatchRequest.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\ConfirmMatchRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T23:43:09.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PendingMatch.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\PendingMatch.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\PendingMatch.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\PendingMatch.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\PendingMatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T00:49:27.18Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\Patient.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\Patient.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAQwBMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T00:17:17.035Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "PatientRepository.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Repositories\\PatientRepository.cs",
-              "RelativeDocumentMoniker": "CarePair.Data\\Repositories\\PatientRepository.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Repositories\\PatientRepository.cs",
-              "RelativeToolTip": "CarePair.Data\\Repositories\\PatientRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T22:04:48.266Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ActiveMatch.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\ActiveMatch.cs",
-              "RelativeDocumentMoniker": "CarePair.Core\\Models\\ActiveMatch.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\Models\\ActiveMatch.cs",
-              "RelativeToolTip": "CarePair.Core\\Models\\ActiveMatch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T22:10:29.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "MatchController.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\MatchController.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Controllers\\MatchController.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\MatchController.cs",
-              "RelativeToolTip": "CarePair.API\\Controllers\\MatchController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAgwFoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T22:25:55.371Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "20250310003333_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Migrations\\20250310003333_InitialCreate.cs",
-              "RelativeDocumentMoniker": "CarePair.Data\\Migrations\\20250310003333_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Migrations\\20250310003333_InitialCreate.cs",
-              "RelativeToolTip": "CarePair.Data\\Migrations\\20250310003333_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T00:33:33.463Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "PatientPostModel.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Models\\PatientPostModel.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Models\\PatientPostModel.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Models\\PatientPostModel.cs",
-              "RelativeToolTip": "CarePair.API\\Models\\PatientPostModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:19:00.69Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20250309235929_Maching.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Migrations\\20250309235929_Maching.cs",
-              "RelativeDocumentMoniker": "CarePair.Data\\Migrations\\20250309235929_Maching.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Data\\Migrations\\20250309235929_Maching.cs",
-              "RelativeToolTip": "CarePair.Data\\Migrations\\20250309235929_Maching.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T23:59:29.919Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "CarePair.Service.csproj",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Service\\CarePair.Service.csproj",
-              "RelativeDocumentMoniker": "CarePair.Service\\CarePair.Service.csproj",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Service\\CarePair.Service.csproj",
-              "RelativeToolTip": "CarePair.Service\\CarePair.Service.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-09T22:29:18.929Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "CarePair.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "CarePair.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T16:08:07.024Z"
+              "WhenOpened": "2025-03-13T16:06:58.71Z"
             }
           ]
         }

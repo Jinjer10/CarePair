@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yJF7e1aMxS4=",
+  "dgSpecHash": "e4ItvS8J018=",
   "success": true,
-  "projectFilePath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+  "projectFilePath": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yarde\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\yarde\\.nuget\\packages\\hungarianalgorithm\\2.3.3\\hungarianalgorithm.2.3.3.nupkg.sha512",
@@ -16,5 +16,12 @@
     "C:\\Users\\yarde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",
     "C:\\Users\\yarde\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

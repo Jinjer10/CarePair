@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj": {}
+    "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj": {}
   },
   "projects": {
-    "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj": {
+    "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+        "projectUniqueName": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
         "projectName": "CarePair.Core",
-        "projectPath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+        "projectPath": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
         "packagesPath": "C:\\Users\\yarde\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\obj\\",
+        "outputPath": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

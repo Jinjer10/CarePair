@@ -677,11 +677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+      "projectUniqueName": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
       "projectName": "CarePair.Core",
-      "projectPath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
+      "projectPath": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\CarePair.Core.csproj",
       "packagesPath": "C:\\Users\\yarde\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\yarde\\Downloads\\CarePair\\C#\\CarePair.Core\\obj\\",
+      "outputPath": "C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -752,5 +752,13 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\yarde\\Downloads\\‏‏תיקיה חדשה\\CarePair\\C#\\CarePair.Core\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

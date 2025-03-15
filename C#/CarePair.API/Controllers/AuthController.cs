@@ -1,12 +1,11 @@
-﻿using CarePair.API.Models;
 using CarePair.Core.Service;
-using CarePair.Service;
+using CarePair.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
- // jwt ===============================================================================
+
 namespace CarePair.API.Controllers
 {
     [Route("api/[controller]")]
@@ -14,39 +13,70 @@ namespace CarePair.API.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IConfiguration _configuration;
-        public readonly IPatientService _patientService;
-        public AuthController(IConfiguration configuration, IPatientService patientService)
+        private readonly IPatientService _patientService;
+        private readonly IVolunteerService _volunteerService;
+
+        public AuthController(IConfiguration configuration, IPatientService patientService, IVolunteerService volunteerService)
         {
-            _configuration = configuration;
-            _patientService = patientService;
+            _configuration = configuration ?? throw new ArgumentNullException(nameof(configuration));
+            _patientService = patientService ?? throw new ArgumentNullException(nameof(patientService));
+            _volunteerService = volunteerService ?? throw new ArgumentNullException(nameof(volunteerService));
         }
 
         [HttpPost]
-        public IActionResult Login([FromBody] PatientPostModel loginModel)
+        public IActionResult Login([FromBody] LoginModel loginModel)
         {
-            var patient = _patientService.GetPatientList().FirstOrDefault(x => x.Email == loginModel.Email && x.Password == loginModel.Password);
-            Console.WriteLine(patient);//===========================
-            if (patient == null)
+            if (loginModel == null || string.IsNullOrEmpty(loginModel.Email) || string.IsNullOrEmpty(loginModel.Password))
             {
-                Console.WriteLine("patient == null");//=================
-                return NotFound("user not found");
+                return BadRequest("Invalid login request");
             }
-            Console.WriteLine("PatientId: " + patient.Id);//===================
-            var claims = new List<Claim>(){
-                new Claim(ClaimTypes.Name, "string"),
-                new Claim("PatientId", patient.Id.ToString())
-            }; 
-            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration.GetValue<string>("JWT:Key")));
+
+            // חיפוש מטופל
+            var patient = _patientService.GetPatientList()
+                .FirstOrDefault(x => x.Email == loginModel.Email && x.Password == loginModel.Password);
+
+            // חיפוש מתנדב
+            var volunteer = _volunteerService.GetVolunteerList()
+                .FirstOrDefault(x => x.Email == loginModel.Email && x.Password == loginModel.Password);
+
+            if (patient == null && volunteer == null)
+            {
+                return NotFound("User not found");
+            }
+
+            // יצירת claims לפי סוג המשתמש
+            var claims = new List<Claim>();
+            string userType;
+            string userId;
+
+            if (patient != null)
+            {
+                userType = "Patient";
+                userId = patient.Id.ToString();
+                claims.Add(new Claim("PatientId", userId));
+            }
+            else
+            {
+                userType = "Volunteer";
+                userId = volunteer.Id.ToString();
+                claims.Add(new Claim("VolunteerId", userId));
+            }
+
+            claims.Add(new Claim(ClaimTypes.Name, userType));
+
+            // יצירת JWT
+            var secretKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_configuration["JWT:Key"]));
             var signinCredentials = new SigningCredentials(secretKey, SecurityAlgorithms.HmacSha256);
-            var tokeOptions = new JwtSecurityToken(
-                            issuer: _configuration.GetValue<string>("JWT:Issuer"),
-                            audience: _configuration.GetValue<string>("JWT:Audience"),
-                            claims: claims,
-                            expires: DateTime.Now.AddMinutes(6),
-            signingCredentials: signinCredentials
-                        );
-            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokeOptions);
-            return Ok(new { Token = tokenString });//token,  להחזיר את המשתמש הממויין
+            var tokenOptions = new JwtSecurityToken(
+                issuer: _configuration["JWT:Issuer"],
+                audience: _configuration["JWT:Audience"],
+                claims: claims,
+                expires: DateTime.Now.AddMinutes(60),
+                signingCredentials: signinCredentials
+            );
+
+            var tokenString = new JwtSecurityTokenHandler().WriteToken(tokenOptions);
+            return Ok(new { Token = tokenString });
         }
     }
 }
