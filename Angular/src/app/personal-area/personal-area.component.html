@@ -1,1 +1,26 @@
-<p>personal-area works!</p>
+<div class="personal-area-container">
+  <ng-container *ngIf="userData; else loading">
+    <h2>שלום {{ userData.fullName }}!</h2>
+    <p>תפקיד: 
+      <span *ngIf="userRole === 'patient'">פציינט</span>
+      <span *ngIf="userRole === 'volunteer'">מתנדב</span>
+      <span *ngIf="userRole === 'unknown'">לא ידוע</span>
+    </p>
+    <p><strong>טלפון:</strong> {{ userData.phone }}</p>
+    <p><strong>עיר:</strong> {{ userData.city }}</p>
+    <p><strong>אזור:</strong> {{ userData.area }}</p>
+    <p><strong>מחלקה:</strong> {{ userData.ward }}</p>
+    <p><strong>בית חולים:</strong> {{ userData.hospitall }}</p>
+    <p><strong>גיל:</strong> {{ userData.age }}</p>
+    <p><strong>קבוצת גיל:</strong> {{ userData.ageGroup }}</p>
+    <p><strong>רמת דתיות:</strong> {{ userData.religiosity }}</p>
+    <p><strong>שפות:</strong> {{ userData.language.join(', ') }}</p>
+    <p><strong>תחומי עניין:</strong> {{ userData.interests.join(', ') }}</p>
+    <p><strong>העדפות גיל:</strong> {{ userData.agePreference.join(', ') }}</p>
+    <p><strong>העדפות שפה:</strong> {{ userData.languagePreference?.join(', ') }}</p>
+  </ng-container>
+
+  <ng-template #loading>
+    <p>טוען נתונים...</p>
+  </ng-template>
+</div>

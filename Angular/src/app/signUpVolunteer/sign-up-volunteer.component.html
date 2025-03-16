@@ -1,4 +1,4 @@
-<div class="signUpVolunteer-container">
+<!-- <div class="signUpVolunteer-container">
   <h2>הרשמה</h2>
 
   <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
@@ -19,6 +19,118 @@
 
     <label>פרטים נוספים:</label>
     <textarea formControlName="extraDetails"></textarea>
+
+    <!-- אזור 
+    <label>אזור:</label>
+    <select formControlName="area" required>
+      <option value="">בחר אזור</option>
+      <option *ngFor="let area of areas" [value]="area.key">{{ area.value }}</option>
+    </select>
+
+    <!-- עיר 
+    <label>עיר:</label>
+    <select formControlName="city" required>
+      <option value="">בחר עיר</option>
+      <option *ngFor="let city of cities" [value]="city.key">{{ city.value }}</option>
+    </select>
+
+    <!-- מגדר 
+    <label>מגדר:</label>
+    <select formControlName="gender" required>
+      <option value="">בחר מגדר</option>
+      <option *ngFor="let g of genders" [value]="g.key">{{ g.value }}</option>
+    </select>
+
+    <!-- זמני זמינות 
+    <label>זמני זמינות:</label>
+    <div formArrayName="availableTimes">
+      <div *ngFor="let time of availableTimes.controls; let i=index" [formGroupName]="i">
+        <label>יום:</label>
+        <select formControlName="day" required>
+          <option value="">בחר יום</option>
+          <option value="1">ראשון</option>
+          <option value="2">שני</option>
+          <option value="3">שלישי</option>
+          <option value="4">רביעי</option>
+          <option value="5">חמישי</option>
+          <option value="6">שישי</option>
+          <option value="7">שבת</option>
+        </select>
+
+        <label>שעת התחלה:</label>
+        <input type="time" formControlName="startTime" required />
+
+        <label>שעת סיום:</label>
+        <input type="time" formControlName="endTime" required />
+
+        <button type="button" (click)="removeAvailableTime(i)">הסר</button>
+      </div>
+    </div>
+    <button type="button" (click)="addAvailableTime()">הוסף זמן זמינות</button>
+
+     שפות 
+    <label>שפות:</label>
+    <select formControlName="language" multiple required>
+      <option *ngFor="let lang of languages" [value]="lang.key">{{ lang.value }}</option>
+    </select>
+
+     תחומי עניין 
+    <label>תחומי עניין:</label>
+    <select formControlName="interests" multiple required>
+      <option *ngFor="let interest of interests" [value]="interest.key">{{ interest.value }}</option>
+    </select>
+
+     העדפות גיל 
+    <label>העדפות גיל:</label>
+    <select formControlName="agePreference" required>
+      <option value="">בחר העדפת גיל</option>
+      <option *ngFor="let age of ageGroups" [value]="age.key">{{ age.value }}</option>
+    </select>
+
+     העדפת שפות 
+    <label>העדפת שפות:</label>
+    <select formControlName="languagePreference" multiple required>
+      <option *ngFor="let lang of languages" [value]="lang.key">{{ lang.value }}</option>
+    </select>
+
+     העדפת מגדר 
+    <label>העדפת מגדר:</label>
+    <select formControlName="genderPreference" multiple required>
+      <option *ngFor="let g of genders" [value]="g.key">{{ g.value }}</option>
+    </select>
+
+     העדפות דת 
+    <label>העדפות דת:</label>
+    <select formControlName="religiosityPreference" required>
+      <option value="">בחר העדפת דת</option>
+      <option *ngFor="let religiosity of religiosities" [value]="religiosity.key">{{ religiosity.value }}</option>
+    </select>
+
+    <button type="submit" [disabled]="signUpForm.invalid">הרשם</button>
+  </form>
+ </div>  -->
+
+ <div class="signUpVolunteer-container">
+  <h2>הרשמה</h2>
+
+  <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+    <label>שם מלא:</label>
+    <input type="text" formControlName="fullName" required />
+
+    <label>סיסמה:</label>
+    <input type="password" formControlName="password" required />
+
+    <label>אימייל:</label>
+    <input type="email" formControlName="email" required />
+
+    <label>טלפון:</label>
+    <input type="text" formControlName="phone" required />
+
+    <label>תאריך לידה:</label>
+    <input type="date" formControlName="birthDate" required />
+
+    <label>פרטים נוספים:</label>
+    <textarea formControlName="extraDetailse"></textarea>
 
     <!-- אזור -->
     <label>אזור:</label>
@@ -68,9 +180,22 @@
     </div>
     <button type="button" (click)="addAvailableTime()">הוסף זמן זמינות</button>
 
-    <!-- שפות -->
-    <label>שפות:</label>
+    <!-- רמת דתיות -->
+    <label>רמת דתיות:</label>
+    <select formControlName="religiosity" required>
+      <option value="">בחר רמת דתיות</option>
+      <option *ngFor="let religiosity of religiosities" [value]="religiosity.key">{{ religiosity.value }}</option>
+    </select>
+
+    <!-- שפות מדוברות -->
+    <label>שפות מדוברות:</label>
     <select formControlName="language" multiple required>
+      <option *ngFor="let lang of languages" [value]="lang.key">{{ lang.value }}</option>
+    </select>
+
+    <!-- העדפת שפות -->
+    <label>העדפת שפות:</label>
+    <select formControlName="languagePreference" multiple required>
       <option *ngFor="let lang of languages" [value]="lang.key">{{ lang.value }}</option>
     </select>
 
@@ -80,30 +205,28 @@
       <option *ngFor="let interest of interests" [value]="interest.key">{{ interest.value }}</option>
     </select>
 
-    <!-- העדפות גיל -->
-    <label>העדפות גיל:</label>
-    <select formControlName="agePreference" required>
-      <option value="">בחר העדפת גיל</option>
-      <option *ngFor="let age of ageGroups" [value]="age.key">{{ age.value }}</option>
-    </select>
-
-    <!-- העדפת שפות -->
-    <label>העדפת שפות:</label>
-    <select formControlName="languagePreference" multiple required>
-      <option *ngFor="let lang of languages" [value]="lang.key">{{ lang.value }}</option>
-    </select>
-
     <!-- העדפת מגדר -->
     <label>העדפת מגדר:</label>
     <select formControlName="genderPreference" multiple required>
       <option *ngFor="let g of genders" [value]="g.key">{{ g.value }}</option>
     </select>
 
-    <!-- העדפות דת -->
-    <label>העדפות דת:</label>
-    <select formControlName="religiosityPreference" required>
-      <option value="">בחר העדפת דת</option>
+    <!-- העדפת גיל -->
+    <label>העדפת גיל:</label>
+    <select formControlName="agePreference" multiple required>
+      <option *ngFor="let age of ageGroups" [value]="age.key">{{ age.value }}</option>
+    </select>
+
+    <!-- העדפת רמת דתיות -->
+    <label>העדפת רמת דתיות:</label>
+    <select formControlName="religiosityPreference" multiple required>
       <option *ngFor="let religiosity of religiosities" [value]="religiosity.key">{{ religiosity.value }}</option>
+    </select>
+
+    <!-- העדפת מחלקות -->
+    <label>העדפת מחלקות:</label>
+    <select formControlName="wardPreference" multiple required>
+      <option *ngFor="let ward of wards" [value]="ward.key">{{ ward.value }}</option>
     </select>
 
     <button type="submit" [disabled]="signUpForm.invalid">הרשם</button>

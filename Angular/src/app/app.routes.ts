@@ -1,100 +1,146 @@
-// // // import { Routes } from '@angular/router';
-// // import { NgModule } from '@angular/core'; // ייבוא NgModule
+// <<<<<<< HEAD
+// // // // import { Routes } from '@angular/router';
+// // // import { NgModule } from '@angular/core'; // ייבוא NgModule
+// // // import { RouterModule, Routes } from '@angular/router';
+// // // import { HomePageComponent } from './homePage/homePage.component';
+// // // import { SignUpComponent } from './signUp/signUp.component';
+// // // import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
+// // // import { AboutComponent } from './about/about.component';
+// // // import { ReactiveFormsModule } from '@angular/forms';
+// // // import { BrowserModule } from '@angular/platform-browser';
+// // // import { HttpClientModule } from '@angular/common/http'; // הוספת הייבוא של HttpClientModule
+// // // import { AppComponent } from './app.component';
+// // // import { EnumDataService } from '../services/enum-data.service'; // שירות שלך
+// // // export const routes: Routes = [
+// // //     { path: '', component: HomePageComponent }, // דף הבית (נתיב ברירת מחדל)
+// // //     { path: 'signUp', component:  SignUpComponent }, // דף ניווט לסוגי רישום
+// // //     { path: 'signUpVolunteer', component:  SignUpVolunteerComponent }, // דף ההרשמה
+// // //     { path: 'about', component:  AboutComponent }, // דף אודות
+// // // ];
+
+
+// // // // @NgModule({
+// // // //     declarations: [SignUpVolunteerComponent],
+// // // //     imports: [RouterModule.forRoot(routes),ReactiveFormsModule], // מייבא את ה-RouterModule עם הנתיבים
+// // // //     exports: [RouterModule] // מייצא אותו כך שיהיה זמין באפליקציה
+// // // //   })
+// // // //   export class AppRoutingModule {}
+// // // @NgModule({
+// // //     imports: [
+// // //       RouterModule.forRoot(routes),
+// // //       ReactiveFormsModule,
+// // //       SignUpVolunteerComponent // ✅ מייבאים קומפוננטות standalone
+// // //     ],
+// // //     exports: [RouterModule]
+// // //   })
+// // //   export class AppRoutingModule {}
+// // import { NgModule } from '@angular/core';
 // // import { RouterModule, Routes } from '@angular/router';
 // // import { HomePageComponent } from './homePage/homePage.component';
 // // import { SignUpComponent } from './signUp/signUp.component';
 // // import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
+// // <<<<<<< HEAD
 // // import { AboutComponent } from './about/about.component';
-// // import { ReactiveFormsModule } from '@angular/forms';
-// // import { BrowserModule } from '@angular/platform-browser';
-// // import { HttpClientModule } from '@angular/common/http'; // הוספת הייבוא של HttpClientModule
-// // import { AppComponent } from './app.component';
-// // import { EnumDataService } from '../services/enum-data.service'; // שירות שלך
+// // =======
+// // import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component';
+// // import { SignInComponent } from './sign-in/sign-in.component';
+// // import { AboutComponent } from './about/about.component';
+// // import { PersonalAreaComponent } from './personal-area/personal-area.component';
+// // >>>>>>> 4f3edf67e0f7b1ba5e67fb7143cc6ac4affe3a24
+
 // // export const routes: Routes = [
-// //     { path: '', component: HomePageComponent }, // דף הבית (נתיב ברירת מחדל)
-// //     { path: 'signUp', component:  SignUpComponent }, // דף ניווט לסוגי רישום
-// //     { path: 'signUpVolunteer', component:  SignUpVolunteerComponent }, // דף ההרשמה
-// //     { path: 'about', component:  AboutComponent }, // דף אודות
+// //   { path: '', component: HomePageComponent }, // דף הבית
+// //   { path: 'signUp', component: SignUpComponent }, // דף ניווט לסוגי רישום
+// //   { path: 'signUpVolunteer', component: SignUpVolunteerComponent }, // דף ההרשמה
+// // <<<<<<< HEAD
+// //   { path: 'about', component: AboutComponent }, // דף אודות
+// // =======
+// //   { path: 'signUpPatient', component: SignUpPatientComponent }, // דף ההרשמה
+// //   { path: 'signIn', component: SignInComponent }, // דף כניסה
+// //   { path: 'about', component: AboutComponent }, // דף אודות
+// //   { path: 'personalArea', component: PersonalAreaComponent }, // דף אודות
+// // >>>>>>> 4f3edf67e0f7b1ba5e67fb7143cc6ac4affe3a24
 // // ];
 
-
-// // // @NgModule({
-// // //     declarations: [SignUpVolunteerComponent],
-// // //     imports: [RouterModule.forRoot(routes),ReactiveFormsModule], // מייבא את ה-RouterModule עם הנתיבים
-// // //     exports: [RouterModule] // מייצא אותו כך שיהיה זמין באפליקציה
-// // //   })
-// // //   export class AppRoutingModule {}
 // // @NgModule({
-// //     imports: [
-// //       RouterModule.forRoot(routes),
-// //       ReactiveFormsModule,
-// //       SignUpVolunteerComponent // ✅ מייבאים קומפוננטות standalone
-// //     ],
-// //     exports: [RouterModule]
-// //   })
-// //   export class AppRoutingModule {}
+// //   imports: [RouterModule.forRoot(routes)], // מייבא את ה-RouterModule עם הנתיבים
+// //   exports: [RouterModule] // מייצא אותו כך שיהיה זמין באפליקציה
+// // })
+// // export class AppRoutingModule {}
+// =======
+
+// >>>>>>> 3fbfcc1bbca69da5e2886a770fa055ec0c2752bb
 // import { NgModule } from '@angular/core';
 // import { RouterModule, Routes } from '@angular/router';
 // import { HomePageComponent } from './homePage/homePage.component';
 // import { SignUpComponent } from './signUp/signUp.component';
 // import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
+// import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component'; // מהגרסה החדשה
+// import { SignInComponent } from './sign-in/sign-in.component'; // מהגרסה החדשה
+// import { AboutComponent } from './about/about.component';
 // <<<<<<< HEAD
-// import { AboutComponent } from './about/about.component';
-// =======
-// import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component';
-// import { SignInComponent } from './sign-in/sign-in.component';
-// import { AboutComponent } from './about/about.component';
-// import { PersonalAreaComponent } from './personal-area/personal-area.component';
-// >>>>>>> 4f3edf67e0f7b1ba5e67fb7143cc6ac4affe3a24
+// import { PersonalAreaComponent } from './personal-area/personal-area.component'; // מהגרסה החדשה
+// import { ReactiveFormsModule } from '@angular/forms'; // מהגרסה הישנה
+// import { HttpClientModule } from '@angular/common/http'; // מהגרסה הישנה
+// import { EnumDataService } from '../services/enum-data.service'; // מהגרסה הישנה
 
+// =======
+// import { PersonalAreaComponent } from './personal-area/personal-area.component';
+// import { ReactiveFormsModule } from '@angular/forms';
+// >>>>>>> 3fbfcc1bbca69da5e2886a770fa055ec0c2752bb
 // export const routes: Routes = [
 //   { path: '', component: HomePageComponent }, // דף הבית
 //   { path: 'signUp', component: SignUpComponent }, // דף ניווט לסוגי רישום
 //   { path: 'signUpVolunteer', component: SignUpVolunteerComponent }, // דף ההרשמה
-// <<<<<<< HEAD
+//   { path: 'signUpPatient', component: SignUpPatientComponent }, // דף ההרשמה - מהגרסה החדשה
+//   { path: 'signIn', component: SignInComponent }, // דף כניסה - מהגרסה החדשה
 //   { path: 'about', component: AboutComponent }, // דף אודות
-// =======
-//   { path: 'signUpPatient', component: SignUpPatientComponent }, // דף ההרשמה
-//   { path: 'signIn', component: SignInComponent }, // דף כניסה
-//   { path: 'about', component: AboutComponent }, // דף אודות
-//   { path: 'personalArea', component: PersonalAreaComponent }, // דף אודות
-// >>>>>>> 4f3edf67e0f7b1ba5e67fb7143cc6ac4affe3a24
+//   { path: 'personalArea', component: PersonalAreaComponent }, // דף אזור אישי - מהגרסה החדשה
 // ];
 
 // @NgModule({
-//   imports: [RouterModule.forRoot(routes)], // מייבא את ה-RouterModule עם הנתיבים
+// <<<<<<< HEAD
+//   imports: [
+//     RouterModule.forRoot(routes),
+//     ReactiveFormsModule, // מהגרסה הישנה
+//     HttpClientModule // מהגרסה הישנה
+//   ],
+// =======
+//   imports: [RouterModule.forRoot(routes),ReactiveFormsModule], // מייבא את ה-RouterModule עם הנתיבים
+// >>>>>>> 3fbfcc1bbca69da5e2886a770fa055ec0c2752bb
 //   exports: [RouterModule] // מייצא אותו כך שיהיה זמין באפליקציה
 // })
 // export class AppRoutingModule {}
+
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 import { HomePageComponent } from './homePage/homePage.component';
 import { SignUpComponent } from './signUp/signUp.component';
 import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
-import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component'; // מהגרסה החדשה
-import { SignInComponent } from './sign-in/sign-in.component'; // מהגרסה החדשה
+import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component';
+import { SignInComponent } from './sign-in/sign-in.component';
 import { AboutComponent } from './about/about.component';
-import { PersonalAreaComponent } from './personal-area/personal-area.component'; // מהגרסה החדשה
-import { ReactiveFormsModule } from '@angular/forms'; // מהגרסה הישנה
-import { HttpClientModule } from '@angular/common/http'; // מהגרסה הישנה
-import { EnumDataService } from '../services/enum-data.service'; // מהגרסה הישנה
+import { PersonalAreaComponent } from './personal-area/personal-area.component';
+// import { EnumDataService } from '../services/enum-data.service'; // לא נדרש כאן כרגע
 
 export const routes: Routes = [
   { path: '', component: HomePageComponent }, // דף הבית
   { path: 'signUp', component: SignUpComponent }, // דף ניווט לסוגי רישום
-  { path: 'signUpVolunteer', component: SignUpVolunteerComponent }, // דף ההרשמה
-  { path: 'signUpPatient', component: SignUpPatientComponent }, // דף ההרשמה - מהגרסה החדשה
-  { path: 'signIn', component: SignInComponent }, // דף כניסה - מהגרסה החדשה
+  { path: 'signUpVolunteer', component: SignUpVolunteerComponent }, // דף הרשמה למתנדבים
+  { path: 'signUpPatient', component: SignUpPatientComponent }, // דף הרשמה לחולים
+  { path: 'signIn', component: SignInComponent }, // דף כניסה
   { path: 'about', component: AboutComponent }, // דף אודות
-  { path: 'personalArea', component: PersonalAreaComponent }, // דף אזור אישי - מהגרסה החדשה
+  { path: 'personalArea', component: PersonalAreaComponent } // דף אזור אישי
 ];
 
 @NgModule({
   imports: [
     RouterModule.forRoot(routes),
-    ReactiveFormsModule, // מהגרסה הישנה
-    HttpClientModule // מהגרסה הישנה
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  exports: [RouterModule] // מייצא אותו כך שיהיה זמין באפליקציה
+  exports: [RouterModule]
 })
 export class AppRoutingModule {}

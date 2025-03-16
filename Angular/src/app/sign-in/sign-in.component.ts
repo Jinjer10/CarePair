@@ -3,10 +3,12 @@ import { SignInService} from '../../services/sign-in.service'; // היבוא ש�
 import {FormsModule} from '@angular/forms'
 
 @Component({
+
+  standalone: true,
   selector: 'app-sign-in',
-  imports: [FormsModule], // Add FormsModule to imports
-  templateUrl: './sign-in.component.html',
-  styleUrls: ['./sign-in.component.css']
+  imports: [FormsModule],
+  templateUrl:'./sign-in.component.html',
+  styleUrls:['./sign-in.component.css']
 })
 export class SignInComponent {
 
