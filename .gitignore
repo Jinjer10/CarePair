@@ -1,0 +1,18 @@
+# קבצים של Visual Studio
+*.suo
+*.user
+*.sln.docstates
+.vs/
+
+# תוצרי בנייה
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+
+# NuGet
+project.assets.json
+project.nuget.cache
+*.csproj.nuget.dgspec.json
