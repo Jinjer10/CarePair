@@ -1,0 +1,524 @@
+
+
+// @font-face {
+//   font-family: "form";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "bold";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+// }
+
+// html {
+//   height: 100%;
+// }
+
+// .signUpVolunteer-body {
+//   background-color: #8de4ff;
+//   font-family: "bold", sans-serif;
+//   min-height: 100vh;
+//   margin: 0;
+//   padding: 20px 0;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .signUpVolunteer-container {
+//   background-color: #e6e6e654;
+//   width: 100%;
+//   max-width: 600px;
+//   margin: 0 auto;
+//   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//   padding: 20px;
+//   border-radius: 5px;
+// }
+
+// .signUpVolunteer-head {
+//   color: #fff;
+//   text-align: center;
+//   font-size: 4vw;
+//   margin-bottom: 20px;
+// }
+
+// form {
+//   width: 100%;
+// }
+
+// .input-group-out-vol {
+//   margin-bottom: 20px;
+
+//   label {
+//     display: block;
+//     color: #fff;
+//     cursor: pointer;
+//     font-size: 2.5vw;
+//     margin-bottom: 8px;
+//   }
+
+//   input:not([type="checkbox"]),
+//   textarea,
+//   select {
+//     width: 90%;
+//     padding: 10px;
+//     background-color: transparent;
+//     border: 2px solid #ffffff5d;
+//     border-radius: 5px;
+//     color: #196876;
+//     font-size: 2vw;
+//     font-family: "form";
+//     transition: all 0.3s ease;
+
+//     &:focus {
+//       outline: none;
+//       border-color: #328994;
+//       background-color: rgba(255, 255, 255, 0.1);
+//     }
+
+//     &.ng-invalid.ng-dirty,
+//     &.ng-invalid.ng-touched {
+//       border-color: #ff6b6b;
+//     }
+//   }
+
+//   textarea {
+//     resize: vertical;
+//     height: 100px;
+//   }
+
+//   select {
+//     appearance: none;
+//     padding-right: 30px;
+//     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+//     background-repeat: no-repeat;
+//     background-position: right 10px center;
+//   }
+
+//   .time-group {
+//     display: flex;
+//     gap: 10px;
+//     margin-bottom: 10px;
+
+//     select,
+//     input {
+//       flex: 1;
+//     }
+  
+//   }
+
+//   .checkbox-group {
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 15px;
+
+//     &.ng-invalid.ng-dirty,
+//     &.ng-invalid.ng-touched {
+//       border: 1px dashed #ff6b6b;
+//       padding: 5px;
+//     }
+//   }
+
+//   .error-message {
+//     color: #ff6b6b;
+//     font-size: 1.6vw;
+//     margin-top: 5px;
+//   }
+// }
+
+// button {
+//   font-family: "bold", sans-serif;
+//   font-size: 1.9vw;
+//   padding: 8px 15px;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   transition: all 0.3s ease;
+// }
+
+// .add-btn,
+// button[type="submit"] {
+//   display: block;
+//   width: 100%;
+//   background-color: transparent;
+//   border: 2px solid #fff;
+//   color: #fff;
+
+//   &:hover {
+//     background-color: #fff;
+//     color: #a0ddef;
+//   }
+// }
+
+// .add-btn {
+//   margin-top: 10px;
+// }
+
+// .remove-btn {
+//   padding: 5px 10px;
+//   background-color: transparent;
+//   border: 2px solid #ff6b6b;
+//   color: #ff6b6b;
+
+//   &:hover {
+//     background-color: #ff6b6b;
+//     color: #fff;
+//   }
+// }
+
+// button[type="submit"] {
+//   padding: 12px 20px;
+//   font-size: 1.9vw;
+
+
+//   &:disabled {
+//     opacity: 0.5;
+//     cursor: not-allowed;
+
+//     &:hover {
+//       background-color: transparent;
+//       color: #fff;
+//     }
+//   }
+// }
+
+// /* סגנון ה-checkbox המותאם אישית */
+// input[type="checkbox"] {
+//   display: none;
+// }
+
+// .checkbox-label {
+//   display: inline-flex;
+//   align-items: center;
+//   color: #fff;
+//   cursor: pointer;
+
+//   span {
+//     display: inline-block;
+//     width: 25px;
+//     height: 25px;
+//     background-color: transparent;
+//     border: 2px solid #fff;
+//     border-radius: 50%;
+//     margin-right: 10px;
+//     transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+
+//     &:before,
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       background: #fff;
+//       border-radius: 2px;
+//       transition: width 50ms ease;
+//       transform-origin: 0% 0%;
+//     }
+
+//     &:before {
+//       width: 0;
+//       height: 2px;
+//       transform: rotate(45deg);
+//       top: 13px;
+//       left: 9px;
+//     }
+
+//     &:after {
+//       width: 0;
+//       height: 2px;
+//       transform: rotate(305deg);
+//       top: 16px;
+//       left: 10px;
+//     }
+//   }
+
+//   &:hover span {
+//     &:before {
+//       width: 5px;
+//       transition: width 100ms ease;
+//     }
+
+//     &:after {
+//       width: 10px;
+//       transition: width 150ms ease 100ms;
+//     }
+//   }
+// }
+
+// input[type="checkbox"]:checked + .checkbox-label {
+//   span {
+//     background-color: #fff;
+//     transform: scale(1.25);
+
+//     &:before {
+//       width: 5px;
+//       background: #a0ddef;
+//       transition: width 150ms ease 100ms;
+//     }
+
+//     &:after {
+//       width: 10px;
+//       background: #a0ddef;
+//       transition: width 150ms ease 100ms;
+//     }
+//   }
+// }
+
+@font-face {
+  font-family: "form";
+  src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+}
+
+html {
+  height: 100%;
+}
+
+.signUpVolunteer-body {
+  background-color: #61dafe;
+  font-family: "bold", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signUpVolunteer-container {
+  background-color: #e6e6e654;
+  width: 100%;
+  max-width: 400px; // שינוי מ-600px ל-400px כמו ב-signIn
+  margin: 0 auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 40px; // שינוי מ-20px ל-40px כמו ב-signIn
+  border-radius: 5px;
+  text-align: center; // הוספה לבהירות, כמו ב-signIn
+}
+
+.signUpVolunteer-head {
+  color: #fff;
+  text-align: center;
+  font-size: 32px; // שינוי מ-4vw ל-32px כמו ב-signIn
+  margin-bottom: 30px; // שינוי מ-20px ל-30px כמו ב-signIn
+}
+
+form {
+  width: 100%;
+}
+
+.input-group-out-vol {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px; // שינוי מ-2.5vw ל-18px כמו ב-signIn
+    margin-bottom: 8px;
+    text-align: right; // הוספה כמו ב-signIn
+  }
+
+  input:not([type="checkbox"]),
+  textarea,
+  select {
+    width: 100%; // שינוי מ-90% ל-100% כמו ב-signIn
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid #ffffff5d;
+    border-radius: 5px;
+    color: #196876;
+    font-size: 16px; // שינוי מ-2vw ל-16px כמו ב-signIn
+    font-family: "form";
+    transition: all 0.3s ease;
+    margin-bottom: 20px; // הוספה כמו ב-signIn
+
+    &:focus {
+      outline: none;
+      border-color: #328994;
+      background-color: rgba(255, 255, 255, 0.311);
+    }
+
+    &.ng-invalid.ng-dirty,
+    &.ng-invalid.ng-touched {
+      border-color: #ff6b6b;
+    }
+  }
+
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+
+  select {
+    appearance: none;
+    padding-right: 30px;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' fill='%23fff' viewBox='0 0 16 16'%3E%3Cpath d='M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+
+  .time-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+
+    select,
+    input {
+      flex: 1;
+    }
+  }
+
+  .checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+    &.ng-invalid.ng-dirty,
+    &.ng-invalid.ng-touched {
+      border: 1px dashed #ff6b6b;
+      padding: 5px;
+    }
+  }
+
+  .error-message {
+    color: #ff6b6b;
+    font-size: 14px; // שינוי מ-1.6vw ל-14px כמו ב-signIn
+    margin-top: 1px; // שינוי מ-5px ל-2px כמו ב-signIn
+  }
+}
+
+button {
+  font-family: "bold", sans-serif;
+  font-size: 18px; // שינוי מ-1.9vw ל-18px כמו ב-signIn
+  padding: 12px 20px; // שינוי מ-8px 15px ל-12px 20px כמו ב-signIn
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.add-btn,
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #a0ddef;
+  }
+}
+
+.add-btn {
+  margin-top: 10px;
+}
+
+.remove-btn {
+  padding: 5px 10px;
+  background-color: transparent;
+  border: 2px solid #ff6b6b;
+  color: #ff6b6b;
+
+  &:hover {
+    background-color: #ff6b6b;
+    color: #fff;
+  }
+}
+
+button[type="submit"] {
+  padding: 12px 20px;
+  font-size: 18px; // שינוי מ-1.9vw ל-18px
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+
+    &:hover {
+      background-color: transparent;
+      color: #fff;
+    }
+  }
+}
+
+/* סגנון ה-checkbox המותאם אישית */
+input[type="checkbox"] {
+  display: none;
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+
+  span {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: background-color 150ms 200ms, transform 350ms cubic-bezier(0.78, -1.22, 0.17, 1.89);
+
+    &:before,
+    &:after {
+      content: "";
+      position: absolute;
+      background: #fff;
+      border-radius: 2px;
+      transition: width 50ms ease;
+      transform-origin: 0% 0%;
+    }
+
+    &:before {
+      width: 0;
+      height: 2px;
+      transform: rotate(45deg);
+      top: 13px;
+      left: 9px;
+    }
+
+    &:after {
+      width: 0;
+      height: 2px;
+      transform: rotate(305deg);
+      top: 16px;
+      left: 10px;
+    }
+  }
+
+  &:hover span {
+    &:before {
+      width: 5px;
+      transition: width 100ms ease;
+    }
+
+    &:after {
+      width: 10px;
+      transition: width 150ms ease 100ms;
+    }
+  }
+}
+
+input[type="checkbox"]:checked + .checkbox-label {
+  span {
+    background-color: #fff;
+    transform: scale(1.25);
+
+    &:before {
+      width: 5px;
+      background: #a0ddef;
+      transition: width 150ms ease 100ms;
+    }
+
+    &:after {
+      width: 10px;
+      background: #a0ddef;
+      transition: width 150ms ease 100ms;
+    }
+  }
+}

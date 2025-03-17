@@ -1,19 +1,14 @@
-<p>sign-in works!</p>
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="he">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
-<<<<<<< HEAD
-    <link rel="stylesheet" href="sign-in.component.css">
-=======
->>>>>>> 3fbfcc1bbca69da5e2886a770fa055ec0c2752bb
-</head>
-<body>
-    <div class="login-container">
+  </head>
+<body class="signIn-body">
+    <div class="signIn-container">
         <form class="login-form" (ngSubmit)="onSubmit()">
-            <h2>התחברות</h2>
+            <h2 class="signIn-head">התחברות</h2>
             
             <label for="email">כתובת אימייל</label>
             <input type="email" id="email" name="email" [(ngModel)]="email" placeholder="הכנס כתובת אימייל" required>
@@ -25,4 +20,161 @@
         </form>
     </div>
 </body>
-</html>
+</html>  -->
+<!-- <!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+</head>
+<body> 
+    <div  class="signIn-body">
+    <div class="signIn-container">
+        <form class="login-form" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+            <h2 class="signIn-head">התחברות</h2>
+            
+            <div class="input-group">
+                <label for="email">כתובת אימייל</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    [(ngModel)]="email" 
+                    #emailControl="ngModel"
+                    placeholder="הכנס כתובת אימייל" 
+                    required 
+                    email>
+                <div class="error-message" *ngIf="emailControl.invalid && (emailControl.dirty || emailControl.touched)">
+                    <span *ngIf="emailControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="emailControl.errors?.['email']">כתובת אימייל לא תקינה</span>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <label for="password">סיסמה</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    [(ngModel)]="password" 
+                    #passwordControl="ngModel"
+                    placeholder="הכנס סיסמה" 
+                    required 
+                    minlength="6">
+                <div class="error-message" *ngIf="passwordControl.invalid && (passwordControl.dirty || passwordControl.touched)">
+                    <span *ngIf="passwordControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="passwordControl.errors?.['minlength']">הסיסמה חייבת להכיל לפחות 8 תווים, אות גדולה, אות קטנה, מספר ותו מיוחד (!#$%^&*)
+                    </span>
+                </div>
+            </div>
+
+            <div class="error-message server-error" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+            <button type="submit" [disabled]="loginForm.invalid">התחבר</button>
+        </form>
+    </div></div>
+</body>
+</html>-->
+<!-- <!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title> -->
+<!-- </head> 
+<body class="signIn-body">
+    <div class="signIn-container">
+        <form class="login-form" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+            <h2 class="signIn-head">התחברות</h2>
+            
+            <div class="input-group-in">
+                <label for="email">כתובת אימייל</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    [(ngModel)]="email" 
+                    #emailControl="ngModel"
+                    placeholder="הכנס כתובת אימייל" 
+                    required 
+                    email>
+                <div class="error-message" *ngIf="emailControl.invalid && (emailControl.dirty || emailControl.touched)">
+                    <span *ngIf="emailControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="emailControl.errors?.['email']">כתובת אימייל לא תקינה</span>
+                </div>
+            </div>
+
+            <div class="input-group-in">
+                <label for="password">סיסמה</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    [(ngModel)]="password" 
+                    #passwordControl="ngModel"
+                    placeholder="הכנס סיסמה" 
+                    required 
+                    passwordStrength>
+                <div class="error-message" *ngIf="passwordControl.invalid && (passwordControl.dirty || passwordControl.touched)">
+                    <span *ngIf="passwordControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="passwordControl.errors?.['passwordStrength']">
+                        הסיסמה חייבת לכלול לפחות 8 תווים, אות גדולה, אות קטנה, מספר ותו מיוחד (!#$%^&*)
+                    </span>
+                </div>
+            </div>
+
+            <div class="error-message server-error" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+            <button type="submit" [disabled]="loginForm.invalid">התחבר</button>
+        </form>
+    </div>-->
+<!-- </body>
+</html> -->
+
+<body class="signIn-body">
+    <div class="signIn-container">
+        <form class="login-form" #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+            <h2 class="signIn-head">התחברות</h2>
+            
+            <div class="input-group-in">
+                <label for="email">:כתובת אימייל</label>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    [(ngModel)]="email" 
+                    #emailControl="ngModel"
+                    placeholder="הכנס כתובת אימייל" 
+                    required 
+                    email>
+                <div class="error-message" *ngIf="emailControl.invalid && (emailControl.dirty || emailControl.touched)">
+                    <span *ngIf="emailControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="emailControl.errors?.['email']">כתובת אימייל לא תקינה</span>
+                </div>
+            </div>
+
+            <div class="input-group-in">
+                <label for="password">:סיסמה</label>
+                <input 
+                    type="password" 
+                    id="password" 
+                    name="password" 
+                    [(ngModel)]="password" 
+                    #passwordControl="ngModel"
+                    placeholder="הכנס סיסמה" 
+                    required 
+                    passwordStrength>
+                <div class="error-message" *ngIf="passwordControl.invalid && (passwordControl.dirty || passwordControl.touched)">
+                    <span *ngIf="passwordControl.errors?.['required']">שדה זה נדרש</span>
+                    <span *ngIf="passwordControl.errors?.['passwordStrength']">
+                        הסיסמה חייבת לכלול לפחות 8 תווים, אות גדולה, אות קטנה, מספר ותו מיוחד (!#$%^&*)
+                    </span>
+                </div>
+            </div>
+
+            <div class="error-message server-error" *ngIf="errorMessage">{{ errorMessage }}</div>
+
+            <button type="submit" [disabled]="loginForm.invalid">התחבר</button>
+        </form>
+    </div>

@@ -101,7 +101,7 @@ export interface Time {
 
 // ממשק עבור Volunteer (מותאם למחלקה ולטופס)
 export interface Volunteer {
-  id: number;
+  // id: number;
   fullName: string;
   phone: string;
   birthDate: string; // תאריך בפורמט ISO (למשל "1990-01-01")
