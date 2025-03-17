@@ -1,4 +1,4 @@
-
+<!-- 
   <div class="signUpVolunteer-body">
     <div class="signUpVolunteer-container">
       <div class="signUpVolunteer-head">
@@ -128,8 +128,11 @@
             <div *ngIf="signUpForm.get('religiosity')?.errors?.['required']">רמת דתיות נדרשת</div>
           </div>
         </div>
-  
-        <!-- שפות מדוברות -->
+
+        <!-- שפות מדוברות --
+
+        
+
         <div class="input-group-out-vol">
           <label>:שפות מדוברות</label>
           <div class="checkbox-group">
@@ -151,7 +154,10 @@
           </div>
         </div>
   
-        <!-- העדפת שפות -->
+        <!-- העדפת שפות 
+
+        
+
         <div class="input-group-out-vol">
           <label>:העדפת שפות</label>
           <div class="checkbox-group">
@@ -173,7 +179,10 @@
           </div>
         </div>
   
-        <!-- תחומי עניין -->
+        <!-- תחומי עניין 
+
+        
+
         <div class="input-group-out-vol">
           <label>:תחומי עניין</label>
           <div class="checkbox-group">
@@ -195,7 +204,10 @@
           </div>
         </div>
   
-        <!-- העדפת מגדר -->
+        <!-- העדפת מגדר 
+
+        
+
         <div class="input-group-out-vol">
           <label>:העדפת מגדר</label>
           <div class="checkbox-group">
@@ -217,7 +229,10 @@
           </div>
         </div>
   
-        <!-- העדפת גיל -->
+        <!-- העדפת גיל 
+
+        
+
         <div class="input-group-out-vol">
           <label>:העדפת גיל</label>
           <div class="checkbox-group">
@@ -239,7 +254,7 @@
           </div>
         </div>
   
-        <!-- העדפת רמת דתיות -->
+        <!-- העדפת רמת דתיות 
         <div class="input-group-out-vol">
           <label>:העדפת רמת דתיות</label>
           <div class="checkbox-group">
@@ -261,7 +276,7 @@
           </div>
         </div>
   
-        <!-- העדפת מחלקות -->
+        <!-- העדפת מחלקות 
         <div class="input-group-out-vol">
           <label>:העדפת מחלקות</label>
           <div class="checkbox-group">
@@ -272,6 +287,300 @@
                 [value]="ward.key"
                 (change)="updateCheckboxArray('wardPreference', ward.key, $event)"
                 [checked]="signUpForm.value.wardPreference.includes(ward.key)"
+              />
+              <label class="checkbox-label" [for]="'wardPref-' + i">
+                <span></span>{{ ward.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('wardPreference')?.invalid && (signUpForm.get('wardPreference')?.dirty || signUpForm.get('wardPreference')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('wardPreference')?.errors?.['required']">חובה לבחור לפחות העדפת מחלקה אחת</div>
+          </div>
+        </div>
+  
+        <button type="submit" [disabled]="signUpForm.invalid">הרשם</button>
+  
+        <ng-template #loading>
+          <div>טוען נתונים...</div>
+        </ng-template>
+      </form>
+    </div>
+  </div> -->
+
+  
+  <div class="signUpVolunteer-body">
+    <div class="signUpVolunteer-container">
+      <div class="signUpVolunteer-head">
+        <h2>הרשמה</h2>
+      </div>
+  
+      <form [formGroup]="signUpForm" (ngSubmit)="onSubmit()">
+        <div class="input-group-out-vol">
+          <label>:שם מלא</label>
+          <input type="text" formControlName="fullName" required />
+          <div *ngIf="signUpForm.get('fullName')?.invalid && (signUpForm.get('fullName')?.dirty || signUpForm.get('fullName')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('fullName')?.errors?.['required']">שם מלא נדרש</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:סיסמה</label>
+          <input type="password" formControlName="password" required />
+          <div *ngIf="signUpForm.get('password')?.invalid && (signUpForm.get('password')?.dirty || signUpForm.get('password')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('password')?.errors?.['required']">סיסמה נדרשת</div>
+            <div *ngIf="signUpForm.get('password')?.errors?.['passwordStrength']">
+              הסיסמה חייבת להכיל לפחות 8 תווים, אות גדולה, אות קטנה, מספר ותו מיוחד (!#$%^&*)
+            </div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:אימייל</label>
+          <input type="email" formControlName="email" required />
+          <div *ngIf="signUpForm.get('email')?.invalid && (signUpForm.get('email')?.dirty || signUpForm.get('email')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('email')?.errors?.['required']">אימייל נדרש</div>
+            <div *ngIf="signUpForm.get('email')?.errors?.['email']">כתובת אימייל לא תקינה</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:טלפון</label>
+          <input type="text" formControlName="phone" required />
+          <div *ngIf="signUpForm.get('phone')?.invalid && (signUpForm.get('phone')?.dirty || signUpForm.get('phone')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('phone')?.errors?.['required']">טלפון נדרש</div>
+            <div *ngIf="signUpForm.get('phone')?.errors?.['phoneFormat']">מספר טלפון לא תקין (לדוגמה: 0501234567)</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:תאריך לידה</label>
+          <input type="date" formControlName="birthDate" required />
+          <div *ngIf="signUpForm.get('birthDate')?.invalid && (signUpForm.get('birthDate')?.dirty || signUpForm.get('birthDate')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('birthDate')?.errors?.['required']">תאריך לידה נדרש</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:פרטים נוספים</label>
+          <textarea formControlName="extraDetailse"></textarea>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:אזור</label>
+          <select formControlName="area" required>
+            <option value="">בחר אזור</option>
+            <option *ngFor="let area of areas" [value]="area.id">{{ area.value }}</option>
+          </select>
+          <div *ngIf="signUpForm.get('area')?.invalid && (signUpForm.get('area')?.dirty || signUpForm.get('area')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('area')?.errors?.['required']">אזור נדרש</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:עיר</label>
+          <select formControlName="city" required>
+            <option value="">בחר עיר</option>
+            <option *ngFor="let city of cities" [value]="city.id">{{ city.value }}</option>
+          </select>
+          <div *ngIf="signUpForm.get('city')?.invalid && (signUpForm.get('city')?.dirty || signUpForm.get('city')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('city')?.errors?.['required']">עיר נדרשת</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:מגדר</label>
+          <select formControlName="gender" required>
+            <option value="">בחר מגדר</option>
+            <option *ngFor="let g of genders" [value]="g.id">{{ g.value }}</option>
+          </select>
+          <div *ngIf="signUpForm.get('gender')?.invalid && (signUpForm.get('gender')?.dirty || signUpForm.get('gender')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('gender')?.errors?.['required']">מגדר נדרש</div>
+          </div>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:זמני זמינות</label>
+          <div formArrayName="availableTimes">
+            <div *ngFor="let time of availableTimes.controls; let i=index" [formGroupName]="i">
+              <div class="time-group">
+                <select formControlName="day" required>
+                  <option value="">בחר יום</option>
+                  <option value="1">ראשון</option>
+                  <option value="2">שני</option>
+                  <option value="3">שלישי</option>
+                  <option value="4">רביעי</option>
+                  <option value="5">חמישי</option>
+                  <option value="6">שישי</option>
+                  <option value="7">שבת</option>
+                </select>
+                <input type="time" formControlName="startTime" required />
+                <input type="time" formControlName="endTime" required />
+                <button type="button" (click)="removeAvailableTime(i)" class="remove-btn">הסר</button>
+                <div *ngIf="availableTimes.at(i).invalid && (availableTimes.at(i).dirty || availableTimes.at(i).touched)" class="error-message">
+                  <div *ngIf="availableTimes.at(i).get('day')?.errors?.['required']">יום נדרש</div>
+                  <div *ngIf="availableTimes.at(i).get('startTime')?.errors?.['required']">שעת התחלה נדרשת</div>
+                  <div *ngIf="availableTimes.at(i).get('endTime')?.errors?.['required']">שעת סיום נדרשת</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button type="button" (click)="addAvailableTime()" class="add-btn">הוסף זמן זמינות</button>
+        </div>
+  
+        <div class="input-group-out-vol">
+          <label>:רמת דתיות</label>
+          <select formControlName="religiosity" required>
+            <option value="">בחר רמת דתיות</option>
+            <option *ngFor="let religiosity of religiosities" [value]="religiosity.id">{{ religiosity.value }}</option>
+          </select>
+          <div *ngIf="signUpForm.get('religiosity')?.invalid && (signUpForm.get('religiosity')?.dirty || signUpForm.get('religiosity')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('religiosity')?.errors?.['required']">רמת דתיות נדרשת</div>
+          </div>
+        </div>
+  
+        <!-- שפות מדוברות -->
+        <div class="input-group-out-vol">
+          <label>:שפות מדוברות</label>
+          <div class="checkbox-group">
+            <div *ngFor="let lang of languages; let i=index">
+              <input
+                type="checkbox"
+                [id]="'language-' + i"
+                [value]="lang.id"
+                (change)="updateCheckboxArray('language', lang.id.toString(), $event)"
+                [checked]="signUpForm.value.language.includes(lang.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'language-' + i">
+                <span></span>{{ lang.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('language')?.invalid && (signUpForm.get('language')?.dirty || signUpForm.get('language')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('language')?.errors?.['required']">חובה לבחור לפחות שפה אחת</div>
+          </div>
+        </div>
+  
+        <!-- העדפת שפות -->
+        <div class="input-group-out-vol">
+          <label>:העדפת שפות</label>
+          <div class="checkbox-group">
+            <div *ngFor="let lang of languages; let i=index">
+              <input
+                type="checkbox"
+                [id]="'languagePref-' + i"
+                [value]="lang.id"
+                (change)="updateCheckboxArray('languagePreference', lang.id.toString(), $event)"
+                [checked]="signUpForm.value.languagePreference.includes(lang.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'languagePref-' + i">
+                <span></span>{{ lang.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('languagePreference')?.invalid && (signUpForm.get('languagePreference')?.dirty || signUpForm.get('languagePreference')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('languagePreference')?.errors?.['required']">חובה לבחור לפחות העדפת שפה אחת</div>
+          </div>
+        </div>
+  
+        <!-- תחומי עניין -->
+        <div class="input-group-out-vol">
+          <label>:תחומי עניין</label>
+          <div class="checkbox-group">
+            <div *ngFor="let interest of interests; let i=index">
+              <input
+                type="checkbox"
+                [id]="'interest-' + i"
+                [value]="interest.id"
+                (change)="updateCheckboxArray('interests', interest.id.toString(), $event)"
+                [checked]="signUpForm.value.interests.includes(interest.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'interest-' + i">
+                <span></span>{{ interest.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('interests')?.invalid && (signUpForm.get('interests')?.dirty || signUpForm.get('interests')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('interests')?.errors?.['required']">חובה לבחור לפחות תחום עניין אחד</div>
+          </div>
+        </div>
+  
+        <!-- העדפת מגדר -->
+        <div class="input-group-out-vol">
+          <label>:העדפת מגדר</label>
+          <div class="checkbox-group">
+            <div *ngFor="let g of genders; let i=index">
+              <input
+                type="checkbox"
+                [id]="'genderPref-' + i"
+                [value]="g.id"
+                (change)="updateCheckboxArray('genderPreference', g.id.toString(), $event)"
+                [checked]="signUpForm.value.genderPreference.includes(g.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'genderPref-' + i">
+                <span></span>{{ g.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('genderPreference')?.invalid && (signUpForm.get('genderPreference')?.dirty || signUpForm.get('genderPreference')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('genderPreference')?.errors?.['required']">חובה לבחור לפחות העדפת מגדר אחת</div>
+          </div>
+        </div>
+  
+        <!-- העדפת גיל -->
+        <div class="input-group-out-vol">
+          <label>:העדפת גיל</label>
+          <div class="checkbox-group">
+            <div *ngFor="let age of ageGroups; let i=index">
+              <input
+                type="checkbox"
+                [id]="'agePref-' + i"
+                [value]="age.id"
+                (change)="updateCheckboxArray('agePreference', age.id.toString(), $event)"
+                [checked]="signUpForm.value.agePreference.includes(age.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'agePref-' + i">
+                <span></span>{{ age.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('agePreference')?.invalid && (signUpForm.get('agePreference')?.dirty || signUpForm.get('agePreference')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('agePreference')?.errors?.['required']">חובה לבחור לפחות העדפת גיל אחת</div>
+          </div>
+        </div>
+  
+        <!-- העדפת רמת דתיות -->
+        <div class="input-group-out-vol">
+          <label>:העדפת רמת דתיות</label>
+          <div class="checkbox-group">
+            <div *ngFor="let religiosity of religiosities; let i=index">
+              <input
+                type="checkbox"
+                [id]="'religiosityPref-' + i"
+                [value]="religiosity.id"
+                (change)="updateCheckboxArray('religiosityPreference', religiosity.id.toString(), $event)"
+                [checked]="signUpForm.value.religiosityPreference.includes(religiosity.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'religiosityPref-' + i">
+                <span></span>{{ religiosity.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="signUpForm.get('religiosityPreference')?.invalid && (signUpForm.get('religiosityPreference')?.dirty || signUpForm.get('religiosityPreference')?.touched)" class="error-message">
+            <div *ngIf="signUpForm.get('religiosityPreference')?.errors?.['required']">חובה לבחור לפחות העדפת רמת דתיות אחת</div>
+          </div>
+        </div>
+  
+        <!-- העדפת מחלקות -->
+        <div class="input-group-out-vol">
+          <label>:העדפת מחלקות</label>
+          <div class="checkbox-group">
+            <div *ngFor="let ward of wards; let i=index">
+              <input
+                type="checkbox"
+                [id]="'wardPref-' + i"
+                [value]="ward.id"
+                (change)="updateCheckboxArray('wardPreference', ward.id.toString(), $event)"
+                [checked]="signUpForm.value.wardPreference.includes(ward.id.toString())"
               />
               <label class="checkbox-label" [for]="'wardPref-' + i">
                 <span></span>{{ ward.value }}
