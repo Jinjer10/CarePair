@@ -60,18 +60,19 @@ namespace CarePair.API.Controllers
             _patientService = patientService;
         }
 
-        // GET: api/<PatientController>
-        [HttpGet]
-        [Authorize]
-        public IEnumerable<Patient> Get()
-        {
-            return _patientService.GetPatientList();
-        }
 
-        // GET api/<PatientController>/5
-        [HttpGet("{id}")]
-        public ActionResult<PatientDto> GetById(int id)
+        [Authorize]
+        [HttpGet("me")]
+        public ActionResult<PatientDto> GetById()
         {
+            var idString = User.FindFirst("PatientId")?.Value;
+
+
+            if (!int.TryParse(idString, out int id))
+            {
+                return BadRequest("Invalid user ID.");
+            }
+
             var patient = _patientService.GetPatientById(id);
             if (patient == null)
                 return NotFound();
@@ -79,6 +80,24 @@ namespace CarePair.API.Controllers
             var dto = PatientMapper.ToDto(patient);
             return Ok(dto);
         }
+        // GET: api/<PatientController>
+        [HttpGet]
+        public IEnumerable<Patient> Get()
+        {
+            return _patientService.GetPatientList();
+        }
+
+        //// GET api/<PatientController>/5
+        //[HttpGet("{id}")]
+        //public ActionResult<PatientDto> GetById(int id)
+        //{
+        //    var patient = _patientService.GetPatientById(id);
+        //    if (patient == null)
+        //        return NotFound();
+
+        //    var dto = PatientMapper.ToDto(patient);
+        //    return Ok(dto);
+        //}
 
         // POST api/<PatientController>
         [HttpPost]

@@ -1,6 +1,7 @@
 using CarePair.Core.DTOs;
 using CarePair.Core.Models;
 using CarePair.Core.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarePair.API.Controllers
@@ -21,11 +22,18 @@ namespace CarePair.API.Controllers
         {
             return _volunteerService.GetVolunteerList();
         }
-
-        // GET api/<VolunteerController>/5
-        [HttpGet("{id}")]
-        public ActionResult<VolunteerDto> GetById(int id)
+        [Authorize]
+        [HttpGet("me")]
+        public ActionResult<VolunteerDto> GetById()
         {
+            var idString = User.FindFirst("VolunteerId")?.Value;
+
+
+            if (!int.TryParse(idString, out int id))
+            {
+                return BadRequest("Invalid user ID.");
+            }
+
             var volunteer = _volunteerService.GetVolunteerById(id);
             if (volunteer == null)
                 return NotFound();
@@ -33,6 +41,17 @@ namespace CarePair.API.Controllers
             var dto = VolunteerMapper.ToDto(volunteer);
             return Ok(dto);
         }
+        //// GET api/<VolunteerController>/5
+        //[HttpGet("{id}")]
+        //public ActionResult<VolunteerDto> GetById(int id)
+        //{
+        //    var volunteer = _volunteerService.GetVolunteerById(id);
+        //    if (volunteer == null)
+        //        return NotFound();
+
+        //    var dto = VolunteerMapper.ToDto(volunteer);
+        //    return Ok(dto);
+        //}
 
         // POST api/<VolunteerController>
         [HttpPost]

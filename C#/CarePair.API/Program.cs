@@ -386,7 +386,7 @@ builder.Services.AddScoped<IVolunteerRepository, VolunteerRepository>();
 
 // Configure the DbContext to use SQL Server
 builder.Services.AddDbContext<DataContext>(options =>
-    options.UseSqlServer(@"Server=DESKTOP-9NIKTR1\SQLEXPRESS;Database=CarePair;TrustServerCertificate=True;Trusted_Connection=True"));
+    options.UseSqlServer(@"Server=EBLAPTOP\SQLEXPRESS;Database=CarePair;TrustServerCertificate=True;Trusted_Connection=True"));
 
 var app = builder.Build();
 

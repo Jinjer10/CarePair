@@ -71,7 +71,7 @@ namespace CarePair.API.Controllers
                 issuer: _configuration["JWT:Issuer"],
                 audience: _configuration["JWT:Audience"],
                 claims: claims,
-                expires: DateTime.Now.AddMinutes(60),
+                expires: DateTime.Now.AddMinutes(300),
                 signingCredentials: signinCredentials
             );
 
