@@ -6,6 +6,8 @@ import { EnumDataService, EnumItem } from '../../services/enum-data.service';
 import { VolunteerService, Volunteer, Time } from '../../services/volunteer.service';
 import { forkJoin } from 'rxjs';
 import { Router } from '@angular/router';  // הוספת Router
+import { SignInService } from '../../services/sign-in.service'; // הוספת SignInService
+
 
 
 @Component({
@@ -17,55 +19,24 @@ import { Router } from '@angular/router';  // הוספת Router
 })
 export class SignUpVolunteerComponent implements OnInit {
   signUpForm!: FormGroup;
-// הגדרת המשתנים כריקים בתחילה - ייתמלאו מהשרת
-genders: EnumItem[] = [];
-languages: EnumItem[] = [];
-interests: EnumItem[] = [];
-ageGroups: EnumItem[] = [];
-areas: EnumItem[] = [];
-cities: EnumItem[] = [];
-religiosities: EnumItem[] = [];
-wards: EnumItem[] = [];
-  // // עדכון ל-EnumItem[] עם id
-  // genders: EnumItem[] = [
-  //   { id: 1, key: 'Male', value: 'זכר' },
-  //   { id: 2, key: 'Female', value: 'נקבה' }
-  // ];
-  // languages: EnumItem[] = [
-  //   { id: 1, key: 'Hebrew', value: 'עברית' },
-  //   { id: 2, key: 'English', value: 'אנגלית' }
-  // ];
-  // interests: EnumItem[] = [
-  //   { id: 1, key: 'Music', value: 'מוזיקה' },
-  //   { id: 2, key: 'Sports', value: 'ספורט' }
-  // ];
-  // ageGroups: EnumItem[] = [
-  //   { id: 1, key: 'Children', value: 'ילדים' },
-  //   { id: 2, key: 'Teenagers', value: 'נערים' }
-  // ];
-  // areas: EnumItem[] = [
-  //   { id: 1, key: 'Haifa', value: 'חיפה והקריות' },
-  //   { id: 2, key: 'TelAviv', value: 'תל אביב וגוש דן' }
-  // ];
-  // cities: EnumItem[] = [
-  //   { id: 1, key: 'TelAviv', value: 'תל אביב' },
-  //   { id: 2, key: 'Jerusalem', value: 'ירושלים' }
-  // ];
-  // religiosities: EnumItem[] = [
-  //   { id: 1, key: 'Secular', value: 'חילוני' },
-  //   { id: 2, key: 'Religious', value: 'דתי' }
-  // ];
-  // wards: EnumItem[] = [
-  //   { id: 1, key: 'InternalMedicine', value: 'מחלקה פנימית' },
-  //   { id: 2, key: 'GeneralSurgery', value: 'כירורגיה כללית' }
-  // ];
-
+  // הגדרת המשתנים כריקים בתחילה - ייתמלאו מהשרת
+  genders: EnumItem[] = [];
+  languages: EnumItem[] = [];
+  interests: EnumItem[] = [];
+  ageGroups: EnumItem[] = [];
+  areas: EnumItem[] = [];
+  cities: EnumItem[] = [];
+  religiosities: EnumItem[] = [];
+  wards: EnumItem[] = [];
   constructor(
     private fb: FormBuilder,
     private enumService: EnumDataService,
     private volunteerService: VolunteerService,
-        private router: Router  // הזרקת Router
-  ) {}
+    private router: Router, // הזרקת Router
+    private authService: SignInService // הוספת SignInService לקונסטרקטור
+  ) { }
+  private email = ''; // שדות לאחסון אימייל וסיסמה
+  private password = '';
 
   ngOnInit(): void {
     this.initializeForm();
@@ -76,17 +47,17 @@ wards: EnumItem[] = [];
     return (control: AbstractControl): { [key: string]: any } | null => {
       const value = control.value;
       if (!value) return null;
-  
+
       const hasUpperCase = /[A-Z]/.test(value);
       const hasLowerCase = /[a-z]/.test(value);
       const hasNumeric = /[0-9]/.test(value);
       const minLength = value.length >= 8;
-  
+
       const valid = hasUpperCase && hasLowerCase && hasNumeric && minLength;
       return valid ? null : { passwordStrength: true };
     };
   }
-  
+
 
   // וולידציה מותאמת אישית לטלפון
   phoneValidator(): ValidatorFn {
@@ -189,9 +160,10 @@ wards: EnumItem[] = [];
       console.log('טופס לא תקין:', this.signUpForm.errors);
       return;
     }
-console.log("this.signUpForm.value",this.signUpForm.value)
+    console.log("this.signUpForm.value", this.signUpForm.value)
     const formValue = this.signUpForm.value;
-
+    this.email = formValue.email; // שמירת אימייל וסיסמה
+    this.password = formValue.password;
     const volunteer: Volunteer = {
       fullName: formValue.fullName,
       phone: formValue.phone,
@@ -232,10 +204,24 @@ console.log("this.signUpForm.value",this.signUpForm.value)
     };
 
     this.volunteerService.addVolunteer(volunteer).subscribe({
+      // next: () => {
+      //   console.log('הרשמה בוצעה בהצלחה');
+      //   login(email, password)
+      //   this.signUpForm.reset();
+      //   this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
+      // },
       next: () => {
         console.log('הרשמה בוצעה בהצלחה');
-        this.signUpForm.reset();
-        this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
+        this.authService.login(this.email, this.password).subscribe({ // ביצוע התחברות אוטומטית
+          next: () => {
+            console.log('התחברות אוטומטית הצליחה');
+            this.signUpForm.reset();
+            this.router.navigate(['personalArea']);
+          },
+          error: (err) => {
+            console.error('שגיאה בהתחברות אוטומטית', err);
+          }
+        });
       },
       error: (err) => {
         console.error('שגיאה בהרשמה', err);

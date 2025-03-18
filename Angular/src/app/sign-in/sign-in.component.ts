@@ -25,10 +25,9 @@ export class PasswordValidatorDirective implements Validator {
     const hasUpperCase = /[A-Z]/.test(value);
     const hasLowerCase = /[a-z]/.test(value);
     const hasNumeric = /[0-9]/.test(value);
-    const hasSpecial = /[!@#$%^&*]/.test(value);
     const minLength = value.length >= 8;
 
-    const valid = hasUpperCase && hasLowerCase && hasNumeric && hasSpecial && minLength;
+    const valid = hasUpperCase && hasLowerCase && hasNumeric && minLength;
     return valid ? null : { passwordStrength: true };
   }
 }
@@ -59,11 +58,23 @@ export class SignInComponent {
       console.log("userData", userData);
 
       this.authService.login(this.email, this.password).subscribe({
-        next: (response) => {
-          console.log('Response:', response.token);
-          localStorage.setItem('token', response.token);
-          this.errorMessage = '';
-          this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
+        // next: (response) => {
+        //   console.log('Response:', response.token);
+        //
+        //   this.errorMessage = '';
+        //   this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
+        // },
+        next: () => {
+          console.log('הרשמה בוצעה בהצלחה');
+          this.authService.login(this.email, this.password).subscribe({ // ביצוע התחברות אוטומטית
+            next: () => {
+              console.log('התחברות אוטומטית הצליחה');
+              this.router.navigate(['personalArea']);
+            },
+            error: (err) => {
+              console.error('שגיאה בהתחברות אוטומטית', err);
+            }
+          });
         },
         error: (error) => {
           console.error('Error:', error);

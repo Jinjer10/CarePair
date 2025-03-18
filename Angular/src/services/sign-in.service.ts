@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
+import { tap } from 'rxjs/operators';
+
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +13,6 @@ export class SignInService {
 
   constructor(private http: HttpClient) {}
 
-  // פונקציה לשלוח את נתוני המשתמש
   login(email: string, password: string): Observable<any> {
     const userData = {
       email: email,
@@ -20,6 +21,11 @@ export class SignInService {
 
     return this.http.post(this.apiUrl, userData, {
       headers: { 'Content-Type': 'application/json' }
-    });
+    }).pipe(
+      tap((response: any) => {
+        // נניח שהשרת מחזיר את הטוקן תחת המפתח 'token'
+        localStorage.setItem('token', response.token);
+      })
+    );
   }
 }
