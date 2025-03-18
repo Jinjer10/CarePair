@@ -1,4 +1,98 @@
 
+// @font-face {
+//   font-family: "form";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "bold";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+// }
+
+// .signup-container {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   min-height: 100vh;
+//   padding: 20px;
+//   background-color: #f3b8c6;
+
+//   h2 {
+//     margin-bottom: 30px;
+//     color: #ad3573;
+//     font-size: 4vw;
+//     font-family: "bold";
+//     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); // צל עדין לכותרת
+//   }
+
+//   .buttons-group {
+//     display: flex;
+//     flex-direction: column;
+//     gap: 20px;
+//     width: 100%;
+//     max-width: 300px;
+
+//     button {
+//       padding: 15px 24px;
+//       background-color: #007bff;
+//       color: white;
+//       border: none;
+//       border-radius: 4px;
+//       font-size: 3vw;
+//       font-family: "bold";
+//       cursor: pointer;
+//       transition: background-color 0.3s ease;
+//       text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); // צל לכיתוב הכפתור
+//       box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
+
+//       &:hover {
+//         background-color: #0056b3;
+//         box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
+
+//         text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
+//       }
+
+//       &:active {
+//         background-color: #004085;
+//       }
+
+//       &[routerLink="/signUpVolunteer"] {
+//         background-color: #61d9fe; // צבע תכלת למתנדבים
+//         color: #f7f7f7; // צבע טקסט כהה לניגודיות טובה יותר
+        
+//         &:hover {
+//           background-color: #96e6ff;
+//         }
+        
+//         &:active {
+//           background-color: #39d1ff;
+//         }
+//       }
+
+//       &[routerLink="/signUpPatient"] {
+//         background-color: #dbe60a; // צבע צהוב לחולים
+//         color: #ffffff; // צבע טקסט כהה לניגודיות טובה יותר
+        
+//         &:hover {
+//           background-color: #f3f979;
+//         }
+        
+//         &:active {
+//           background-color: #a2b402;
+//         }
+//       }
+//     }
+//   }
+// }
+
+// // Media query לרספונסיביות
+// @media (min-width: 768px) {
+//   .buttons-group {
+//     max-width: 400px;
+//   }
+// }
+
 @font-face {
   font-family: "form";
   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
@@ -10,85 +104,153 @@
 }
 
 .signup-container {
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #f3b8c6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* רווח בין התמונות לכפתורים */
+  width: 100%;
+  max-width: 1400px; /* רוחב מקסימלי כולל של התמונות והכפתורים */
+}
+
+.signup-image-left,
+.signup-image-right {
+  width: 25%; /* כל תמונה תופסת 30% מהרוחב */
+  max-width: 300px;
+  height: auto;
+  animation: float 2s ease-in-out infinite; /* אנימציה לתנועה מעלה ומטה */
+}
+
+.signup-image-left img,
+.signup-image-right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+  // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.buttons-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 100vh;
-  padding: 20px;
-  background-color: #f3b8c6;
+  width: 50%; /* הכפתורים תופסים 40% מהרוחב */
+  max-width: 400px;
+}
 
-  h2 {
-    margin-bottom: 30px;
-    color: #ad3573;
-    font-size: 4vw;
-    font-family: "bold";
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); // צל עדין לכותרת
+.buttons-container h2 {
+  margin-bottom: 50px;
+  color: #ad3573;
+  font-size: 4vw;
+  font-family: "bold";
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.buttons-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+button {
+  padding: 15px 24px;
+  border: none;
+  border-radius: 4px;
+  font-size: 3vw;
+  font-family: "bold";
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+
+  &:hover {
+      box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
   }
 
-  .buttons-group {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
-    max-width: 300px;
+  &:active {
+      background-color: #004085;
+  }
 
-    button {
-      padding: 15px 24px;
-      background-color: #007bff;
-      color: white;
-      border: none;
-      border-radius: 4px;
-      font-size: 3vw;
-      font-family: "bold";
-      cursor: pointer;
-      transition: background-color 0.3s ease;
-      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); // צל לכיתוב הכפתור
-      box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
+  &[routerLink="/signUpVolunteer"] {
+      background-color: #61d9fe;
+      color: #f7f7f7;
 
       &:hover {
-        background-color: #0056b3;
-        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
-
-        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4); // צל מעט חזק יותר ב-hover
+          background-color: #96e6ff;
       }
 
       &:active {
-        background-color: #004085;
-      }
-
-      &[routerLink="/signUpVolunteer"] {
-        background-color: #61d9fe; // צבע תכלת למתנדבים
-        color: #f7f7f7; // צבע טקסט כהה לניגודיות טובה יותר
-        
-        &:hover {
-          background-color: #96e6ff;
-        }
-        
-        &:active {
           background-color: #39d1ff;
-        }
+      }
+  }
+
+  &[routerLink="/signUpPatient"] {
+      background-color: #dbe60a;
+      color: #ffffff;
+
+      &:hover {
+          background-color: #f3f979;
       }
 
-      &[routerLink="/signUpPatient"] {
-        background-color: #dbe60a; // צבע צהוב לחולים
-        color: #ffffff; // צבע טקסט כהה לניגודיות טובה יותר
-        
-        &:hover {
-          background-color: #f3f979;
-        }
-        
-        &:active {
+      &:active {
           background-color: #a2b402;
-        }
       }
-    }
   }
 }
 
-// Media query לרספונסיביות
+/* הגדרת האנימציה */
+@keyframes float {
+  0% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-10px);
+  }
+  100% {
+      transform: translateY(0);
+  }
+}
+
+/* Media query לרספונסיביות */
 @media (min-width: 768px) {
+  // .buttons-container h2 {
+  //     font-size: 32px; /* גודל קבוע במסכים גדולים */
+  // }
+
   .buttons-group {
-    max-width: 400px;
+      max-width: 400px;
+  }
+
+  // button {
+  //     font-size: 18px; /* גודל קבוע במסכים גדולים */
+  // }
+}
+
+@media (max-width: 767px) {
+  .signup-wrapper {
+      flex-direction: column; /* במסכים קטנים, התמונות והכפתורים יהיו אנכית */
+      gap: 30px;
+  }
+
+  .signup-image-left,
+  .signup-image-right {
+      width: 80%; /* התמונות תופסות יותר רוחב במסכים קטנים */
+      max-width: 250px;
+  }
+
+  .buttons-container {
+      width: 100%;
+      max-width: 300px;
   }
 }
