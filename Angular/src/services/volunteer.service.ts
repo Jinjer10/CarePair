@@ -185,15 +185,19 @@ export class VolunteerService {
     );
   }
 
-  // הוספת מתנדב חדש (מערך של Volunteer)
-  addVolunteer(volunteers: Volunteer[]): Observable<void> {
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json'
-    });
-    return this.http.post<void>(this.apiUrl, volunteers, { headers }).pipe(
-      catchError(this.handleError)
-    );
-  }
+// הוספת מתנדב חדש (מערך של Volunteer)
+addVolunteer(volunteer: Volunteer): Observable<void> {
+  const headers = new HttpHeaders({
+    'Content-Type': 'application/json'
+  });
+
+  console.log('מתנדבים שנשלחים לשרת:', volunteer);
+  console.log('JSON שנשלח:', JSON.stringify(volunteer, null, 2));
+
+  return this.http.post<void>(this.apiUrl, volunteer, { headers }).pipe(
+    catchError(this.handleError)
+  );
+}
 
   // עדכון מתנדב קיים
   updateVolunteer(volunteer: Volunteer, id: number): Observable<void> {
