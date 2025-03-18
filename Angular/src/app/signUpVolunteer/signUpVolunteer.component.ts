@@ -357,6 +357,8 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { EnumDataService, EnumItem } from '../../services/enum-data.service';
 import { VolunteerService, Volunteer, Time } from '../../services/volunteer.service';
 import { forkJoin } from 'rxjs';
+import { Router } from '@angular/router';  // הוספת Router
+
 
 @Component({
   selector: 'app-sign-up-volunteer',
@@ -413,7 +415,8 @@ wards: EnumItem[] = [];
   constructor(
     private fb: FormBuilder,
     private enumService: EnumDataService,
-    private volunteerService: VolunteerService
+    private volunteerService: VolunteerService,
+        private router: Router  // הזרקת Router
   ) {}
 
   ngOnInit(): void {
@@ -588,6 +591,7 @@ wards: EnumItem[] = [];
       next: () => {
         console.log('הרשמה בוצעה בהצלחה');
         this.signUpForm.reset();
+        this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
       },
       error: (err) => {
         console.error('שגיאה בהרשמה', err);

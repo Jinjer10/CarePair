@@ -4,7 +4,9 @@ import { SignInService } from '../../services/sign-in.service';
 import { FormsModule, NG_VALIDATORS, Validator, AbstractControl } from '@angular/forms';
 import { NgForm } from '@angular/forms';
 import { NgIf } from '@angular/common';
+import { Router , RouterLink} from '@angular/router';  // הוספת Router
 
+// PasswordValidatorDirective נשאר אותו דבר
 @Directive({
   selector: '[passwordStrength]',
   providers: [
@@ -34,7 +36,7 @@ export class PasswordValidatorDirective implements Validator {
 @Component({
   standalone: true,
   selector: 'app-sign-in',
-  imports: [FormsModule, NgIf, PasswordValidatorDirective],
+  imports: [FormsModule, NgIf, PasswordValidatorDirective, RouterLink], // הוספת RouterLink
   templateUrl: './sign-in.component.html',
   styleUrls: ['./sign-in.component.scss']
 })
@@ -43,7 +45,10 @@ export class SignInComponent {
   password: string = '';
   errorMessage: string = '';
 
-  constructor(private authService: SignInService) {}
+  constructor(
+    private authService: SignInService,
+    private router: Router  // הזרקת Router
+  ) {}
 
   onSubmit(form: NgForm) {
     if (form.valid) {
@@ -58,6 +63,7 @@ export class SignInComponent {
           console.log('Response:', response.token);
           localStorage.setItem('token', response.token);
           this.errorMessage = '';
+          this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
         },
         error: (error) => {
           console.error('Error:', error);

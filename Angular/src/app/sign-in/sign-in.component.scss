@@ -1,4 +1,150 @@
 
+// @font-face {
+//     font-family: "form";
+//     src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+// }
+
+// @font-face {
+//     font-family: "bold";
+//     src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+// }
+
+// html {
+//     height: 100%;
+// }
+
+// .signIn-body {
+//     background-color: #f3b8c6;
+//     font-family: "bold", sans-serif;
+//     min-height: 100vh;
+//     margin: 0;
+//     padding: 20px 0;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .signIn-container {
+//     background-color: #e6e6e654;
+//     width: 100%;
+//     max-width: 400px;
+//     margin: 0 auto;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//     padding: 40px;
+//     border-radius: 5px;
+//     text-align: center;
+// }
+
+// .login-form {
+//     width: 100%;
+// }
+
+// .signIn-head {
+//     color: #fff;
+//     font-size: 40px;
+//     margin-bottom: 30px;
+// }
+
+// label {
+//     display: block;
+//     color: #fff;
+//     cursor: pointer;
+//     font-size: 18px;
+//     margin-bottom: 8px;
+//     text-align: right;
+// }
+
+// .input-group-in {
+//     input {
+//         width: 100%;
+//         padding: 10px;
+//         background-color: transparent;
+//         border: 2px solid #ffffff5d;
+//         border-radius: 5px;
+//         color: #ad3573;
+//         font-size: 16px;
+//         font-family: "form";
+//         transition: all 0.3s ease;
+//         margin-bottom: 20px;
+
+//         &:focus {
+//             outline: none;
+//             border-color: #f173aa;
+//             background-color: rgba(255, 255, 255, 0.311);
+//         }
+
+//         &.ng-invalid.ng-dirty,
+//         &.ng-invalid.ng-touched {
+//             border-color: #ff6b6b;
+//         }
+//     }
+
+//     ::placeholder {
+//         color: #ad3573;
+//     }
+// }
+
+// .error-message {
+//     color: #ff6b6b;
+//     font-size: 14px; // שינוי מ-vw ל-px
+//     margin-top: 2px; // שינוי מ-vw ל-px
+// }
+
+// button {
+//     font-family: "bold", sans-serif;
+//     font-size: 18px;
+//     padding: 12px 20px;
+//     border-radius: 5px;
+//     cursor: pointer;
+//     transition: all 0.3s ease;
+//     display: block;
+//     width: 100%;
+//     background-color: transparent;
+//     border: 2px solid #fff;
+//     color: #fff;
+
+//     &:hover {
+//         background-color: #fff;
+//         color: #efa0c7;
+//     }
+
+//     &:disabled {
+//         opacity: 0.5;
+//         cursor: not-allowed;
+
+//         &:hover {
+//             background-color: transparent;
+//             color: #fff;
+//         }
+//     }
+// }
+
+// .server-error {
+//     color: #ff6b6b;
+//     font-size: 16px;
+//     margin-bottom: 15px;
+//     text-align: center;
+// }
+// .signup-link {
+//     margin-top: 15px;
+//     text-align: center;
+    
+//     p {
+//       margin: 0;
+//       color: #ad3573;
+//     }
+    
+//     a {
+//       color: #f173aa;
+//       text-decoration: none;
+//       cursor: pointer;
+      
+//       &:hover {
+//         text-decoration: underline;
+//         font-size: 18px;
+//       }
+//     }
+//   }
 @font-face {
     font-family: "form";
     src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
@@ -24,17 +170,66 @@ html {
     align-items: center;
 }
 
+.signIn-wrapper {
+    display: flex; /* שימוש ב-flex כדי למקם את הטופס והתמונה זה לצד זה */
+    justify-content: center;
+    align-items: center;
+    margin-right: 80px;
+    gap: 20px; /* רווח בין הטופס לתמונה */
+    width: 100%;
+    max-width: 1200px; /* רוחב מקסימלי כולל של הטופס והתמונה */
+}
+
 .signIn-container {
     background-color: #e6e6e654;
-    width: 100%;
-    max-width: 400px;
-    margin: 0 auto;
+    width: 70%; /* הטופס תופס חצי מהרוחב */
+    max-width: 500px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     padding: 40px;
     border-radius: 5px;
     text-align: center;
 }
 
+// .signIn-image {
+//     width: 50%; /* התמונה תופסת חצי מהרוחב */
+//     max-width: 400px;
+//     height: auto;
+// }
+
+// .signIn-image img {
+//     width: 100%;
+//     height: 100%;
+//     object-fit: cover; /* התמונה תתאים לגודל התיבה */
+//     border-radius: 5px;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+// }
+.signIn-image {
+    width: 30%; /* התמונה תופסת חצי מהרוחב */
+    max-width: 400px;
+    height: auto;
+    animation: float 2s ease-in-out infinite; /* הוספת האנימציה */
+}
+
+.signIn-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* התמונה תתאים לגודל התיבה */
+    border-radius: 5px;
+    // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* הגדרת האנימציה */
+@keyframes float {
+    0% {
+        transform: translateY(0); /* התחלה במקום המקורי */
+    }
+    50% {
+        transform: translateY(-10px); /* עלייה של 10 פיקסלים */
+    }
+    100% {
+        transform: translateY(0); /* חזרה למקום המקורי */
+    }
+}
 .login-form {
     width: 100%;
 }
@@ -86,8 +281,8 @@ label {
 
 .error-message {
     color: #ff6b6b;
-    font-size: 14px; // שינוי מ-vw ל-px
-    margin-top: 2px; // שינוי מ-vw ל-px
+    font-size: 14px;
+    margin-top: 2px;
 }
 
 button {
@@ -124,4 +319,25 @@ button {
     font-size: 16px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+.signup-link {
+    margin-top: 15px;
+    text-align: center;
+    
+    p {
+        margin: 0;
+        color: #ad3573;
+    }
+    
+    a {
+        color: #f173aa;
+        text-decoration: none;
+        cursor: pointer;
+        
+        &:hover {
+            text-decoration: underline;
+            font-size: 18px;
+        }
+    }
 }

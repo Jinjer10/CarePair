@@ -6,7 +6,7 @@ import { RouterModule } from '@angular/router';
   standalone: true,
   selector: 'app-signUp',
   templateUrl: './signUp.component.html',
-  styleUrls: ['./signUp.component.css'],
+  styleUrls: ['./signUp.component.scss'],
   imports: [RouterModule]  // ← חובה בשביל routerLink
 })
 export class SignUpComponent {
