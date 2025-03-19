@@ -26,8 +26,8 @@ export interface Patient {
   city: number; // שדה מפורק חדש
   genderJson: string; // JSON string של Gender
   gender: number; // שדה מפורק חדש
-  availableTimesJson: string; // JSON string של Time[]
-  availableTimes: Time[]; // מערך מפורק חדש
+  requiredTimesJson: string; // JSON string של Time[]
+  requiredTimes: Time[]; // מערך מפורק חדש
   religiosityJson: string; // JSON string של Religiosity
   religiosity: number; // שדה מפורק חדש
   languageJson: string; // JSON string של Language[]
@@ -43,9 +43,9 @@ export interface Patient {
   religiosityPreferenceJson: string; // JSON string של Religiosity[]
   religiosityPreference: number[]; // מערך מפורק חדש
   wardJson: string; // JSON string של Ward[]
-  ward: number[]; // מערך מפורק חדש
+  ward: number; // מערך מפורק חדש
   hospitallJson: string; // JSON string של Ward[]
-  hospitall: number[]; // מערך מפורק חדש
+  hospitall: number; // מערך מפורק חדש
   ageGroup: number; // שדה חדש
 }
 @Injectable({

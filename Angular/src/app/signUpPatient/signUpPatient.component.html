@@ -91,7 +91,7 @@
         </div>
   
         <div class="input-group-out-pat">
-          <label>:זמני זמינות</label>
+          <label>:מלא זמנים בהם אתה צריך</label>
           <div formArrayName="availableTimes">
             <div *ngFor="let time of availableTimes.controls; let i=index" [formGroupName]="i">
               <div class="time-group">
@@ -261,50 +261,45 @@
             <div *ngIf="signUpForm.get('religiosityPreference')?.errors?.['required']">חובה לבחור לפחות העדפת רמת דתיות אחת</div>
           </div>
         </div>
-          <!--  בתי חולים -->
-          <div class="input-group-out-pat">
-            <label>:בית חולים</label>
-            <div class="checkbox-group">
-              <div *ngFor="let hospitall of hospitalls; let i=index">
-                <input
-                  type="checkbox"
-                  [id]="'hospitallPref-' + i"
-                  [value]="hospitall.id"
-                  (change)="updateCheckboxArray('hospitallPreference', hospitall.id.toString(), $event)"
-                  [checked]="signUpForm.value.hospitallPreference.includes(hospitall.id.toString())"
-                />
-                <label class="checkbox-label" [for]="'hospitallPref-' + i">
-                  <span></span>{{ hospitall.value }}
-                </label>
-              </div>
-            </div>
-            <div *ngIf="signUpForm.get('hospitallPreference')?.invalid && (signUpForm.get('hospitallPreference')?.dirty || signUpForm.get('hospitallPreference')?.touched)" class="error-message">
-              <div *ngIf="signUpForm.get('hospitallPreference')?.errors?.['required']">חובה לבחור לפחות העדפת מחלקה אחת</div>
-            </div>
-          </div>
-    
-        <!--  מחלקות -->
-        <div class="input-group-out-pat">
-          <label>:מחלקות</label>
-          <div class="checkbox-group">
-            <div *ngFor="let ward of wards; let i=index">
-              <input
-                type="checkbox"
-                [id]="'wardPref-' + i"
-                [value]="ward.id"
-                (change)="updateCheckboxArray('wardPreference', ward.id.toString(), $event)"
-                [checked]="signUpForm.value.wardPreference.includes(ward.id.toString())"
-              />
-              <label class="checkbox-label" [for]="'wardPref-' + i">
-                <span></span>{{ ward.value }}
-              </label>
-            </div>
-          </div>
-          <div *ngIf="signUpForm.get('wardPreference')?.invalid && (signUpForm.get('wardPreference')?.dirty || signUpForm.get('wardPreference')?.touched)" class="error-message">
-            <div *ngIf="signUpForm.get('wardPreference')?.errors?.['required']">חובה לבחור לפחות העדפת מחלקה אחת</div>
-          </div>
-        </div>
-  
+          
+<div class="input-group-out-pat">
+  <label>:בית חולים</label>
+  <div class="radio-group">
+      <div *ngFor="let hospitall of hospitalls; let i = index">
+          <input
+              type="radio"
+              [id]="'hospitallPref-' + i"
+              [value]="hospitall.id"
+              formControlName="hospitall"
+          />
+          <label class="radio-label" [for]="'hospitallPref-' + i">
+              <span></span>{{ hospitall.value }}
+          </label>
+      </div>
+  </div>
+  <div *ngIf="signUpForm.get('hospitall')?.invalid && (signUpForm.get('hospitall')?.dirty || signUpForm.get('hospitall')?.touched)" class="error-message">
+      <div *ngIf="signUpForm.get('hospitall')?.errors?.['required']">חובה לבחור בית חולים</div>
+  </div>
+</div>
+<div class="input-group-out-pat">
+  <label>:מחלקה</label>
+  <div class="radio-group">
+      <div *ngFor="let ward of wards; let i = index">
+          <input
+              type="radio"
+              [id]="'wardPref-' + i"
+              [value]="ward.id"
+              formControlName="ward"
+          />
+          <label class="radio-label" [for]="'wardPref-' + i">
+              <span></span>{{ ward.value }}
+          </label>
+      </div>
+  </div>
+  <div *ngIf="signUpForm.get('ward')?.invalid && (signUpForm.get('ward')?.dirty || signUpForm.get('ward')?.touched)" class="error-message">
+      <div *ngIf="signUpForm.get('ward')?.errors?.['required']">חובה לבחור מחלקה</div>
+  </div>
+</div>
         <button type="submit" [disabled]="signUpForm.invalid">הרשם</button>
   
         <ng-template #loading>

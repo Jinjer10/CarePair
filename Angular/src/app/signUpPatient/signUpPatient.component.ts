@@ -9,19 +9,12 @@ import { forkJoin } from 'rxjs';
 import { Router } from '@angular/router';  // הוספת Router
 import { SignInService } from '../../services/sign-in.service'; // הוספת SignInService
 
-
-
-
-
-
-
-
 @Component({
   standalone: true,
   selector: 'app-signUpPatient',
   templateUrl: './signUpPatient.component.html',
   styleUrls: ['./signUpPatient.component.scss'],
-  imports: [RouterModule,ReactiveFormsModule, NgIf, NgForOf],  // ← חובה בשביל routerLink
+  imports: [RouterModule, ReactiveFormsModule, NgIf, NgForOf],  // ← חובה בשביל routerLink
 })
 export class SignUpPatientComponent implements OnInit {
   signUpForm!: FormGroup;
@@ -38,7 +31,7 @@ export class SignUpPatientComponent implements OnInit {
   constructor(
     private fb: FormBuilder,
     private enumService: EnumDataService,
-    private patientService:PatientService,
+    private patientService: PatientService,
     private router: Router, // הזרקת Router
     private authService: SignInService // הוספת SignInService לקונסטרקטור
   ) { }
@@ -96,8 +89,10 @@ export class SignUpPatientComponent implements OnInit {
       genderPreference: [[], Validators.required],
       agePreference: [[], Validators.required],
       religiosityPreference: [[], Validators.required],
-      wardPreference: [[], Validators.required],
-      hospitallPreference: [[], Validators.required]
+      // ward: [[], Validators.required],//===========================
+      // hospitall: [[], Validators.required]//===========================
+      ward: [null, Validators.required],
+      hospitall: [null, Validators.required],
     });
   }
 
@@ -110,7 +105,7 @@ export class SignUpPatientComponent implements OnInit {
       areas: this.enumService.getAreas(),
       cities: this.enumService.getCities(),
       religiosities: this.enumService.getReligiosities(),
-      wards: this.enumService.getWards(),
+      ward: this.enumService.getWards(),
       hospitall: this.enumService.getHospitalls()
     }).subscribe({
       next: (data) => {
@@ -121,8 +116,11 @@ export class SignUpPatientComponent implements OnInit {
         this.areas = data.areas.length ? data.areas : this.areas;
         this.cities = data.cities.length ? data.cities : this.cities;
         this.religiosities = data.religiosities.length ? data.religiosities : this.religiosities;
-        this.wards = data.wards.length ? data.wards : this.wards;
-        this.hospitalls = data.hospitall.length ? data.hospitall : this.hospitalls;
+        // this.ward = data.ward.length ? data.wards : this.ward;//===========================
+        this.wards = data.ward ? data.ward : this.wards;
+        // this.hospitall = data.hospitall.length ? data.hospitall : this.hospitall;//===========================
+        this.hospitalls = data.hospitall ? data.hospitall : this.hospitalls;
+
         console.log('נתונים נטענו בהצלחה מה-API==============================');
       },
       error: (err) => {
@@ -187,8 +185,8 @@ export class SignUpPatientComponent implements OnInit {
       city: parseInt(formValue.city, 10),
       genderJson: JSON.stringify({ key: this.findEnumKey(this.genders, formValue.gender) }),
       gender: parseInt(formValue.gender, 10),
-      availableTimesJson: JSON.stringify(formValue.availableTimes),
-      availableTimes: formValue.availableTimes.map((time: any, index: number) => ({
+      requiredTimesJson: JSON.stringify(formValue.availableTimes),
+      requiredTimes: formValue.availableTimes.map((time: any, index: number) => ({
         id: index,
         day: parseInt(time.day, 10),
         startTime: time.startTime,
@@ -208,20 +206,21 @@ export class SignUpPatientComponent implements OnInit {
       agePreference: formValue.agePreference.map((a: string) => parseInt(a, 10)),
       religiosityPreferenceJson: JSON.stringify(formValue.religiosityPreference.map((r: string) => ({ key: this.findEnumKey(this.religiosities, r) }))),
       religiosityPreference: formValue.religiosityPreference.map((r: string) => parseInt(r, 10)),
-      wardJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.wards, w) }))),
-      ward: formValue.wardPreference.map((w: string) => parseInt(w, 10)),
-      hospitallJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.wards, w) }))),
-      hospitall: formValue.wardPreference.map((w: string) => parseInt(w, 10)),
-      ageGroup: 0 // יש לעדכן אם נדרש
-    };
+      // wardJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.ward, w) }))),//===========================
+      // ward: formValue.wardPreference.map((w: string) => parseInt(w, 10)),//===========================
+      // hospitallJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.hospitall, w) }))),//===========================
+      // hospitall: formValue.wardPreference.map((w: string) => parseInt(w, 10)),//===========================
+      wardJson: JSON.stringify({ key: this.findEnumKey(this.wards, formValue.ward) }),
+      ward: parseInt(formValue.ward, 10),
+      
+      hospitallJson: JSON.stringify({ key: this.findEnumKey(this.hospitalls, formValue.hospitall) }),
+      hospitall: parseInt(formValue.hospitall, 10),   
+      ageGroup: 0 // יש לעדכן אם נדרש   
 
+    };
+      console.log("patient", patient)
     this.patientService.addPatient(patient).subscribe({
-      // next: () => {
-      //   console.log('הרשמה בוצעה בהצלחה');
-      //   login(email, password)
-      //   this.signUpForm.reset();
-      //   this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
-      // },
+
       next: () => {
         console.log('הרשמה בוצעה בהצלחה');
         this.authService.login(this.email, this.password).subscribe({ // ביצוע התחברות אוטומטית
