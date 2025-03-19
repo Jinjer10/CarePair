@@ -56,7 +56,7 @@
   <ng-template #loading>
     <p>טוען נתונים...</p>
   </ng-template>
-</div> -->
+</div> 
 
 <div class="personal-area-container">
   <ng-container *ngIf="userData; else loading">
@@ -67,7 +67,7 @@
       <span *ngIf="userRole === 'unknown'">לא ידוע</span>
     </p>
 
-    <!-- הצגת שדות דינמית לפי מה שקיים ב-userData -->
+    <!-- הצגת שדות דינמית לפי מה שקיים ב-userData 
     <p *ngIf="userData.phone"><strong>טלפון:</strong> {{ userData.phone }}</p>
     <p *ngIf="userData.city"><strong>עיר:</strong> {{ userData.city }}</p>
     <p *ngIf="userData.area"><strong>אזור:</strong> {{ userData.area }}</p>
@@ -82,23 +82,23 @@
     <p *ngIf="userData.languagePreference"><strong>העדפות שפה:</strong> {{ userData.languagePreference.join(', ') }}</p>
   </ng-container>
   
-  <!-- כפתורים לעדכון ומחיקה -->
+  <!-- כפתורים לעדכון ומחיקה --
   <div class="action-buttons">
     <button (click)="updateProfile()">עדכן פרטים</button>
     <button (click)="deleteProfile()" class="delete-btn">מחק חשבון</button>
   </div>
 
-  <!-- כפתורים חדשים לשיבוץ -->
+  <!-- כפתורים חדשים לשיבוץ --
   <div class="matching-buttons" *ngIf="userData">
     <!-- כפתור למציאת התאמה ראשונה - מוצג רק אם אין התאמה קיימת -->
-    <!-- <button *ngIf="!userData.matchStatus" (click)="findMatch()">מצא התאמה</button> -->
+    <!-- <button *ngIf="!userData.matchStatus" (click)="findMatch()">מצא התאמה</button> --
     <button (click)="findMatch()">מצא התאמה</button>
     
-    <!-- כפתור להצגת פרטי המשובץ - מוצג אם יש התאמה ממתינה או מאושרת -->
+    <!-- כפתור להצגת פרטי המשובץ - מוצג אם יש התאמה ממתינה או מאושרת --
     <div *ngIf="userData.matchStatus">
       <button (click)="viewMatchDetails()">צפה בפרטי המשובץ</button>
       
-      <!-- כפתור אישור - מוצג רק אם ההתאמה ממתינה -->
+      <!-- כפתור אישור - מוצג רק אם ההתאמה ממתינה -
       <button *ngIf="userData.matchStatus === 'pending'" (click)="approveMatch()">אשר התאמה</button>
     </div>
   </div>
@@ -106,4 +106,58 @@
   <ng-template #loading>
     <p>טוען נתונים...</p>
   </ng-template>
+ </div> -->
+
+ <div class="personal-area-body">
+  <div class="personal-area-wrapper">
+    <div class="personal-area-container">
+      <ng-container *ngIf="userData; else loading">
+        <h2>שלום {{ userData.fullName }}!</h2>
+        <p>תפקיד: 
+          <span *ngIf="userRole === 'patient'">פציינט</span>
+          <span *ngIf="userRole === 'volunteer'">מתנדב</span>
+          <span *ngIf="userRole === 'unknown'">לא ידוע</span>
+        </p>
+
+        <!-- הצגת שדות דינמית לפי מה שקיים ב-userData -->
+        <p *ngIf="userData.phone"><strong>טלפון:</strong> {{ userData.phone }}</p>
+        <p *ngIf="userData.city"><strong>עיר:</strong> {{ userData.city }}</p>
+        <p *ngIf="userData.area"><strong>אזור:</strong> {{ userData.area }}</p>
+        <p *ngIf="userData.ward"><strong>מחלקה:</strong> {{ userData.ward }}</p>
+        <p *ngIf="userData.hospitall"><strong>בית חולים:</strong> {{ userData.hospitall }}</p>
+        <p *ngIf="userData.age"><strong>גיל:</strong> {{ userData.age }}</p>
+        <p *ngIf="userData.ageGroup"><strong>קבוצת גיל:</strong> {{ userData.ageGroup }}</p>
+        <p *ngIf="userData.religiosity"><strong>רמת דתיות:</strong> {{ userData.religiosity }}</p>
+        <p *ngIf="userData.language"><strong>שפות:</strong> {{ userData.language.join(', ') }}</p>
+        <p *ngIf="userData.interests"><strong>תחומי עניין:</strong> {{ userData.interests.join(', ') }}</p>
+        <p *ngIf="userData.agePreference"><strong>העדפות גיל:</strong> {{ userData.agePreference.join(', ') }}</p>
+        <p *ngIf="userData.languagePreference"><strong>העדפות שפה:</strong> {{ userData.languagePreference.join(', ') }}</p>
+      </ng-container>
+
+      <!-- כפתורים לעדכון ומחיקה -->
+      <div class="action-buttons">
+        <button (click)="updateProfile()">עדכן פרטים</button>
+        <button (click)="deleteProfile()" class="delete-btn">מחק חשבון</button>
+      </div>
+
+      <!-- כפתורים חדשים לשיבוץ -->
+      <div class="matching-buttons" *ngIf="userData">
+        <button (click)="findMatch()">מצא התאמה</button>
+        
+        <div *ngIf="userData.matchStatus">
+          <button (click)="viewMatchDetails()">צפה בפרטי המשובץ</button>
+          <!-- <button *ngIf="userData.matchStatus === 'pending'" (click)="approveMatch()">אשר התאמה</button> -->
+        </div>
+      </div>
+
+      <ng-template #loading>
+        <p>טוען נתונים...</p>
+      </ng-template>
+    </div>
+
+    <!-- תמונה בצד -->
+    <div class="personal-area-image">
+      <img src="../../assets/business (1).png" alt="תמונה ליד אזור אישי">
+    </div>
+  </div>
 </div>

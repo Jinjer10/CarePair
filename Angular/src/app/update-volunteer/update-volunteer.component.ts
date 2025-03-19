@@ -261,7 +261,7 @@ export class UpdateVolunteerComponent implements OnInit {
   }
 
   cancel(): void {
-    this.router.navigate(['/personal-area']);
+    this.router.navigate(['/personalArea']);
   }
 
   private findEnumId(enumList: EnumItem[], key: string): string {

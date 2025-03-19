@@ -1,75 +1,338 @@
+// // // .personal-area-container {
+// // //     direction: rtl;
+// // //     font-family: 'Varela Round', sans-serif;
+// // //     background: linear-gradient(135deg, #fdfbfb, #ebedee);
+// // //     border-radius: 20px;
+// // //     padding: 30px;
+// // //     max-width: 600px;
+// // //     margin: 50px auto;
+// // //     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+// // //     animation: fadeIn 1s ease-in-out;
+// // //     transition: all 0.3s ease;
+// // //   }
+  
+// // //   .personal-area-container:hover {
+// // //     transform: translateY(-5px);
+// // //     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+// // //   }
+  
+// // //   .personal-area-container h2 {
+// // //     color: #333;
+// // //     font-size: 28px;
+// // //     margin-bottom: 20px;
+// // //     text-align: center;
+// // //     border-bottom: 2px solid #ccc;
+// // //     padding-bottom: 10px;
+// // //   }
+  
+// // //   .personal-area-container p {
+// // //     font-size: 18px;
+// // //     color: #444;
+// // //     margin: 10px 0;
+// // //   }
+  
+// // //   .personal-area-container strong {
+// // //     color: #0077b6;
+// // //     font-weight: bold;
+// // //   }
+  
+// // //   @keyframes fadeIn {
+// // //     from { opacity: 0; transform: translateY(10px); }
+// // //     to { opacity: 1; transform: translateY(0); }
+// // //   }
+// // .personal-area-container {
+// //   max-width: 600px;
+// //   margin: 20px auto;
+// //   padding: 20px;
+// //   border: 1px solid #ccc;
+// //   border-radius: 5px;
+// // }
+
+// // .action-buttons {
+// //   margin-top: 20px;
+// // }
+
+// // button {
+// //   padding: 10px 20px;
+// //   margin: 0 10px;
+// //   background-color: #007bff;
+// //   color: white;
+// //   border: none;
+// //   border-radius: 5px;
+// //   cursor: pointer;
+// // }
+
+// // button:hover {
+// //   background-color: #0056b3;
+// // }
+
+// // .delete-btn {
+// //   background-color: #dc3545;
+// // }
+
+// // .delete-btn:hover {
+// //   background-color: #b02a37;
+// // }
+
+// @font-face {
+//   font-family: "form";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+// }
+
+// @font-face {
+//   font-family: "bold";
+//   src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+// }
+
 // .personal-area-container {
-//     direction: rtl;
-//     font-family: 'Varela Round', sans-serif;
-//     background: linear-gradient(135deg, #fdfbfb, #ebedee);
-//     border-radius: 20px;
-//     padding: 30px;
+//   direction: rtl;
+//   font-family: "bold", sans-serif;
+//   background-color: #39c5ef;
+//   min-height: 100vh;
+//   margin: 0;
+//   padding: 40px;
+//   display: flex;
+//   flex-direction: column;
+//   justify-content: center;
+//   align-items: center;
+//   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.311);
+
+//   /* תיבת התוכן הראשית */
+//   > div {
+//     background-color: #e6e6e654;
+//     width: 100%;
 //     max-width: 600px;
-//     margin: 50px auto;
-//     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
-//     animation: fadeIn 1s ease-in-out;
-//     transition: all 0.3s ease;
-//   }
-  
-//   .personal-area-container:hover {
-//     transform: translateY(-5px);
-//     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
-//   }
-  
-//   .personal-area-container h2 {
-//     color: #333;
-//     font-size: 28px;
-//     margin-bottom: 20px;
+//     max-height: 70vh;
+//     overflow-y: auto;
+//     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+//     padding: 30px;
+//     border-radius: 5px;
 //     text-align: center;
-//     border-bottom: 2px solid #ccc;
-//     padding-bottom: 10px;
 //   }
-  
-//   .personal-area-container p {
+
+//   h2 {
+//     color: #fff;
+//     font-size: 32px;
+//     margin-bottom: 20px;
+//   }
+
+//   p {
 //     font-size: 18px;
-//     color: #444;
+//     color: #fff;
 //     margin: 10px 0;
+//     text-align: right;
+
+//     strong {
+//       color: #fff;
+//       margin-left: 5px;
+//     }
 //   }
-  
-//   .personal-area-container strong {
-//     color: #0077b6;
-//     font-weight: bold;
+
+//   /* כפתורים */
+//   .action-buttons,
+//   .matching-buttons {
+//     margin-top: 20px;
+//     display: flex;
+//     flex-wrap: wrap;
+//     gap: 10px;
+//     justify-content: center;
+
+//     button {
+//       font-family: "bold", sans-serif;
+//       font-size: 18px;
+//       padding: 12px 20px;
+//       border-radius: 5px;
+//       cursor: pointer;
+//       transition: all 0.3s ease;
+//       background-color: transparent;
+//       border: 2px solid #fff;
+//       color: #fff;
+
+//       &:hover {
+//         background-color: #fff;
+//         color: #a0ddef;
+//       }
+//     }
+
+//     .delete-btn {
+//       border: 2px solid #ff6b6b;
+//       color: #ff6b6b;
+
+//       &:hover {
+//         background-color: #ff6b6b;
+//         color: #fff;
+//       }
+//     }
 //   }
-  
-//   @keyframes fadeIn {
-//     from { opacity: 0; transform: translateY(10px); }
-//     to { opacity: 1; transform: translateY(0); }
+
+//   /* טעינה */
+//   p[ngIf="loading"] {
+//     color: #fff;
+//     font-size: 18px;
 //   }
+// }
+
+// /* אנימציה לכניסה */
+// @keyframes fadeIn {
+//   from {
+//     opacity: 0;
+//     transform: translateY(10px);
+//   }
+//   to {
+//     opacity: 1;
+//     transform: translateY(0);
+//   }
+// }
+
+// .personal-area-container > div {
+//   animation: fadeIn 1s ease-in-out;
+// }
+@font-face {
+  font-family: "form";
+  src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "bold";
+  src: url("../../assets/Amatica_SC/Amatica_SC/AmaticaSC-Bold.ttf") format("truetype");
+}
+// *{
+//   margin: 0;
+//   padding: 0;
+// }
+.personal-area-body {
+  background-color: #eb69f7;
+  font-family: "bold", sans-serif;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.311);
+}
+
+.personal-area-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin-left: 50px;
+}
+
 .personal-area-container {
-  max-width: 600px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 1px solid #ccc;
+  background-color: #e6e6e654;
+  width: 70%;
+  max-height: 70vh;
+  overflow-y: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 5px;
+  text-align: center;
+
+  h2 {
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+    text-align: right;
+
+    strong {
+      color: #fff;
+      margin-left: 5px;
+    }
+  }
+
+  /* כפתורים */
+  .action-buttons,
+  .matching-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    button {
+      font-family: "bold", sans-serif;
+      font-size: 18px;
+      padding: 12px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+
+      &:hover {
+        background-color: #fff;
+        color: #a0ddef;
+      }
+    }
+
+    .delete-btn {
+      border: 2px solid #ff6b6b;
+      color: #ff6b6b;
+
+      &:hover {
+        background-color: #ff6b6b;
+        color: #fff;
+      }
+    }
+  }
+
+  /* טעינה */
+  p[ngIf="loading"] {
+    color: #fff;
+    font-size: 18px;
+  }
+}
+
+.personal-area-image {
+  width: 30%;
+  max-width: 400px;
+  height: auto;
+  animation: float 2s ease-in-out infinite;
+}
+
+.personal-area-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
   border-radius: 5px;
 }
 
-.action-buttons {
-  margin-top: 20px;
+/* אנימציה לציפה */
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
-button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  background-color: #007bff;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
+/* אנימציה לכניסה */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
-button:hover {
-  background-color: #0056b3;
-}
-
-.delete-btn {
-  background-color: #dc3545;
-}
-
-.delete-btn:hover {
-  background-color: #b02a37;
+.personal-area-container {
+  animation: fadeIn 1s ease-in-out;
 }
