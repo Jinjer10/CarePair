@@ -83,4 +83,10 @@ export class PatientService {
       catchError(this.handleError)
     );
   }
+
+  deletePatient(): Observable<any> {
+    const token = localStorage.getItem('token');
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.delete(`${this.apiUrl}/patient/me`, { headers });
+  }
 }

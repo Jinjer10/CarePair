@@ -102,10 +102,15 @@ addVolunteer(volunteer: Volunteer): Observable<void> {
   }
 
   // מחיקת מתנדב
-  deleteVolunteer(id: number): Observable<void> {
-    return this.http.delete<void>(`${this.apiUrl}/${id}`).pipe(
-      catchError(this.handleError)
-    );
+  // deleteVolunteer(id: number): Observable<void> {
+  //   return this.http.delete<void>(`${this.apiUrl}/${id}`).pipe(
+  //     catchError(this.handleError)
+  //   );
+  // }
+  deleteVolunteer(): Observable<any> {
+    const token = localStorage.getItem('token');
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.delete(`${this.apiUrl}/volunteer/me`, { headers });
   }
 
   // קבלת פרטי המתנדב הנוכחי (עם אימות)

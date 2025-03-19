@@ -102,7 +102,7 @@ export class EnumDataService {
     );
   }
   getHospitalls(): Observable<EnumItem[]> {
-    return this.http.get<any>(`${this.apiUrl}/Hospitall`).pipe(
+    return this.http.get<any>(`${this.apiUrl}/Hospital`).pipe(
       map(data => this.transformToEnumItem(data))
     );
   }

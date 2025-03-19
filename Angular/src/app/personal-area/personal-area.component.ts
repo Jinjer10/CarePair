@@ -3,13 +3,14 @@ import { PatientService } from '../../services/patient.service';
 import { VolunteerService } from '../../services/volunteer.service';
 import { CommonModule } from '@angular/common';
 import { jwtDecode } from 'jwt-decode';
+import { Router } from '@angular/router'; // הוספת Router לניתוב לאחר מחיקה
 
 
 @Component({
   selector: 'app-personal-area',
   templateUrl: './personal-area.component.html',
   imports: [CommonModule],
-  styleUrls: ['./personal-area.component.css']
+  styleUrls: ['./personal-area.component.scss']
 })
 export class PersonalAreaComponent implements OnInit {
   userData: any;
@@ -17,7 +18,8 @@ export class PersonalAreaComponent implements OnInit {
 
   constructor(
     private patientService: PatientService,
-    private volunteerService: VolunteerService) {}
+    private volunteerService: VolunteerService,
+    private router: Router ) {}
 
   ngOnInit(): void {
     // קבלת תפקיד המשתמש מהטוקן
@@ -58,51 +60,55 @@ export class PersonalAreaComponent implements OnInit {
 
     return 'unknown';
   }
+
+  // פונקציה לעדכון פרטים
+  updateProfile() {
+    if (this.userRole === 'patient') {
+      this.router.navigate(['/update-patient']); // ניתוב לדף עדכון למטופלים
+    } else if (this.userRole === 'volunteer') {
+      this.router.navigate(['/update-volunteer']); // ניתוב לדף עדכון למתנדבים
+    }
+  }
+
+  // פונקציה למחיקת חשבון
+  deleteProfile() {
+    if (confirm('האם אתה בטוח שברצונך למחוק את החשבון? פעולה זו אינה ניתנת לביטול.')) {
+      if (this.userRole === 'patient') {
+        this.patientService.deletePatient().subscribe({
+          next: () => {
+            this.handleDeleteSuccess();
+          },
+          error: (err) => {
+            console.error('שגיאה במחיקת חשבון מטופל:', err);
+            alert('שגיאה במחיקת החשבון');
+          }
+        });
+      } else if (this.userRole === 'volunteer') {
+        this.volunteerService.deleteVolunteer().subscribe({
+          next: () => {
+            this.handleDeleteSuccess();
+          },
+          error: (err) => {
+            console.error('שגיאה במחיקת חשבון מתנדב:', err);
+            alert('שגיאה במחיקת החשבון');
+          }
+        });
+      }
+    }
+  }
+
+  // פונקציה לטיפול במחיקה מוצלחת
+  private handleDeleteSuccess() {
+    localStorage.removeItem('token'); // הסרת הטוקן
+    alert('החשבון נמחק בהצלחה');
+    this.router.navigate(['/signin']); // ניתוב לדף התחברות
+  }
 }
+
 
 interface TokenPayload {
   [key: string]: any;
 }
-// import { Component, OnInit } from '@angular/core';
-// import { PatientService } from '../../services/patient.service';
-// import { CommonModule } from '@angular/common';
-// import jwt_decode from 'jwt-decode';
-// @Component({
-//   selector: 'app-personal-area',
-//   templateUrl: './personal-area.component.html',
-//   imports: [CommonModule],
-//   styleUrls: ['./personal-area.component.css']
-// })
-// export class PersonalAreaComponent implements OnInit {
-//   userData: any;
 
-//   constructor(private patientService: PatientService) {}
-
-//   ngOnInit(): void {
-//     this.patientService.getMe().subscribe({
-//       next: (data) => {
-//         this.userData = data;
-//         console.log('נתוני משתמש:', data);
-//       },
-//       error: (err) => {
-//         console.error('שגיאה בקבלת נתוני משתמש:', err);
-//       }
-//     });
-//   }
-
-//   getUserRoleFromToken(): 'patient' | 'volunteer' | 'unknown' {
-//     const token = localStorage.getItem('token');
-//     if (!token) return 'unknown';
-  
-//     const decoded: TokenPayload = jwt_decode(token);
-//     if ('PatientId' in decoded) return 'patient';
-//     if ('VolunteerId' in decoded) return 'volunteer';
-  
-//     return 'unknown';
-//   }
-// }
-// interface TokenPayload {
-//   [key: string]: any;
-// }
 
 

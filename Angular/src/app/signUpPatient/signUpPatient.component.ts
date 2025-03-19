@@ -1,7 +1,7 @@
 import { RouterModule } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, FormArray, Validators, ValidatorFn, AbstractControl } from '@angular/forms';
-import { CommonModule } from '@angular/common';
+import { CommonModule, NgForOf, NgIf } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
 import { EnumDataService, EnumItem } from '../../services/enum-data.service';
 import { PatientService, Patient, Time } from '../../services/patient.service';
@@ -20,8 +20,8 @@ import { SignInService } from '../../services/sign-in.service'; // הוספת Si
   standalone: true,
   selector: 'app-signUpPatient',
   templateUrl: './signUpPatient.component.html',
-  styleUrls: ['./signUpPatient.component.css'],
-  imports: [RouterModule,ReactiveFormsModule],  // ← חובה בשביל routerLink
+  styleUrls: ['./signUpPatient.component.scss'],
+  imports: [RouterModule,ReactiveFormsModule, NgIf, NgForOf],  // ← חובה בשביל routerLink
 })
 export class SignUpPatientComponent implements OnInit {
   signUpForm!: FormGroup;

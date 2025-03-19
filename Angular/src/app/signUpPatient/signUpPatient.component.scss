@@ -1,3 +1,77 @@
+// .signUpPatient-container {
+//   max-width: 600px;
+//   margin: 0 auto;
+//   padding: 20px;
+//   background-color: #f4f4f4;
+//   border-radius: 10px;
+//   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+// }
+
+// h2 {
+//   text-align: center;
+//   font-size: 24px;
+//   color: #333;
+//   margin-bottom: 20px;
+// }
+
+// form {
+//   display: flex;
+//   flex-direction: column;
+// }
+
+// label {
+//   font-size: 16px;
+//   margin-bottom: 5px;
+//   color: #333;
+// }
+
+// input,
+// textarea,
+// select {
+//   padding: 10px;
+//   margin-bottom: 15px;
+//   border: 1px solid #ccc;
+//   border-radius: 5px;
+//   font-size: 14px;
+//   width: 100%;
+// }
+
+// textarea {
+//   resize: vertical;
+//   height: 100px;
+// }
+
+// button {
+//   padding: 10px 20px;
+//   background-color: #4CAF50;
+//   color: white;
+//   border: none;
+//   border-radius: 5px;
+//   cursor: pointer;
+//   font-size: 16px;
+//   transition: background-color 0.3s;
+// }
+
+// button:disabled {
+//   background-color: #ccc;
+//   cursor: not-allowed;
+// }
+
+// button:hover {
+//   background-color: #45a049;
+// }
+
+// .success,
+// .error {
+//   text-align: center;
+//   font-size: 16px;
+//   color: #28a745;
+//   margin-top: 15px;
+// }
+
+// .error {
+//   color: #dc3545;
+// }
 
 
 @font-face {
@@ -14,8 +88,8 @@ html {
   height: 100%;
 }
 
-.signUpVolunteer-body {
-  background-color: #39c5ef;
+.signUpPatient-body {
+  background-color: #efe039;
   font-family: "bold", sans-serif;
   min-height: 100vh;
   margin: 0;
@@ -27,7 +101,7 @@ html {
 
 }
 
-.signUpVolunteer-wrapper {
+.signUpPatient-wrapper {
   display: flex; /* שימוש ב-flex כדי למקם את הטופס והתמונה זה לצד זה */
   justify-content: center;
   align-items: center;
@@ -37,7 +111,7 @@ html {
   max-width: 1200px; /* רוחב מקסימלי כולל של הטופס והתמונה */
 }
 
-.signUpVolunteer-container {
+.signUpPatient-container {
   background-color: #e6e6e654;
   width: 70%; /* הטופס תופס חצי מהרוחב */
   max-height: 70vh; /* הגבלת גובה ל-70% מגובה המסך */
@@ -49,14 +123,14 @@ html {
   text-align: center;
 }
 
-.signUpVolunteer-image {
+.signUpPatient-image {
   width: 30%; /* התמונה תופסת חצי מהרוחב */
   max-width: 400px;
   height: auto;
   animation: float 2s ease-in-out infinite; /* הוספת האנימציה */
 }
 
-.signUpVolunteer-image img {
+.signUpPatient-image img {
   width: 100%;
   height: 100%;
   object-fit: cover; /* התמונה תתאים לגודל התיבה */
@@ -64,7 +138,7 @@ html {
   // box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-.signUpVolunteer-head {
+.signUpPatient-head {
   color: #fff;
   text-align: center;
   font-size: 32px;
@@ -75,7 +149,7 @@ form {
   width: 100%;
 }
 
-.input-group-out-vol {
+.input-group-out-pat {
   margin-bottom: 20px;
 
   label {
@@ -95,7 +169,7 @@ form {
       background-color: transparent;
       border: 2px solid #ffffff5d;
       border-radius: 5px;
-      color: #196876;
+      color: #766b19;
       font-size: 1.5vw;
       font-family: "bold";
       transition: all 0.3s ease;
@@ -103,7 +177,7 @@ form {
 
       &:focus {
           outline: none;
-          border-color: #328994;
+          border-color: #949232;
           background-color: rgba(255, 255, 255, 0.311);
       }
 
@@ -175,7 +249,7 @@ button[type="submit"] {
 
   &:hover {
       background-color: #fff;
-      color: #a0ddef;
+      color: #efeca0;
   }
 }
 
@@ -291,13 +365,13 @@ input[type="checkbox"]:checked + .checkbox-label {
 
       &:before {
           width: 5px;
-          background: #a0ddef;
+          background: #efeca0;
           transition: width 150ms ease 100ms;
       }
 
       &:after {
           width: 10px;
-          background: #a0ddef;
+          background: #efeca0;
           transition: width 150ms ease 100ms;
       }
   }

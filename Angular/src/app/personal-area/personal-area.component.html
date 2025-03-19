@@ -1,4 +1,4 @@
-<div class="personal-area-container">
+<!-- <div class="personal-area-container">
   <ng-container *ngIf="userData; else loading">
     <h2>שלום {{ userData.fullName }}!</h2>
     <p>תפקיד: 
@@ -19,6 +19,39 @@
     <p><strong>העדפות גיל:</strong> {{ userData.agePreference.join(', ') }}</p>
     <p><strong>העדפות שפה:</strong> {{ userData.languagePreference?.join(', ') }}</p>
   </ng-container>
+
+  <ng-template #loading>
+    <p>טוען נתונים...</p>
+  </ng-template>
+</div> -->
+<div class="personal-area-container">
+  <ng-container *ngIf="userData; else loading">
+    <h2>שלום {{ userData.fullName }}!</h2>
+    <p>תפקיד: 
+      <span *ngIf="userRole === 'patient'">פציינט</span>
+      <span *ngIf="userRole === 'volunteer'">מתנדב</span>
+      <span *ngIf="userRole === 'unknown'">לא ידוע</span>
+    </p>
+
+    <!-- הצגת שדות דינמית לפי מה שקיים ב-userData -->
+    <p *ngIf="userData.phone"><strong>טלפון:</strong> {{ userData.phone }}</p>
+    <p *ngIf="userData.city"><strong>עיר:</strong> {{ userData.city }}</p>
+    <p *ngIf="userData.area"><strong>אזור:</strong> {{ userData.area }}</p>
+    <p *ngIf="userData.ward"><strong>מחלקה:</strong> {{ userData.ward }}</p>
+    <p *ngIf="userData.hospitall"><strong>בית חולים:</strong> {{ userData.hospitall }}</p>
+    <p *ngIf="userData.age"><strong>גיל:</strong> {{ userData.age }}</p>
+    <p *ngIf="userData.ageGroup"><strong>קבוצת גיל:</strong> {{ userData.ageGroup }}</p>
+    <p *ngIf="userData.religiosity"><strong>רמת דתיות:</strong> {{ userData.religiosity }}</p>
+    <p *ngIf="userData.language"><strong>שפות:</strong> {{ userData.language.join(', ') }}</p>
+    <p *ngIf="userData.interests"><strong>תחומי עניין:</strong> {{ userData.interests.join(', ') }}</p>
+    <p *ngIf="userData.agePreference"><strong>העדפות גיל:</strong> {{ userData.agePreference.join(', ') }}</p>
+    <p *ngIf="userData.languagePreference"><strong>העדפות שפה:</strong> {{ userData.languagePreference.join(', ') }}</p>
+  </ng-container>
+  <!-- כפתורים לעדכון ומחיקה -->
+  <div class="action-buttons">
+    <button (click)="updateProfile()">עדכן פרטים</button>
+    <button (click)="deleteProfile()" class="delete-btn">מחק חשבון</button>
+  </div>
 
   <ng-template #loading>
     <p>טוען נתונים...</p>

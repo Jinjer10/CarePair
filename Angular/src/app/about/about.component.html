@@ -1,94 +1,4 @@
-<!-- <!-- <h1>האתר שלנו מתווך בין מתנדבים לחולים<br/>
-    כל שעליכם לעשות זה להרשם לאתר<br/>
-    אם אתם זקוקים למתנדב - תקבלו את המתנדב שהכי מתאים לכם<br/>
-    ואם אתם מעוניינים להתנדב - תקבלו את החולה שהכי מתאים לנתונים שלכם<br/>
-    בהצלחה<br/>
-    </h1>
-       
-    <div class="signUpButton">
-        <button routerLink="/signUp" class="signUpButton">להרשמה</button>
-      </div>
-      <h1>חלק מבתי החולים שאיתם אנו מתווכים</h1>
-      <div class="carousel-container">
-        <div class="carousel">
-            <img src="../../assets/hospital1.png" alt="בית חולים 1">
-            <img src="../../assets/hospital2.png" alt="בית חולים 2">
-            <img src="../../assets/hospital3.png" alt="בית חולים 3">
-            <img src="../../assets/hospital4.png" alt="בית חולים 4">
-            <img src="../../assets/hospital5.png" alt="בית חולים 5">
-            <img src="../../assets/hospital6.png" alt="בית חולים 6">
-            <img src="../../assets/hospital7.png" alt="בית חולים 7">
-            <img src="../../assets/hospital8.png" alt="בית חולים 8">
-            <img src="../../assets/hospital9.png" alt="בית חולים 9">
-            <img src="../../assets/hospital10.png" alt="בית חולים 10">
-            <img src="../../assets/hospital11.png" alt="בית חולים 11">
-            <img src="../../assets/hospital12.png" alt="בית חולים 12">
-            <img src="../../assets/hospital13.png" alt="בית חולים 13">
-            <img src="../../assets/hospital14.png" alt="בית חולים 14">
-            <img src="../../assets/hospital15.png" alt="בית חולים 15">
-        </div>
-    </div> -->
-<!-- signUp.component.html 
-<div class="signup-container">
-    <div class="wrapper-images">
-      <div class="images-line">
-        <div class="line large" style="background-image:url(https://images.unsplash.com/photo-1561037404-61cd46aa615b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80)"></div>
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1543466835-00a7907e9de1?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1074&q=80)"></div>
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1587300003388-59208cc962cb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1470&q=80)"></div>
-      </div>
-      <div class="images-line">
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1537151625747-768eb6cf92b2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=685&q=80)"></div>
-        <div class="line large" style="background-image:url(https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=880&q=80)"></div>
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1588943211346-0908a1fb0b01?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80)"></div>
-      </div>
-      <div class="images-line">
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1583511655826-05700d52f4d9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=688&q=80)"></div>
-        <div class="line" style="background-image:url(https://images.unsplash.com/photo-1517849845537-4d257902454a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=735&q=80)"></div>
-        <div class="line large" style="background-image:url(https://images.unsplash.com/photo-1534551767192-78b8dd45b51b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80)"></div>
-      </div>
-    </div>
-  
-    <div class="content-container">
-      <div class="logo">
-        <img src="path/to/your/square-logo.png" alt="Your Logo">
-      </div>
-      
-      <div class="text-content">
-        <h1>האתר שלנו מתווך בין מתנדבים לחולים<br>
-            כל שעליכם לעשות זה להרשם לאתר<br>
-            אם אתם זקוקים למתנדב - תקבלו את המתנדב שהכי מתאים לכם<br>
-            ואם אתם מעוניינים להתנדב - תקבלו את החולה שהכי מתאים לנתונים שלכם<br>
-            בהצלחה</h1>
-      </div>
-      
-      <button routerLink="/signUp" class="signup-button">להרשמה</button>
-  
-      <div class="hospitals-section">
-        <h2>חלק מבתי החולים שאיתם אנו מתווכים</h2>
-        <div class="carousel-container">
-          <div class="carousel">
-            <img src="../../assets/hospital1.png" alt="בית חולים 1">
-            <img src="../../assets/hospital2.png" alt="בית חולים 2">
-            <img src="../../assets/hospital3.png" alt="בית חולים 3">
-            <img src="../../assets/hospital4.png" alt="בית חולים 4">
-            <img src="../../assets/hospital5.png" alt="בית חולים 5">
-            <img src="../../assets/hospital6.png" alt="בית חולים 6">
-            <img src="../../assets/hospital7.png" alt="בית חולים 7">
-            <img src="../../assets/hospital8.png" alt="בית חולים 8">
-            <img src="../../assets/hospital9.png" alt="בית חולים 9">
-            <img src="../../assets/hospital10.png" alt="בית חולים 10">
-            <img src="../../assets/hospital11.png" alt="בית חולים 11">
-            <img src="../../assets/hospital12.png" alt="בית חולים 12">
-            <img src="../../assets/hospital13.png" alt="בית חולים 13">
-            <img src="../../assets/hospital14.png" alt="בית חולים 14">
-            <img src="../../assets/hospital15.png" alt="בית חולים 15">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
 
-  <!-- signUp.component.html -->
 <div class="signup-container">
     <div class="wrapper-images">
       <div class="images-line">
@@ -149,11 +59,20 @@
       </div> -->
       
       <div class="text-content">
-        <h1>האתר שלנו מתווך בין מתנדבים לחולים<br>
-            כל שעליכם לעשות זה להרשם לאתר<br>
-            אם אתם זקוקים למתנדב - תקבלו את המתנדב שהכי מתאים לכם<br>
-            ואם אתם מעוניינים להתנדב - תקבלו את החולה שהכי מתאים לנתונים שלכם<br>
-            בהצלחה</h1>
+        <h1>Care Pare – התאמה אישית בין מתנדבים לחולים</h1>  
+        <p>ברוכים הבאים ל-Care Pare, הפלטפורמה שמחברת בין מתנדבים לחולים הזקוקים לעזרה, על בסיס התאמה אישית ומדויקת.</p>  
+        
+        <p>איך זה עובד?</p>  
+        <ul>
+          <li>נרשמים ומזינים את הפרטים האישיים שלכם.</li>  
+          <li>אם אתם מחפשים מתנדב – נמצא עבורכם את האדם המתאים ביותר לצרכים שלכם.</li>  
+          <li>אם אתם מעוניינים להתנדב – נתאים לכם חולה שזקוק בדיוק לעזרתכם.</li>  
+        </ul>  
+        
+        <p>Care Pare דואג להתאמות מדויקות כדי לוודא שכל מתנדב וכל חולה מקבלים את הסיוע המתאים ביותר עבורם.  
+        יחד, נוכל להפוך את ההתנדבות לנגישה, משמעותית ומועילה לכולם.</p>  
+        
+        <p>הצטרפו אלינו והתחילו לעשות שינוי כבר היום!</p>        
       </div>
       
       <button routerLink="/signUp" class="signup-button">להרשמה</button>
