@@ -88,8 +88,104 @@
               </div>
             </div>
           </div>
+          <div class="input-group-out-vol">
+            <label>:טלפון</label>
+            <input type="text" formControlName="phone" required />
+            <div *ngIf="updateForm.get('phone')?.invalid && (updateForm.get('phone')?.dirty || updateForm.get('phone')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('phone')?.errors?.['required']">טלפון נדרש</div>
+              <div *ngIf="updateForm.get('phone')?.errors?.['phoneFormat']">מספר טלפון לא תקין (לדוגמה: 0501234567)</div>
+            </div>
+          </div>
+          <div class="input-group-out-vol">
+            <label>:פרטים נוספים</label>
+            <textarea formControlName="extraDetailse"></textarea>
+          </div>
+          <div class="input-group-out-vol">
+            <label>:אזור</label>
+            <select formControlName="area" required>
+              <option value="">בחר אזור</option>
+              <option *ngFor="let area of areas" [value]="area.id">{{ area.value }}</option>
+            </select>
+            <div *ngIf="updateForm.get('area')?.invalid && (updateForm.get('area')?.dirty || updateForm.get('area')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('area')?.errors?.['required']">אזור נדרש</div>
+            </div>
+          </div>
+    
+          <div class="input-group-out-vol">
+            <label>:עיר</label>
+            <select formControlName="city" required>
+              <option value="">בחר עיר</option>
+              <option *ngFor="let city of cities" [value]="city.id">{{ city.value }}</option>
+            </select>
+            <div *ngIf="updateForm.get('city')?.invalid && (updateForm.get('city')?.dirty || updateForm.get('city')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('city')?.errors?.['required']">עיר נדרשת</div>
+            </div>
+          </div>
+           <!-- העדפת גיל -->
+        <div class="input-group-out-vol">
+          <label>:העדפת גיל</label>
+          <div class="checkbox-group">
+            <div *ngFor="let age of ageGroups; let i=index">
+              <input
+                type="checkbox"
+                [id]="'agePref-' + i"
+                [value]="age.id"
+                (change)="updateCheckboxArray('agePreference', age.id.toString(), $event)"
+                [checked]="updateForm.value.agePreference.includes(age.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'agePref-' + i">
+                <span></span>{{ age.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="updateForm.get('agePreference')?.invalid && (updateForm.get('agePreference')?.dirty || updateForm.get('agePreference')?.touched)" class="error-message">
+            <div *ngIf="updateForm.get('agePreference')?.errors?.['required']">חובה לבחור לפחות העדפת גיל אחת</div>
+          </div>
+        </div>
   
-          <!-- דוגמה לצ'קבוקסים של תחומי עניין -->
+        <!-- העדפת רמת דתיות -->
+        <div class="input-group-out-vol">
+          <label>:העדפת רמת דתיות</label>
+          <div class="checkbox-group">
+            <div *ngFor="let religiosity of religiosities; let i=index">
+              <input
+                type="checkbox"
+                [id]="'religiosityPref-' + i"
+                [value]="religiosity.id"
+                (change)="updateCheckboxArray('religiosityPreference', religiosity.id.toString(), $event)"
+                [checked]="updateForm.value.religiosityPreference.includes(religiosity.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'religiosityPref-' + i">
+                <span></span>{{ religiosity.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="updateForm.get('religiosityPreference')?.invalid && (updateForm.get('religiosityPreference')?.dirty || updateForm.get('religiosityPreference')?.touched)" class="error-message">
+            <div *ngIf="updateForm.get('religiosityPreference')?.errors?.['required']">חובה לבחור לפחות העדפת רמת דתיות אחת</div>
+          </div>
+        </div>
+  
+                  <!-- העדפת מגדר -->
+        <div class="input-group-out-vol">
+          <label>:העדפת מגדר</label>
+          <div class="checkbox-group">
+            <div *ngFor="let g of genders; let i=index">
+              <input
+                type="checkbox"
+                [id]="'genderPref-' + i"
+                [value]="g.id"
+                (change)="updateCheckboxArray('genderPreference', g.id.toString(), $event)"
+                [checked]="updateForm.value.genderPreference.includes(g.id.toString())"
+              />
+              <label class="checkbox-label" [for]="'genderPref-' + i">
+                <span></span>{{ g.value }}
+              </label>
+            </div>
+          </div>
+          <div *ngIf="updateForm.get('genderPreference')?.invalid && (updateForm.get('genderPreference')?.dirty || updateForm.get('genderPreference')?.touched)" class="error-message">
+            <div *ngIf="updateForm.get('genderPreference')?.errors?.['required']">חובה לבחור לפחות העדפת מגדר אחת</div>
+          </div>
+        </div>
           <div class="input-group-out-vol">
             <label>:תחומי עניין</label>
             <div class="checkbox-group">
@@ -111,7 +207,6 @@
             </div>
           </div>
   
-          <!-- שפות מדוברות -->
           <div class="input-group-out-vol">
             <label>:שפות מדוברות</label>
             <div class="checkbox-group">
@@ -133,8 +228,6 @@
             </div>
           </div>
   
-          <!-- שאר הצ'קבוקסים (languagePreference, genderPreference וכו') יתעדכנו באותו אופן -->
-          <!-- לדוגמה: העדפת שפות -->
           <div class="input-group-out-vol">
             <label>:העדפת שפות</label>
             <div class="checkbox-group">
@@ -156,7 +249,6 @@
             </div>
           </div>
   
-          <!-- זמני זמינות -->
           <div class="input-group-out-vol">
             <label>:זמני זמינות</label>
             <div formArrayName="availableTimes">
