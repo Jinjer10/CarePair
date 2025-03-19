@@ -8,7 +8,7 @@ namespace CarePair.API.Controllers
 {
    
     [ApiController]
-    [Route("api/match/[controller]")]
+    [Route("api/[controller]")]
     public class MatchController : ControllerBase
     {
         private readonly IMatchingService _matchingService;

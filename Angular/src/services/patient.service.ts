@@ -95,4 +95,42 @@ export class PatientService {
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
     return this.http.put(`${this.apiUrl}/me`, data, { headers });
   }
+
+  // // פונקציה למציאת התאמה עבור מטופל
+  // findMatch(patientId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   return this.http.get(`${this.apiUrl}/${patientId}/pending-match`, { headers });
+  // }
+
+  // // פונקציה לאישור התאמה עבור מטופל
+  // approveMatch(patientId: number, matchedUserId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   const body = { userId: patientId, matchedUserId, isVolunteer: false };
+  //   return this.http.post(`api/match/confirm`, body, { headers });
+  // }
+
+
+  // // פונקציה לקבלת התאמה פעילה עבור מטופל
+  // getActiveMatch(patientId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   return this.http.get(`${this.apiUrl}/${patientId}/active-match`, { headers });
+  // }
+  // פונקציה למציאת התאמה עבור מטופל
+  findMatch(patientId: number): Observable<any> {
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+    return this.http.get(`${this.apiUrl}/${patientId}/pending-match`, { headers });
+  }
+
+  // // פונקציה לאישור התאמה עבור מטופל
+  // approveMatch(patientId: number, matchedUserId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   const body = { userId: patientId, matchedUserId, isVolunteer: false };
+  //   return this.http.post('https://localhost:7100/api/Match/confirm', body, { headers });
+  // }
+
+  // פונקציה לקבלת התאמה פעילה עבור מטופל
+  getActiveMatch(patientId: number): Observable<any> {
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+    return this.http.get(`${this.apiUrl}/${patientId}/active-match`, { headers });
+  }
 }

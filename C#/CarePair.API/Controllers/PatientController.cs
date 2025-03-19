@@ -107,7 +107,7 @@ namespace CarePair.API.Controllers
             return Ok(new { message = "חשבון נמחק בהצלחה" }); // החזרת JSON
         }
 
-        // GET: api/patients/{patientId}/pending-match
+        // GET: api/patient/{patientId}/pending-match
         [HttpGet("{patientId}/pending-match")]
         public IActionResult GetPendingMatchForPatient(int patientId)
         {
@@ -120,7 +120,7 @@ namespace CarePair.API.Controllers
             return NotFound(new { Message = $"לא נמצא שיבוץ ממתין עבור המטופל {patientId}" });
         }
 
-        // GET: api/patients/{patientId}/active-match
+        // GET: api/patient/{patientId}/active-match
         [HttpGet("{patientId}/active-match")]
         public IActionResult GetActiveMatchForPatient(int patientId)
         {

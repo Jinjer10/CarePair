@@ -141,4 +141,40 @@ deleteVolunteer(): Observable<any> {
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
     return this.http.put(`${this.apiUrl}/me`, data, { headers });
   }
+// פונקציה למציאת התאמה עבור מתנדב
+findMatch(volunteerId: number): Observable<any> {
+  const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  return this.http.get(`${this.apiUrl}/${volunteerId}/pending-match`, { headers });
+}
+
+// // פונקציה לאישור התאמה עבור מתנדב
+// approveMatch(volunteerId: number, matchedUserId: number): Observable<any> {
+//   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+//   const body = { userId: volunteerId, matchedUserId, isVolunteer: true };
+//   return this.http.post('https://localhost:7100/api/match/confirm', body, { headers });
+// }
+
+// פונקציה לקבלת התאמה פעילה עבור מתנדב
+getActiveMatch(volunteerId: number): Observable<any> {
+  const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  return this.http.get(`${this.apiUrl}/${volunteerId}/active-match`, { headers });
+}
+  // // פונקציה למציאת התאמה עבור מתנדב
+  // findMatch(volunteerId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   return this.http.get(`${this.apiUrl}/${volunteerId}/pending-match`, { headers });
+  // }
+
+  // // פונקציה לאישור התאמה עבור מתנדב
+  // approveMatch(volunteerId: number, matchedUserId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   const body = { userId: volunteerId, matchedUserId, isVolunteer: true };
+  //   return this.http.post(`api/match/confirm`, body, { headers });
+  // }
+
+  // // פונקציה לקבלת התאמה פעילה עבור מתנדב
+  // getActiveMatch(volunteerId: number): Observable<any> {
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${localStorage.getItem('token')}`);
+  //   return this.http.get(`${this.apiUrl}/${volunteerId}/active-match`, { headers });
+  // }
 }

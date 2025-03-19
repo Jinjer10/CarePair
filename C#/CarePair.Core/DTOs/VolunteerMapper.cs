@@ -13,6 +13,7 @@ namespace CarePair.Core.DTOs
         {
             return new VolunteerDto
             {
+                Id = volunteer.Id,
                 FullName = volunteer.FullName,
                 Age = CalculateAge(volunteer.BirthDate),
                 Phone = volunteer.Phone,

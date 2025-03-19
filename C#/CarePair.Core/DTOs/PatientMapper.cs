@@ -15,6 +15,7 @@ namespace CarePair.Service
         {
             return new PatientDto
             {
+                Id= patient.Id,
                 FullName = patient.FullName,
                 Age = CalculateAge(patient.BirthDate),
                 Phone = patient.Phone,
