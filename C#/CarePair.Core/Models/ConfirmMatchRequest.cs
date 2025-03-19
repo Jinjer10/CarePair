@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace CarePair.Core.Models
 {
-   public  class ConfirmMatchRequest
+   public class ConfirmMatchRequest
     {
+        //טבלת אישורים
         public int Id { get; set; }
         public int UserId { get; set; }
         public int MatchedUserId { get; set; }

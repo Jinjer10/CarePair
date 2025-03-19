@@ -83,5 +83,17 @@ namespace CarePair.Data
                 _context.SaveChanges();
             }
         }
+
+        public PendingMatch GetPendingMatchByUserId(int userId)
+        {
+            return _context.PendingMatch
+                .FirstOrDefault(m => m.VolunteerId == userId || m.PatientId == userId);
+        }
+
+        public ActiveMatch GetActiveMatchByUserId(int userId)
+        {
+            return _context.ActiveMatch
+                .FirstOrDefault(m => m.VolunteerId == userId || m.PatientId == userId);
+        }
     }
 }

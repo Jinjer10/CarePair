@@ -1,46 +1,4 @@
-////using Microsoft.AspNetCore.Authorization;
-//using Microsoft.AspNetCore.Mvc;
-//namespace CarePair.API.Controllers
-//{
-//    [Route("api/[controller]")]
-//    [ApiController]
-//    public class PatientController: ControllerBase
-//    {
-//        private readonly IPatientService _patientService;
-//        public PatientController(IPatientService patientService)
-//        {
-//            _patientService = patientService;
-//        }
-//        // GET: api/<PatientController>
-//        [HttpGet]
-//        [Authorize]
-//        public IEnumerable<Patient> Get()
-//        {
-//            return _patientService.GetPatientList();
-//        }
 
-////        // POST api/<PatientController>
-//        [HttpPost]
-//        public void Post(Patient patient)
-//        {
-//            _patientService.AddPatient(patient);
-//        }
-
-//        // PUT api/<patientController>/5
-//        [HttpPut("{id}")]
-//        public void Put(Patient patient, int id)
-//        {
-//            _patientService.UpdatePatient(patient, id);
-//        }
-
-//        // DELETE api/<PatientController>/5
-//        [HttpDelete("{id}")]
-//        public void Delete(int id)
-//        {
-//            _patientService.DeletePatient(id);
-//        }
-//    }
-//}
 using CarePair.Core.DTOs;
 using CarePair.Core.Models;
 using CarePair.Core.Service;
@@ -53,11 +11,19 @@ namespace CarePair.API.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class PatientController : ControllerBase
+
     {
         private readonly IPatientService _patientService;
-        public PatientController(IPatientService patientService)
+        private readonly IVolunteerService _volunteerService;
+        private readonly IMatchingService _matchingService;
+        public PatientController(
+                 IMatchingService matchingService,
+                 IVolunteerService volunteerService,
+                 IPatientService patientService)
         {
-            _patientService = patientService;
+            _matchingService = matchingService ?? throw new ArgumentNullException(nameof(matchingService));
+            _volunteerService = volunteerService ?? throw new ArgumentNullException(nameof(volunteerService));
+            _patientService = patientService ?? throw new ArgumentNullException(nameof(patientService));
         }
 
 
@@ -87,7 +53,7 @@ namespace CarePair.API.Controllers
             return _patientService.GetPatientList();
         }
 
-        //// GET api/<PatientController>/5
+        // GET api/<PatientController>/5
         //[HttpGet("{id}")]
         //public ActionResult<PatientDto> GetById(int id)
         //{
@@ -99,11 +65,12 @@ namespace CarePair.API.Controllers
         //    return Ok(dto);
         //}
 
-        // POST api/<PatientController>
+        //POST api/<PatientController>
         [HttpPost]
         public void Post(Patient patient)
         {
             _patientService.AddPatient(patient);
+            
         }
 
         // PUT api/<patientController>/5
@@ -118,6 +85,32 @@ namespace CarePair.API.Controllers
         public void Delete(int id)
         {
             _patientService.DeletePatient(id);
+        }
+
+        // GET: api/patients/{patientId}/pending-match
+        [HttpGet("{patientId}/pending-match")]
+        public IActionResult GetPendingMatchForPatient(int patientId)
+        {
+            var matchedUserId = _matchingService.GetMatchedUserId(patientId);
+            if (matchedUserId.HasValue)
+            {
+                var volunteer = VolunteerMapper.ToDto(_volunteerService.GetVolunteerById(matchedUserId.Value));
+                return Ok(new { PatientId = patientId, MatchedVolunteer = volunteer });
+            }
+            return NotFound(new { Message = $"לא נמצא שיבוץ ממתין עבור המטופל {patientId}" });
+        }
+
+        // GET: api/patients/{patientId}/active-match
+        [HttpGet("{patientId}/active-match")]
+        public IActionResult GetActiveMatchForPatient(int patientId)
+        {
+            var matchedUserId = _matchingService.GetActiveMatchedUserId(patientId);
+            if (matchedUserId.HasValue)
+            {
+                var volunteer = VolunteerMapper.ToDto(_volunteerService.GetVolunteerById(matchedUserId.Value));
+                return Ok(new { PatientId = patientId, MatchedVolunteer = volunteer });
+            }
+            return NotFound(new { Message = $"לא נמצא שיבוץ פעיל עבור המטופל {patientId}" });
         }
     }
 }

@@ -15,6 +15,5 @@ namespace CarePair.Core.Mapping
         {
             CreateMap <Patient, PatientDto>().ReverseMap();
         }
-
     }
 }

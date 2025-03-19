@@ -4,10 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using HungarianAlgorithm;
+using CarePair.Core.Service;
 
 namespace CarePair.Service
 {
-    public class MatchingService
+    public class MatchingService : IMatchingService
     {
         private readonly IMatchRepository _matchRepository;
 
@@ -47,6 +48,31 @@ namespace CarePair.Service
             _matchRepository.RemoveExpiredMatches();
         }
 
+        public int? GetMatchedUserId(int userId)
+        {
+            var match = _matchRepository.GetPendingMatchByUserId(userId);
+            if (match == null)
+            {
+                return null; // אין שיבוץ ממתין עבור המשתמש הזה
+            }
+
+            // מחזיר את ה-ID של המשובץ (אם המשתמש הוא מתנדב, מחזיר את המטופל, ולהיפך)
+            return match.VolunteerId == userId ? match.PatientId : match.VolunteerId;
+        }
+
+        public int? GetActiveMatchedUserId(int userId)
+        {
+            var match = _matchRepository.GetActiveMatchByUserId(userId);
+            if (match == null)
+            {
+                return null; // אין שיבוץ פעיל עבור המשתמש הזה
+            }
+
+            // מחזיר את ה-ID של המשובץ (אם המשתמש הוא מתנדב, מחזיר את המטופל, ולהיפך)
+            return match.VolunteerId == userId ? match.PatientId : match.VolunteerId;
+        }
+
+
         // איפוס התאמות חודשיות
         public void ResetMonthlyMatches()
         {
@@ -78,7 +104,44 @@ namespace CarePair.Service
 
             // שימוש באלגוריתם ההונגרי
             int[] result = HungarianAlgorithm.HungarianAlgorithm.FindAssignments(costMatrix);
-            return result;
+                 // הוספת ההתאמות לטבלת השיבוצים הממתינים
+            for (int volunteerIdx = 0; volunteerIdx < volunteerCount; volunteerIdx++)
+            {
+                int patientIdx = result[volunteerIdx];
+
+                // בדיקה אם ההתאמה תקפה (האינדקס של המטופל נמצא בטווח)
+                if (patientIdx >= 0 && patientIdx < patientCount)
+                {
+                    var volunteer = volunteers[volunteerIdx];
+                    var patient = patients[patientIdx];
+
+                    // בדיקת כפילויות - וידוא שאין כבר שיבוץ ממתין לזוג הזה
+                    if (_matchRepository.GetPendingMatch(volunteer.Id, patient.Id) == null)
+                    {
+                        // יצירת שיבוץ ממתין חדש
+                        var pendingMatch = new PendingMatch
+                        {
+                            VolunteerId = volunteer.Id,
+                            PatientId = patient.Id,
+                            MatchTime = DateTime.Now,
+                            VolunteerConfirmed = false,
+                            PatientConfirmed = false
+                        };
+
+                        // הוספת השיבוץ לרפוזיטורי
+                        _matchRepository.AddPendingMatch(pendingMatch);
+                    }
+                }
+                // אפשרות לטיפול במתנדבים שלא שובצו (אם רלוונטי)
+                else
+                {
+                    // לדוגמה: רישום ללוג או התראה על מתנדב שלא שובץ
+                    // Console.WriteLine($"Volunteer {volunteers[volunteerIdx].Id} was not assigned to any patient.");
+                }
+            }
+
+
+                return result;
         }
 
         // חישוב ניקוד התאמה

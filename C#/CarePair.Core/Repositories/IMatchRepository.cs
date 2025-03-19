@@ -19,5 +19,7 @@ namespace CarePair.Core.Repositories
         public void RemoveExpiredMatches();
         public List<ActiveMatch> GetAllActiveMatches();
         public void RemoveActiveMatch(int volunteerId, int patientId);
+        public  PendingMatch GetPendingMatchByUserId(int userId);
+        public ActiveMatch GetActiveMatchByUserId(int userId);
     }
 }
