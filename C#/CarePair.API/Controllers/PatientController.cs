@@ -5,6 +5,7 @@ using CarePair.Core.Service;
 using CarePair.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace CarePair.API.Controllers
 {
@@ -80,11 +81,30 @@ namespace CarePair.API.Controllers
             _patientService.UpdatePatient(patient, id);
         }
 
-        // DELETE api/<PatientController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        //// DELETE api/<PatientController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //    _patientService.DeletePatient(id);
+        //}
+
+        [HttpDelete("me")]
+        [Authorize]
+        public IActionResult Delete()
         {
-            _patientService.DeletePatient(id);
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadJwtToken(token);
+            var patientIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "PatientId");
+
+            if (patientIdClaim == null)
+            {
+                return Unauthorized("טוקן לא תקף או חסר PatientId");
+            }
+
+            int patientId = int.Parse(patientIdClaim.Value);
+            _patientService.DeletePatient(patientId);
+            return Ok(new { message = "חשבון נמחק בהצלחה" }); // החזרת JSON
         }
 
         // GET: api/patients/{patientId}/pending-match

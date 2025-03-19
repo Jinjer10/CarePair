@@ -101,7 +101,7 @@ export class PersonalAreaComponent implements OnInit {
   private handleDeleteSuccess() {
     localStorage.removeItem('token'); // הסרת הטוקן
     alert('החשבון נמחק בהצלחה');
-    this.router.navigate(['/signin']); // ניתוב לדף התחברות
+    this.router.navigate(['/signIn']); // ניתוב לדף התחברות
   }
 }
 

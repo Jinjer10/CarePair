@@ -91,15 +91,15 @@ addVolunteer(volunteer: Volunteer): Observable<void> {
   );
 }
 
-  // עדכון מתנדב קיים
-  updateVolunteer(volunteer: Volunteer, id: number): Observable<void> {
-    const headers = new HttpHeaders({
-      'Content-Type': 'application/json'
-    });
-    return this.http.put<void>(`${this.apiUrl}/${id}`, volunteer, { headers }).pipe(
-      catchError(this.handleError)
-    );
-  }
+  // // עדכון מתנדב קיים
+  // updateVolunteer(volunteer: Volunteer, id: number): Observable<void> {
+  //   const headers = new HttpHeaders({
+  //     'Content-Type': 'application/json'
+  //   });
+  //   return this.http.put<void>(`${this.apiUrl}/${id}`, volunteer, { headers }).pipe(
+  //     catchError(this.handleError)
+  //   );
+  // }
 
   // מחיקת מתנדב
   // deleteVolunteer(id: number): Observable<void> {
@@ -107,11 +107,18 @@ addVolunteer(volunteer: Volunteer): Observable<void> {
   //     catchError(this.handleError)
   //   );
   // }
-  deleteVolunteer(): Observable<any> {
-    const token = localStorage.getItem('token');
-    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
-    return this.http.delete(`${this.apiUrl}/volunteer/me`, { headers });
-  }
+  // deleteVolunteer(): Observable<any> {
+  //   const token = localStorage.getItem('token');
+  //   const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+  //   return this.http.delete(`${this.apiUrl}/volunteer/me`, { headers });
+  // }
+// patient.service.ts
+deleteVolunteer(): Observable<any> {
+  const token = localStorage.getItem('token');
+  console.log('טוקן שנשלח:', token); // בדיקה
+  const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+  return this.http.delete(`${this.apiUrl}/me`, { headers });
+}
 
   // קבלת פרטי המתנדב הנוכחי (עם אימות)
   getMeVolunteer(): Observable<Volunteer> {
@@ -128,5 +135,10 @@ addVolunteer(volunteer: Volunteer): Observable<void> {
     return this.http.get<Volunteer>(`${this.apiUrl}/me`, { headers }).pipe(
       catchError(this.handleError)
     );
+  }
+  updateVolunteer(data: any): Observable<any> {
+    const token = localStorage.getItem('token');
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.put(`${this.apiUrl}/me`, data, { headers });
   }
 }

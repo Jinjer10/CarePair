@@ -87,6 +87,12 @@ export class PatientService {
   deletePatient(): Observable<any> {
     const token = localStorage.getItem('token');
     const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
-    return this.http.delete(`${this.apiUrl}/patient/me`, { headers });
+    return this.http.delete(`${this.apiUrl}/me`, { headers });
+  }
+
+  updatePatient(data: any): Observable<any> {
+    const token = localStorage.getItem('token');
+    const headers = new HttpHeaders().set('Authorization', `Bearer ${token}`);
+    return this.http.put(`${this.apiUrl}/me`, data, { headers });
   }
 }

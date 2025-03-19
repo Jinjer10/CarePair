@@ -1,0 +1,196 @@
+<!-- <div class="update-container">
+    <h2>עדכון פרטי מתנדב</h2>
+    <form #volunteerForm="ngForm" (ngSubmit)="onSubmit(volunteerForm)" *ngIf="userData; else loading">
+      <div class="form-group">
+        <label for="fullName">שם מלא:</label>
+        <input 
+          type="text" 
+          id="fullName" 
+          name="fullName" 
+          [(ngModel)]="userData.fullName" 
+          required>
+      </div>
+  
+      <div class="form-group">
+        <label for="phone">טלפון:</label>
+        <input 
+          type="text" 
+          id="phone" 
+          name="phone" 
+          [(ngModel)]="userData.phone" 
+          required>
+      </div>
+  
+      <div class="form-group">
+        <label for="city">עיר:</label>
+        <input 
+          type="text" 
+          id="city" 
+          name="city" 
+          [(ngModel)]="userData.city" 
+          required>
+      </div>
+  
+      <div class="form-group">
+        <label for="language">שפות (מופרדות בפסיק):</label>
+        <input 
+          type="text" 
+          id="language" 
+          name="language" 
+          [(ngModel)]="languageInput" 
+          required>
+      </div>
+  
+      <div class="form-group">
+        <label for="interests">תחומי עניין (מופרדים בפסיק):</label>
+        <input 
+          type="text" 
+          id="interests" 
+          name="interests" 
+          [(ngModel)]="interestsInput" 
+          required>
+      </div>
+  
+      <div class="error-message" *ngIf="errorMessage">{{ errorMessage }}</div>
+  
+      <div class="form-actions">
+        <button type="submit" [disabled]="volunteerForm.invalid">שמור שינויים</button>
+        <button type="button" (click)="cancel()">בטל</button>
+      </div>
+    </form>
+  
+    <ng-template #loading>
+      <p>טוען נתונים...</p>
+    </ng-template>
+  </div> -->
+  <div class="signUpVolunteer-body">
+    <div class="signUpVolunteer-wrapper">
+      <div class="signUpVolunteer-container">
+        <div class="signUpVolunteer-head">
+          <h2>עדכון פרטי מתנדב</h2>
+        </div>
+  
+        <form [formGroup]="updateForm" (ngSubmit)="onSubmit()" *ngIf="!isLoading; else loading">
+          <div class="input-group-out-vol">
+            <label>:שם מלא</label>
+            <input type="text" formControlName="fullName" required />
+            <div *ngIf="updateForm.get('fullName')?.invalid && (updateForm.get('fullName')?.dirty || updateForm.get('fullName')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('fullName')?.errors?.['required']">שם מלא נדרש</div>
+            </div>
+          </div>
+  
+          <div class="input-group-out-vol">
+            <label>:סיסמה</label>
+            <input type="password" formControlName="password" placeholder="השאר ריק אם אין שינוי" />
+            <div *ngIf="updateForm.get('password')?.invalid && (updateForm.get('password')?.dirty || updateForm.get('password')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('password')?.errors?.['passwordStrength']">
+                הסיסמה חייבת להכיל לפחות 8 תווים, אות גדולה, אות קטנה ומספר
+              </div>
+            </div>
+          </div>
+  
+          <!-- דוגמה לצ'קבוקסים של תחומי עניין -->
+          <div class="input-group-out-vol">
+            <label>:תחומי עניין</label>
+            <div class="checkbox-group">
+              <div *ngFor="let interest of interests; let i=index">
+                <input
+                  type="checkbox"
+                  [id]="'interest-' + i"
+                  [value]="interest.key" 
+                  (change)="updateCheckboxArray('interests', interest.key, $event)"
+                  [checked]="updateForm.get('interests')?.value.includes(interest.key)"
+                />
+                <label class="checkbox-label" [for]="'interest-' + i">
+                  <span></span>{{ interest.value }}
+                </label>
+              </div>
+            </div>
+            <div *ngIf="updateForm.get('interests')?.invalid && (updateForm.get('interests')?.dirty || updateForm.get('interests')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('interests')?.errors?.['required']">חובה לבחור לפחות תחום עניין אחד</div>
+            </div>
+          </div>
+  
+          <!-- שפות מדוברות -->
+          <div class="input-group-out-vol">
+            <label>:שפות מדוברות</label>
+            <div class="checkbox-group">
+              <div *ngFor="let lang of languages; let i=index">
+                <input
+                  type="checkbox"
+                  [id]="'language-' + i"
+                  [value]="lang.key"
+                  (change)="updateCheckboxArray('language', lang.key, $event)"
+                  [checked]="updateForm.get('language')?.value.includes(lang.key)"
+                />
+                <label class="checkbox-label" [for]="'language-' + i">
+                  <span></span>{{ lang.value }}
+                </label>
+              </div>
+            </div>
+            <div *ngIf="updateForm.get('language')?.invalid && (updateForm.get('language')?.dirty || updateForm.get('language')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('language')?.errors?.['required']">חובה לבחור לפחות שפה אחת</div>
+            </div>
+          </div>
+  
+          <!-- שאר הצ'קבוקסים (languagePreference, genderPreference וכו') יתעדכנו באותו אופן -->
+          <!-- לדוגמה: העדפת שפות -->
+          <div class="input-group-out-vol">
+            <label>:העדפת שפות</label>
+            <div class="checkbox-group">
+              <div *ngFor="let lang of languages; let i=index">
+                <input
+                  type="checkbox"
+                  [id]="'languagePref-' + i"
+                  [value]="lang.key"
+                  (change)="updateCheckboxArray('languagePreference', lang.key, $event)"
+                  [checked]="updateForm.get('languagePreference')?.value.includes(lang.key)"
+                />
+                <label class="checkbox-label" [for]="'languagePref-' + i">
+                  <span></span>{{ lang.value }}
+                </label>
+              </div>
+            </div>
+            <div *ngIf="updateForm.get('languagePreference')?.invalid && (updateForm.get('languagePreference')?.dirty || updateForm.get('languagePreference')?.touched)" class="error-message">
+              <div *ngIf="updateForm.get('languagePreference')?.errors?.['required']">חובה לבחור לפחות העדפת שפה אחת</div>
+            </div>
+          </div>
+  
+          <!-- זמני זמינות -->
+          <div class="input-group-out-vol">
+            <label>:זמני זמינות</label>
+            <div formArrayName="availableTimes">
+              <div *ngFor="let time of availableTimes.controls; let i=index" [formGroupName]="i">
+                <div class="time-group">
+                  <select formControlName="day" required>
+                    <option value="">בחר יום</option>
+                    <option value="1">ראשון</option>
+                    <option value="2">שני</option>
+                    <option value="3">שלישי</option>
+                    <option value="4">רביעי</option>
+                    <option value="5">חמישי</option>
+                    <option value="6">שישי</option>
+                    <option value="7">שבת</option>
+                  </select>
+                  <input type="time" formControlName="startTime" required />
+                  <input type="time" formControlName="endTime" required />
+                  <button type="button" (click)="removeAvailableTime(i)" class="remove-btn">הסר</button>
+                </div>
+              </div>
+            </div>
+            <button type="button" (click)="addAvailableTime()" class="add-btn">הוסף זמן זמינות</button>
+          </div>
+  
+          <!-- שאר השדות כמו phone, birthDate וכו' נשארים כפי שהיו -->
+          <div class="form-actions">
+            <button type="submit" [disabled]="updateForm.invalid">שמור שינויים</button>
+            <button type="button" (click)="cancel()">בטל</button>
+          </div>
+        </form>
+  
+        <ng-template #loading>
+          <div>טוען נתונים...</div>
+        </ng-template>
+      </div>
+    </div>
+  </div>

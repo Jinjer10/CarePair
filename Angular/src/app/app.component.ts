@@ -145,7 +145,9 @@ import { AboutComponent } from './about/about.component';
 import { SignUpVolunteerComponent } from './signUpVolunteer/signUpVolunteer.component';
 import { SignInComponent } from './sign-in/sign-in.component';
 import { HttpClientModule } from '@angular/common/http';
+import {UpdateVolunteerComponent} from './update-volunteer/update-volunteer.component'
 import { EnumDataService } from '../services/enum-data.service';
+import { UpdatePatientComponent } from './update-patient/update-patient.component';
 
 @Component({
   selector: 'app-root',
@@ -157,8 +159,9 @@ import { EnumDataService } from '../services/enum-data.service';
     AboutComponent,
     SignUpVolunteerComponent,
     SignInComponent,
-    RouterModule,
-    HttpClientModule
+    UpdateVolunteerComponent,
+    UpdatePatientComponent,
+    RouterModule
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']

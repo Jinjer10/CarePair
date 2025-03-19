@@ -4,6 +4,7 @@ using CarePair.Core.Service;
 using CarePair.Service;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.IdentityModel.Tokens.Jwt;
 
 namespace CarePair.API.Controllers
 {
@@ -73,18 +74,67 @@ namespace CarePair.API.Controllers
             _volunteerService.AddVolunteer(volunteer);
         }
 
-        // PUT api/<VolunteerController>/5
-        [HttpPut("{id}")]
-        public void Put(Volunteer volunteer, int id)
+        //// PUT api/<VolunteerController>/5
+        //[HttpPut("{id}")]
+        //public void Put(Volunteer volunteer, int id)
+        //{
+        //    _volunteerService.UpdateVolunteer(volunteer, id);
+        //}
+
+        // PUT api/volunteer/me
+        [HttpPut("me")]
+        public IActionResult UpdateMe([FromBody] Volunteer volunteer)
         {
-            _volunteerService.UpdateVolunteer(volunteer, id);
+            // שליפת ה-ID של המתנדב מהטוקן
+            var token = HttpContext.Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadJwtToken(token);
+            var volunteerIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "VolunteerId");
+
+            if (volunteerIdClaim == null)
+            {
+                return Unauthorized("לא נמצא VolunteerId בטוקן");
+            }
+
+            int volunteerId = int.Parse(volunteerIdClaim.Value);
+
+            try
+            {
+                // עדכון המתנדב בשרת
+                _volunteerService.UpdateVolunteer(volunteer, volunteerId);
+                return Ok("הפרטים עודכנו בהצלחה");
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { message = "שגיאה בעדכון הפרטים: " + ex.Message });
+            }
         }
 
-        // DELETE api/<VolunteerController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
+        //// DELETE api/<VolunteerController>/5
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+        //    _volunteerService.DeleteVolunteer(id);
+        //}
+
+        [HttpDelete("me")]
+        [Authorize] // דורש טוקן תקף
+        public IActionResult Delete()
         {
-            _volunteerService.DeleteVolunteer(id);
+            // שליפת ה-ID מהטוקן
+            var token = Request.Headers["Authorization"].ToString().Replace("Bearer ", "");
+            var handler = new JwtSecurityTokenHandler();
+            var jwtToken = handler.ReadJwtToken(token);
+            var volunteerIdClaim = jwtToken.Claims.FirstOrDefault(c => c.Type == "VolunteerId");
+
+            if (volunteerIdClaim == null)
+            {
+                return Unauthorized("טוקן לא תקף או חסר VolunteerId");
+            }
+
+            int volunteerId = int.Parse(volunteerIdClaim.Value);
+            _volunteerService.DeleteVolunteer(volunteerId);
+            return Ok(new { message = "חשבון נמחק בהצלחה" }); // החזרת JSON
         }
 
         // GET: api/volunteers/{volunteerId}/pending-match

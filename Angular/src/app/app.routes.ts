@@ -11,6 +11,9 @@ import { SignUpPatientComponent } from './signUpPatient/signUpPatient.component'
 import { SignInComponent } from './sign-in/sign-in.component';
 import { AboutComponent } from './about/about.component';
 import { PersonalAreaComponent } from './personal-area/personal-area.component';
+import { UpdateVolunteerComponent } from './update-volunteer/update-volunteer.component';
+import { UpdatePatientComponent } from './update-patient/update-patient.component';
+
 // import { EnumDataService } from '../services/enum-data.service'; // לא נדרש כאן כרגע
 
 export const routes: Routes = [
@@ -20,7 +23,9 @@ export const routes: Routes = [
   { path: 'signUpPatient', component: SignUpPatientComponent }, // דף הרשמה לחולים
   { path: 'signIn', component: SignInComponent }, // דף כניסה
   { path: 'about', component: AboutComponent }, // דף אודות
-  { path: 'personalArea', component: PersonalAreaComponent } // דף אזור אישי
+  { path: 'personalArea', component: PersonalAreaComponent } ,// דף אזור אישי
+  { path: 'update-volunteer', component: UpdateVolunteerComponent }, 
+  { path: 'update-patient', component: UpdatePatientComponent }
 ];
 
 @NgModule({
