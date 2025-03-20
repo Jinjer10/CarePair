@@ -89,9 +89,7 @@ export class SignUpPatientComponent implements OnInit {
       genderPreference: [[], Validators.required],
       agePreference: [[], Validators.required],
       religiosityPreference: [[], Validators.required],
-      // ward: [[], Validators.required],//===========================
-      // hospitall: [[], Validators.required]//===========================
-      ward: [null, Validators.required],
+       ward: [null, Validators.required],
       hospitall: [null, Validators.required],
     });
   }
@@ -206,13 +204,8 @@ export class SignUpPatientComponent implements OnInit {
       agePreference: formValue.agePreference.map((a: string) => parseInt(a, 10)),
       religiosityPreferenceJson: JSON.stringify(formValue.religiosityPreference.map((r: string) => ({ key: this.findEnumKey(this.religiosities, r) }))),
       religiosityPreference: formValue.religiosityPreference.map((r: string) => parseInt(r, 10)),
-      // wardJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.ward, w) }))),//===========================
-      // ward: formValue.wardPreference.map((w: string) => parseInt(w, 10)),//===========================
-      // hospitallJson: JSON.stringify(formValue.wardPreference.map((w: string) => ({ key: this.findEnumKey(this.hospitall, w) }))),//===========================
-      // hospitall: formValue.wardPreference.map((w: string) => parseInt(w, 10)),//===========================
-      wardJson: JSON.stringify({ key: this.findEnumKey(this.wards, formValue.ward) }),
-      ward: parseInt(formValue.ward, 10),
-      
+       wardJson: JSON.stringify({ key: this.findEnumKey(this.wards, formValue.ward) }),
+      ward: parseInt(formValue.ward, 10),  
       hospitallJson: JSON.stringify({ key: this.findEnumKey(this.hospitalls, formValue.hospitall) }),
       hospitall: parseInt(formValue.hospitall, 10),   
       ageGroup: 0 // יש לעדכן אם נדרש   

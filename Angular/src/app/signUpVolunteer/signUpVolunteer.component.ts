@@ -204,12 +204,6 @@ export class SignUpVolunteerComponent implements OnInit {
     };
 
     this.volunteerService.addVolunteer(volunteer).subscribe({
-      // next: () => {
-      //   console.log('הרשמה בוצעה בהצלחה');
-      //   login(email, password)
-      //   this.signUpForm.reset();
-      //   this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
-      // },
       next: () => {
         console.log('הרשמה בוצעה בהצלחה');
         this.authService.login(this.email, this.password).subscribe({ // ביצוע התחברות אוטומטית

@@ -6,7 +6,6 @@ import { NgForm } from '@angular/forms';
 import { NgIf } from '@angular/common';
 import { Router , RouterLink} from '@angular/router';  // הוספת Router
 
-// PasswordValidatorDirective נשאר אותו דבר
 @Directive({
   selector: '[passwordStrength]',
   providers: [
@@ -58,12 +57,6 @@ export class SignInComponent {
       console.log("userData", userData);
 
       this.authService.login(this.email, this.password).subscribe({
-        // next: (response) => {
-        //   console.log('Response:', response.token);
-        //
-        //   this.errorMessage = '';
-        //   this.router.navigate(['personalArea']); // ניתוב לאחר התחברות מוצלחת
-        // },
         next: () => {
           console.log('הרשמה בוצעה בהצלחה');
           this.authService.login(this.email, this.password).subscribe({ // ביצוע התחברות אוטומטית

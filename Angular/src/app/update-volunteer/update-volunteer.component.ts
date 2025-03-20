@@ -161,37 +161,18 @@ export class UpdateVolunteerComponent implements OnInit {
       area: this.findEnumId(this.areas, data.area.toString()) || '',
       city: this.findEnumId(this.cities, data.city.toString()) || '',
       gender: this.findEnumId(this.genders, data.gender.toString()) || '',
-//  religiosityPreference: this.findEnumId(this.religiosityPreference, data.religiosityPreference.toString()) || '',
-      // religiosity: this.findEnumId(this.religiosities, data.religiosity.toString()) || '',
-      //   language: (data.language || []).map(key => key),
-      //   languagePreference: (data.languagePreference || []).map(key => key),
-      //   interests: (data.interests || []).map(key => key),
-      //   genderPreference: (data.genderPreference || []).map(key => key),
-      //   agePreference: (data.agePreference || []).map(key => key),
-        // religiosityPreference: (data.religiosityPreference || []).map(key => key),
-      //   wardPreference: (data.wardPreference || []).map(key => key)
-      //
-      // המרת ערכים מספריים ל-keys עבור מערכים
-      // language: (data.language || []).map(id => this.findEnumKey(this.languages, id.toString())),
-      language: data.language || [],
+    language: data.language || [],
       languagePreference: data.languagePreference || [],
       interests: data.interests || [],
       genderPreference: data.genderPreference || [],
       agePreference: data.agePreference || [],
       religiosityPreference: data.religiosityPreference || [],
-      wardPreference: data.wardPreference || [],//===================================
-      // languagePreference: (data.languagePreference || []).map(id => this.findEnumKey(this.languages, id.toString())),
-      // interests: (data.interests || []).map(id => this.findEnumKey(this.interests, id.toString())),
-      // genderPreference: (data.genderPreference || []).map(id => this.findEnumKey(this.genders, id.toString())),
-      // agePreference: (data.agePreference || []).map(id => this.findEnumKey(this.ageGroups, id.toString())),
-      // religiosityPreference: (data.religiosityPreference || []).map(id => this.findEnumKey(this.religiosities, id.toString())),
-      // wardPreference: (data.wardPreference || []).map(id => this.findEnumKey(this.wards, id.toString()))
-
-    });
+      wardPreference: data.wardPreference || [],
+        });
     console.log('data.wardPreference:', data.wardPreference);
 
     
-//===================================
+
     this.availableTimes.clear();
     if (data.availableTimes && data.availableTimes.length > 0) {
       data.availableTimes.forEach((time: Time) => this.addAvailableTime(time));
